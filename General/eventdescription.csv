@@ -1,0 +1,20 @@
+EventID,EventDescription
+4624,An account was successfully logged on.
+4625,An account failed to log on
+4627,Group membership information for a logon.
+4634,An account was logged off.
+4647,User initiated logoff.
+4648,A logon was attempted using explicit credentials
+4649,A replay attack was detected.
+4672,Special privileges assigned to a new logon.
+4673,A privileged service was called.
+4674,An operation was attempted on a privileged object.
+4768,A Kerberos authentication ticket (TGT) was requested.
+4769,A Kerberos service ticket was requested.
+4770,A Kerberos service ticket was renewed.
+4771,Kerberos pre-authentication failed.
+4772,Kerberos authentication ticket request failed.
+4776,The domain controller attempted to validate the credentials for an account.
+4777,The domain controller failed to validate the credentials for an account.
+4781,The name of an account was changed.
+4964,Special groups have been assigned to a new logon.
