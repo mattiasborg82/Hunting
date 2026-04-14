@@ -1,0 +1,3266 @@
+Port,Protocol,Service,Category,Risk,Description
+0,TCP,Reserved,Infrastructure,Low,Reserved
+1,TCP,Port-Service-Multiplexer,Infrastructure,Low,Port Service Multiplexer
+2,TCP,Management-Utility,Infrastructure,Low,Management Utility
+3,TCP,Compression-Process,Legacy,Low,Compression Process
+4,TCP,Unassigned,Infrastructure,Low,Unassigned
+5,TCP,Remote-Job-Entry,Infrastructure,Low,Remote Job Entry
+6,TCP,Unassigned,Infrastructure,Low,Unassigned
+7,TCP,Echo,Legacy,Low,Echo
+8,TCP,Unassigned,Infrastructure,Low,Unassigned
+9,TCP,Discard,Legacy,Low,Discard
+10,TCP,Unassigned,Infrastructure,Low,Unassigned
+11,TCP,Active-Users,Infrastructure,Low,Active Users
+12,TCP,Unassigned,Infrastructure,Low,Unassigned
+13,TCP,Daytime,Infrastructure,Low,Daytime (RFC 867)
+14,TCP,Unassigned,Infrastructure,Low,Unassigned
+15,TCP,Unassigned-was-netstat,Infrastructure,Low,Unassigned [was netstat]
+16,TCP,Unassigned,Infrastructure,Low,Unassigned
+17,TCP,Quote-of-the-Day,Infrastructure,Low,Quote of the Day
+18,TCP,Message-Send-Protocol,Infrastructure,Low,Message Send Protocol
+19,TCP,Character-Generator,C2,High,Character Generator
+20,TCP / UDP,FTP-Data,FileTransfer,Medium,FTP data channel
+21,TCP / UDP,FTP,FileTransfer,Medium,FTP control channel
+22,TCP / UDP,SSH,RemoteAccess,High,Secure shell remote access
+23,TCP / UDP,Telnet,RemoteAccess,Critical,Unencrypted remote login
+24,TCP,any-private-mail-system,Infrastructure,Low,any private mail system
+25,TCP / UDP,SMTP,Email,Medium,Mail transfer
+26,TCP,Unassigned,Infrastructure,Low,Unassigned
+27,TCP,NSW-User-System-FE,Infrastructure,Low,NSW User System FE
+28,TCP,Unassigned,Infrastructure,Low,Unassigned
+29,TCP,MSG-ICP,Infrastructure,Low,MSG ICP
+30,TCP,Unassigned,Infrastructure,Low,Unassigned
+31,TCP,MSG-Authentication,Infrastructure,Low,MSG Authentication
+32,TCP,Unassigned,Infrastructure,Low,Unassigned
+33,TCP,Display-Support-Protocol,Infrastructure,Low,Display Support Protocol
+34,TCP,Unassigned,Infrastructure,Low,Unassigned
+35,TCP,any-private-printer-server,Legacy,Low,any private printer server
+36,TCP,Unassigned,Infrastructure,Low,Unassigned
+37,TCP,Time-W32SoberI-virus,Infrastructure,Low,Time / W32.Sober.I virus
+38,TCP,Route-Access-Protocol,Infrastructure,Low,Route Access Protocol
+39,TCP,Resource-Location-Protocol,Infrastructure,Low,Resource Location Protocol
+40,TCP,Unassigned,Infrastructure,Low,Unassigned
+41,TCP,Graphics,Infrastructure,Low,Graphics
+42,TCP,Host-Name-Server,Infrastructure,Low,Host Name Server
+43,TCP,WhoIs,Legacy,Low,WhoIs
+44,TCP,MPM-FLAGS-Protocol,Infrastructure,Low,MPM FLAGS Protocol
+45,TCP,Message-Processing-Module-recv,Infrastructure,Low,Message Processing Module [recv]
+46,TCP,MPM-default-send,Infrastructure,Low,MPM [default send]
+47,TCP,NI-FTP,FileTransfer,Medium,NI FTP
+48,TCP,Digital-Audit-Daemon,Development,Medium,Digital Audit Daemon
+49,TCP,Login-Host-Protocol,Infrastructure,Low,Login Host Protocol (TACACS)
+50,TCP,Remote-Mail-Checking-Protocol,Infrastructure,Low,Remote Mail Checking Protocol
+51,TCP,IMP-Logical-Address-Maintenance,Infrastructure,Low,IMP Logical Address Maintenance
+52,TCP,XNS-Time-Protocol,Infrastructure,Low,XNS Time Protocol
+53,TCP / UDP,DNS,Infrastructure,Low,Domain resolution
+54,TCP,XNS-Clearinghouse,Infrastructure,Low,XNS Clearinghouse
+55,TCP,ISI-Graphics-Language,Infrastructure,Low,ISI Graphics Language
+56,TCP,XNS-Authentication,Infrastructure,Low,XNS Authentication
+57,TCP,any-private-terminal-access,Infrastructure,Low,any private terminal access
+58,TCP,XNS-Mail,Infrastructure,Low,XNS Mail
+59,TCP,any-private-file-service,Infrastructure,Low,any private file service
+60,TCP,Unassigned,Infrastructure,Low,Unassigned
+61,TCP,NI-MAIL,Infrastructure,Low,NI MAIL
+62,TCP,ACA-Services,Infrastructure,Low,ACA Services
+63,TCP,whois++,Legacy,Low,whois++
+64,TCP,Communications-Integrator,C2,High,Communications Integrator (CI)
+65,TCP,TACACS-Database-Service,Database,Medium,TACACS-Database Service
+66,TCP,Oracle-SQLNET,Database,High,Oracle SQL*NET
+67,TCP / UDP,DHCP,Infrastructure,Low,DHCP server
+68,TCP / UDP,DHCP,Infrastructure,Low,DHCP client
+69,TCP / UDP,TFTP,FileTransfer,High,Unauthenticated file transfer
+70,TCP,Gopher,Legacy,Low,Gopher
+71,TCP,Remote-Job-Service,Infrastructure,Low,Remote Job Service
+72,TCP,Remote-Job-Service,Infrastructure,Low,Remote Job Service
+73,TCP,Remote-Job-Service,Infrastructure,Low,Remote Job Service
+74,TCP,Remote-Job-Service,Infrastructure,Low,Remote Job Service
+75,TCP,any-private-dial-out-service,Infrastructure,Low,any private dial out service
+76,TCP,Distributed-External-Object-Store,C2,High,Distributed External Object Store
+77,TCP,any-private-RJE-service,Legacy,Low,any private RJE service
+78,TCP,vettcp,Infrastructure,Low,vettcp
+79,TCP,Finger,Legacy,Low,Finger
+80,TCP / UDP,HTTP,Web,Low,Web traffic
+81,TCP,HOSTS2-Name-Server-Bagle-AZ-worm-Win32Rbot-worm,Infrastructure,Low,HOSTS2 Name Server / Bagle-AZ worm / Win32.Rbot worm
+82,TCP,XFER-Utility,Infrastructure,Low,XFER Utility
+83,TCP,MIT-ML-Device,Infrastructure,Low,MIT ML Device
+84,TCP,Common-Trace-Facility,Infrastructure,Low,Common Trace Facility
+85,TCP,MIT-ML-Device,Infrastructure,Low,MIT ML Device
+86,TCP,Micro-Focus-Cobol,Infrastructure,Low,Micro Focus Cobol
+87,TCP,any-private-terminal-link,Infrastructure,Low,any private terminal link
+88,TCP / UDP,Kerberos,Auth,Low,Authentication protocol
+89,TCP,SU-MIT-Telnet-Gateway,RemoteAccess,High,SU/MIT Telnet Gateway
+90,TCP,DNSIX-Securit-Attribute-Token-Map,Infrastructure,Low,DNSIX Securit Attribute Token Map
+91,TCP,MIT-Dover-Spooler,Infrastructure,Low,MIT Dover Spooler
+92,TCP,Network-Printing-Protocol,Infrastructure,Low,Network Printing Protocol
+93,TCP,Device-Control-Protocol,Infrastructure,Low,Device Control Protocol
+94,TCP,Tivoli-Object-Dispatcher,Infrastructure,Low,Tivoli Object Dispatcher
+95,TCP,SUPDUP,Legacy,Low,SUPDUP
+96,TCP,DIXIE-Protocol-Specification,Infrastructure,Low,DIXIE Protocol Specification
+97,TCP,Swift-Remote-Virtural-File-Protocol,Infrastructure,Low,Swift Remote Virtural File Protocol
+98,TCP,Linuxconf-TAC-News,Infrastructure,Low,Linuxconf / TAC News
+99,TCP,Metagram-Relay,Infrastructure,Low,Metagram Relay
+100,TCP,unauthorized-use,Infrastructure,Low,[unauthorized use]
+101,TCP,NIC-Host-Name-Server,Infrastructure,Low,NIC Host Name Server
+102,TCP,MSExchangeMTA-X400-ISO-TSAP-Class-0,Infrastructure,Low,MSExchangeMTA X.400 / ISO-TSAP Class 0
+103,TCP,Genesis-Point-to-Point-Trans-Net,Infrastructure,Low,Genesis Point-to-Point Trans Net
+104,TCP,ACR-NEMA-Digital-Imag-Comm-300,Development,Medium,ACR-NEMA Digital Imag. & Comm. 300
+105,TCP,Mailbox-Name-Nameserver,Infrastructure,Low,Mailbox Name Nameserver
+106,TCP,3COM-TSMUX,Infrastructure,Low,3COM-TSMUX
+107,TCP,Remote-Telnet-Service,RemoteAccess,High,Remote Telnet Service
+108,TCP,SNA-Gateway-Access-Server,Infrastructure,Low,SNA Gateway Access Server
+109,TCP,Post-Office-Protocol---Version-2,Infrastructure,Low,Post Office Protocol - Version 2
+110,TCP / UDP,POP3,Email,Medium,Mail retrieval
+111,TCP,SUN-Remote-Procedure-Call,Infrastructure,Low,SUN Remote Procedure Call
+112,TCP,McIDAS-Data-Transmission-Protocol,Infrastructure,Low,McIDAS Data Transmission Protocol
+113,TCP,Authentication-Service,Infrastructure,Low,Authentication Service
+114,TCP,Audio-News-Multicast,Infrastructure,Low,Audio News Multicast
+115,TCP,Simple-File-Transfer-Protocol,FileTransfer,Medium,Simple File Transfer Protocol
+116,TCP,ANSA-REX-Notify,Infrastructure,Low,ANSA REX Notify
+117,TCP,UUCP-Path-Service,Infrastructure,Low,UUCP Path Service
+118,TCP,SQL-Services,Database,High,SQL Services
+119,TCP,NNTP,Legacy,Low,Network news transfer
+120,TCP,CFDPTKT,Infrastructure,Low,CFDPTKT
+121,TCP,Encore-Expedited-Remote-ProCall,Infrastructure,Low,Encore Expedited Remote Pro.Call
+122,TCP,SMAKYNET,Infrastructure,Low,SMAKYNET
+123,TCP / UDP,NTP,Infrastructure,Low,Time synchronization
+124,TCP,ANSA-REX-Trader,Infrastructure,Low,ANSA REX Trader
+125,TCP,Locus-PC-Interface-Net-Map-Ser,Infrastructure,Low,Locus PC-Interface Net Map Ser
+126,TCP,Unisys-Unitary-Login,Infrastructure,Low,Unisys Unitary Login
+127,TCP,Locus-PC-Interface-Conn-Server,Infrastructure,Low,Locus PC-Interface Conn Server
+128,TCP,GSS-X-License-Verification,Infrastructure,Low,GSS X License Verification
+129,TCP,Password-Generator-Protocol,C2,High,Password Generator Protocol
+130,TCP,cisco-FNATIVE,Infrastructure,Low,cisco FNATIVE
+131,TCP,cisco-TNATIVE,Infrastructure,Low,cisco TNATIVE
+132,TCP,cisco-SYSMAINT,Infrastructure,Low,cisco SYSMAINT
+133,TCP,Statistics-Service,Infrastructure,Low,Statistics Service
+134,TCP,INGRES-NET-Service,Infrastructure,Low,INGRES-NET Service
+135,TCP,RPC,Windows,High,Remote procedure call
+136,TCP,PROFILE-Naming-System,Infrastructure,Low,PROFILE Naming System
+137,TCP / UDP,NetBIOS-NS,Windows,High,Name service
+138,TCP / UDP,NetBIOS-DGM,Windows,High,Datagram service
+139,TCP,NetBIOS-SSN,Windows,High,Session service
+140,TCP,EMFIS-Data-Service,Infrastructure,Low,EMFIS Data Service
+141,TCP,EMFIS-Control-Service,Infrastructure,Low,EMFIS Control Service
+142,TCP,Britton-Lee-IDM,Infrastructure,Low,Britton-Lee IDM
+143,TCP,IMAP,Email,Medium,Mail retrieval
+144,TCP,Universal-Management-Architecture,Infrastructure,Low,Universal Management Architecture
+145,TCP,UAAC-Protocol,Infrastructure,Low,UAAC Protocol
+146,TCP,ISO-IP0,Infrastructure,Low,ISO-IP0
+147,TCP,ISO-IP,Infrastructure,Low,ISO-IP
+148,TCP,Jargon,Infrastructure,Low,Jargon
+149,TCP,AED-512-Emulation-Service,Infrastructure,Low,AED 512 Emulation Service
+150,TCP,SQL-NET,Database,High,SQL-NET
+151,TCP,HEMS,Infrastructure,Low,HEMS
+152,TCP,Background-File-Transfer-Program,FileTransfer,Medium,Background File Transfer Program
+153,TCP,SGMP,Infrastructure,Low,SGMP
+154,TCP,NETSC,Infrastructure,Low,NETSC
+155,TCP,NETSC,Infrastructure,Low,NETSC
+156,TCP,SQL-Service,Database,High,SQL Service
+157,TCP,KNET-VM-Command-Message-Protocol,Infrastructure,Low,KNET/VM Command/Message Protocol
+158,TCP,PCMail-Server,Infrastructure,Low,PCMail Server
+159,TCP,NSS-Routing,Infrastructure,Low,NSS-Routing
+160,TCP,SGMP-TRAPS,Infrastructure,Low,SGMP-TRAPS
+161,TCP / UDP,SNMP,Infrastructure,Medium,Network management
+162,TCP / UDP,SNMP-Trap,Infrastructure,Medium,SNMP traps
+163,TCP,CMIP-TCP-Manager,Infrastructure,Low,CMIP/TCP Manager
+164,TCP,CMIP-TCP-Agent,Infrastructure,Low,CMIP/TCP Agent
+165,TCP,Xerox,Infrastructure,Low,Xerox
+166,TCP,Sirius-Systems,Infrastructure,Low,Sirius Systems
+167,TCP,NAMP,Infrastructure,Low,NAMP
+168,TCP,RSVD,Infrastructure,Low,RSVD
+169,TCP,SEND,Infrastructure,Low,SEND
+170,TCP,Network-PostScript,Infrastructure,Low,Network PostScript
+171,TCP,Network-Innovations-Multiplex,Infrastructure,Low,Network Innovations Multiplex
+172,TCP,Network-Innovations-CL-1,Infrastructure,Low,Network Innovations CL/1
+173,TCP,Xyplex,Infrastructure,Low,Xyplex
+174,TCP,MAILQ,Infrastructure,Low,MAILQ
+175,TCP,VMNET,Infrastructure,Low,VMNET
+176,TCP,GENRAD-MUX,Infrastructure,Low,GENRAD-MUX
+177,TCP,X-Display-Manager-Control-Protocol,Infrastructure,Low,X Display Manager Control Protocol
+178,TCP,NextStep-Window-Server,Infrastructure,Low,NextStep Window Server
+179,TCP,BGP,Infrastructure,High,Routing protocol
+180,TCP,Intergraph,Infrastructure,Low,Intergraph
+181,TCP,Unify,Infrastructure,Low,Unify
+182,TCP,Unisys-Audit-SITP,Infrastructure,Low,Unisys Audit SITP
+183,TCP,OCBinder,Infrastructure,Low,OCBinder
+184,TCP,OCServer,Infrastructure,Low,OCServer
+185,TCP,Remote-KIS,Infrastructure,Low,Remote-KIS
+186,TCP,KIS-Protocol,Infrastructure,Low,KIS Protocol
+187,TCP,Application-Communication-Interface,Infrastructure,Low,Application Communication Interface
+188,TCP,Plus-Fives-MUMPS,Infrastructure,Low,Plus Five's MUMPS
+189,TCP,Queued-File-Transport,Infrastructure,Low,Queued File Transport
+190,TCP,Gateway-Access-Control-Protocol,Infrastructure,Low,Gateway Access Control Protocol
+191,TCP,Prospero-Directory-Service,C2,High,Prospero Directory Service
+192,TCP,OSU-Network-Monitoring-System,C2,High,OSU Network Monitoring System
+193,TCP,Spider-Remote-Monitoring-Protocol,C2,High,Spider Remote Monitoring Protocol
+194,TCP,Internet-Relay-Chat-Protocol,Infrastructure,Low,Internet Relay Chat Protocol
+195,TCP,DNSIX-Network-Level-Module-Audit,Infrastructure,Low,DNSIX Network Level Module Audit
+196,TCP,DNSIX-Session-Mgt-Module-Audit-Redir,Infrastructure,Low,DNSIX Session Mgt Module Audit Redir
+197,TCP,Directory-Location-Service,C2,High,Directory Location Service
+198,TCP,Directory-Location-Service-Monitor,C2,High,Directory Location Service Monitor
+199,TCP,SMUX,Infrastructure,Low,SMUX
+200,TCP,IBM-System-Resource-Controller,Infrastructure,Low,IBM System Resource Controller
+201,TCP,AppleTalk-Routing-Maintenance,Infrastructure,Low,AppleTalk Routing Maintenance
+202,TCP,AppleTalk-Name-Binding,Infrastructure,Low,AppleTalk Name Binding
+203,TCP,AppleTalk-Unused,Infrastructure,Low,AppleTalk Unused
+204,TCP,AppleTalk-Echo,Legacy,Low,AppleTalk Echo
+205,TCP,AppleTalk-Unused,Infrastructure,Low,AppleTalk Unused
+206,TCP,AppleTalk-Zone-Information,Infrastructure,Low,AppleTalk Zone Information
+207,TCP,AppleTalk-Unused,Infrastructure,Low,AppleTalk Unused
+208,TCP,AppleTalk-Unused,Infrastructure,Low,AppleTalk Unused
+209,TCP,The-Quick-Mail-Transfer-Protocol,Infrastructure,Low,The Quick Mail Transfer Protocol
+210,TCP,ANSI-Z3950,Infrastructure,Low,ANSI Z39.50
+211,TCP,Texas-Instruments-914C-G-Terminal,Infrastructure,Low,Texas Instruments 914C/G Terminal
+212,TCP,ATEXSSTR,Infrastructure,Low,ATEXSSTR
+213,TCP,IPX,Infrastructure,Low,IPX
+214,TCP,VM-PWSCS,Infrastructure,Low,VM PWSCS
+215,TCP,Insignia-Solutions,Infrastructure,Low,Insignia Solutions
+216,TCP,Computer-Associates-Intl-License-Server,Infrastructure,Low,Computer Associates Int'l License Server
+217,TCP,dBASE-Unix,Infrastructure,Low,dBASE Unix
+218,TCP,Netix-Message-Posting-Protocol,Infrastructure,Low,Netix Message Posting Protocol
+219,TCP,Unisys-ARPs,Infrastructure,Low,Unisys ARPs
+220,TCP,Interactive-Mail-Access-Protocol-v3,Infrastructure,Low,Interactive Mail Access Protocol v3
+221,TCP,Berkeley-rlogind-with-SPX-auth,Infrastructure,Low,Berkeley rlogind with SPX auth
+222,TCP,Berkeley-rshd-with-SPX-auth,Infrastructure,Low,Berkeley rshd with SPX auth
+223,TCP,Certificate-Distribution-Center,Infrastructure,Low,Certificate Distribution Center
+224,TCP,masqdialer,Infrastructure,Low,masqdialer
+242,TCP,Direct,Infrastructure,Low,Direct
+243,TCP,Survey-Measurement,Infrastructure,Low,Survey Measurement
+244,TCP,inbusiness,Infrastructure,Low,inbusiness
+245,TCP,LINK,Infrastructure,Low,LINK
+246,TCP,Display-Systems-Protocol,Infrastructure,Low,Display Systems Protocol
+247,TCP,SUBNTBCSTTFTP,FileTransfer,High,SUBNTBCST_TFTP
+248,TCP,bhfhs,Infrastructure,Low,bhfhs
+256,TCP,RAP-Checkpoint-SNMP,Infrastructure,Low,RAP/Checkpoint SNMP
+257,TCP,Check-Point-Secure-Electronic-Transaction,Infrastructure,Low,Check Point / Secure Electronic Transaction
+258,TCP,Check-Point-Yak-Winsock-Personal-Chat,Infrastructure,Low,Check Point / Yak Winsock Personal Chat
+259,TCP,Check-Point-Firewall-1-telnet-auth-Efficient-Short-Remote-Op,RemoteAccess,High,Check Point Firewall-1 telnet auth / Efficient Short Remote Operations
+260,TCP,Openport,Infrastructure,Low,Openport
+261,TCP,IIOP-Name-Service-over-TLS-SSL,Infrastructure,Low,IIOP Name Service over TLS/SSL
+262,TCP,Arcisdms,Infrastructure,Low,Arcisdms
+263,TCP,HDAP,Infrastructure,Low,HDAP
+264,TCP,BGMP-Check-Point,Infrastructure,Low,BGMP / Check Point
+265,TCP,X-Bone-CTL,Infrastructure,Low,X-Bone CTL
+266,TCP,SCSI-on-ST,Infrastructure,Low,SCSI on ST
+267,TCP,Tobit-David-Service-Layer,Infrastructure,Low,Tobit David Service Layer
+268,TCP,Tobit-David-Replica,Infrastructure,Low,Tobit David Replica
+280,TCP,HTTP-mgmt,Web,Medium,HTTP-mgmt
+281,TCP,Personal-Link,Infrastructure,Low,Personal Link
+282,TCP,Cable-Port-A-X,Infrastructure,Low,Cable Port A/X
+283,TCP,rescap,Infrastructure,Low,rescap
+284,TCP,corerjd,Infrastructure,Low,corerjd
+286,TCP,FXP-1,Infrastructure,Low,FXP-1
+287,TCP,K-BLOCK,Infrastructure,Low,K-BLOCK
+308,TCP,Novastor-Backup,C2,High,Novastor Backup
+309,TCP,EntrustTime,Infrastructure,Low,EntrustTime
+310,TCP,bhmds,Infrastructure,Low,bhmds
+311,TCP,AppleShare-IP-WebAdmin,Web,Medium,AppleShare IP WebAdmin
+312,TCP,VSLMP,Infrastructure,Low,VSLMP
+313,TCP,Magenta-Logic,Infrastructure,Low,Magenta Logic
+314,TCP,Opalis-Robot,Infrastructure,Low,Opalis Robot
+315,TCP,DPSI,Infrastructure,Low,DPSI
+316,TCP,decAuth,Infrastructure,Low,decAuth
+317,TCP,Zannet,Infrastructure,Low,Zannet
+318,TCP,PKIX-TimeStamp,Infrastructure,Low,PKIX TimeStamp
+319,TCP,PTP-Event,Infrastructure,Low,PTP Event
+320,TCP,PTP-General,Infrastructure,Low,PTP General
+321,TCP,PIP,Infrastructure,Low,PIP
+322,TCP,RTSPS,Infrastructure,Low,RTSPS
+333,TCP,Texar-Security-Port,Infrastructure,Low,Texar Security Port
+344,TCP,Prospero-Data-Access-Protocol,Infrastructure,Low,Prospero Data Access Protocol
+345,TCP,Perf-Analysis-Workbench,Infrastructure,Low,Perf Analysis Workbench
+346,TCP,Zebra-server,Infrastructure,Low,Zebra server
+347,TCP,Fatmen-Server,Infrastructure,Low,Fatmen Server
+348,TCP,Cabletron-Management-Protocol,Infrastructure,Low,Cabletron Management Protocol
+349,TCP,mftp,FileTransfer,Medium,mftp
+350,TCP,MATIP-Type-A,Infrastructure,Low,MATIP Type A
+351,TCP,bhoetty,Infrastructure,Low,bhoetty (added 5/21/97)
+352,TCP,bhoedap4,Infrastructure,Low,bhoedap4 (added 5/21/97)
+353,TCP,NDSAUTH,Infrastructure,Low,NDSAUTH
+354,TCP,bh611,Infrastructure,Low,bh611
+355,TCP,DATEX-ASN,Infrastructure,Low,DATEX-ASN
+356,TCP,Cloanto-Net-1,Infrastructure,Low,Cloanto Net 1
+357,TCP,bhevent,Infrastructure,Low,bhevent
+358,TCP,Shrinkwrap,Infrastructure,Low,Shrinkwrap
+359,TCP,Tenebris-Network-Trace-Service,Infrastructure,Low,Tenebris Network Trace Service
+360,TCP,scoi2odialog,Infrastructure,Low,scoi2odialog
+361,TCP,Semantix,Infrastructure,Low,Semantix
+362,TCP,SRS-Send,Infrastructure,Low,SRS Send
+363,TCP,RSVP-Tunnel,Infrastructure,Low,RSVP Tunnel
+364,TCP,Aurora-CMGR,Infrastructure,Low,Aurora CMGR
+365,TCP,DTK,Infrastructure,Low,DTK
+366,TCP,ODMR,Infrastructure,Low,ODMR
+367,TCP,MortgageWare,Infrastructure,Low,MortgageWare
+368,TCP,QbikGDP,Infrastructure,Low,QbikGDP
+369,TCP,rpc2portmap,Windows,High,rpc2portmap
+370,TCP,codaauth2,Infrastructure,Low,codaauth2
+371,TCP,Clearcase,Infrastructure,Low,Clearcase
+372,TCP,ListProcessor,Infrastructure,Low,ListProcessor
+373,TCP,Legent-Corporation,Infrastructure,Low,Legent Corporation
+374,TCP,Legent-Corporation,Infrastructure,Low,Legent Corporation
+375,TCP,Hassle,Infrastructure,Low,Hassle
+376,TCP,Amiga-Envoy-Network-Inquiry-Proto,Infrastructure,Low,Amiga Envoy Network Inquiry Proto
+377,TCP,NEC-Corporation,Infrastructure,Low,NEC Corporation
+378,TCP,NEC-Corporation,Infrastructure,Low,NEC Corporation
+379,TCP,TIA-EIA-IS-99-modem-client,Infrastructure,Low,TIA/EIA/IS-99 modem client
+380,TCP,TIA-EIA-IS-99-modem-server,Infrastructure,Low,TIA/EIA/IS-99 modem server
+381,TCP,hp-performance-data-collector,C2,High,hp performance data collector
+382,TCP,hp-performance-data-managed-node,Infrastructure,Low,hp performance data managed node
+383,TCP,hp-performance-data-alarm-manager,Infrastructure,Low,hp performance data alarm manager
+384,TCP,A-Remote-Network-Server-System,Infrastructure,Low,A Remote Network Server System
+385,TCP,IBM-Application,Infrastructure,Low,IBM Application
+386,TCP,ASA-Message-Router-Object-Def,Infrastructure,Low,ASA Message Router Object Def.
+387,TCP,Appletalk-Update-Based-Routing-Pro,Infrastructure,Low,Appletalk Update-Based Routing Pro.
+388,TCP,Unidata-LDM,Infrastructure,Low,Unidata LDM
+389,TCP / UDP,LDAP,Auth,Medium,Directory service
+390,TCP,UIS,Infrastructure,Low,UIS
+391,TCP,SynOptics-SNMP-Relay-Port,Infrastructure,Low,SynOptics SNMP Relay Port
+392,TCP,SynOptics-Port-Broker-Port,Infrastructure,Low,SynOptics Port Broker Port
+393,TCP,Data-Interpretation-System,Infrastructure,Low,Data Interpretation System
+394,TCP,EMBL-Nucleic-Data-Transfer,Infrastructure,Low,EMBL Nucleic Data Transfer
+395,TCP,NETscout-Control-Protocol,Infrastructure,Low,NETscout Control Protocol
+396,TCP,Novell-Netware-over-IP,Infrastructure,Low,Novell Netware over IP
+397,TCP,Multi-Protocol-Trans-Net,Infrastructure,Low,Multi Protocol Trans. Net.
+398,TCP,Kryptolan,Infrastructure,Low,Kryptolan
+399,TCP,ISO-Transport-Class-2-Non-Control-over-TCP,Infrastructure,Low,ISO Transport Class 2 Non-Control over TCP
+400,TCP,Workstation-Solutions,Infrastructure,Low,Workstation Solutions
+401,TCP,Uninterruptible-Power-Supply,Infrastructure,Low,Uninterruptible Power Supply
+402,TCP,Genie-Protocol,Infrastructure,Low,Genie Protocol
+403,TCP,decap,Infrastructure,Low,decap
+404,TCP,nced,Infrastructure,Low,nced
+405,TCP,ncld,Infrastructure,Low,ncld
+406,TCP,Interactive-Mail-Support-Protocol,Infrastructure,Low,Interactive Mail Support Protocol
+407,TCP,Timbuktu,Infrastructure,Low,Timbuktu
+408,TCP,Prospero-Resource-Manager-Sys-Man,Infrastructure,Low,Prospero Resource Manager Sys. Man.
+409,TCP,Prospero-Resource-Manager-Node-Man,Infrastructure,Low,Prospero Resource Manager Node Man.
+410,TCP,DECLadebug-Remote-Debug-Protocol,Infrastructure,Low,DECLadebug Remote Debug Protocol
+411,TCP,Remote-MT-Protocol,Infrastructure,Low,Remote MT Protocol
+412,TCP,NeoModus-Direct-Connect-Trap-Convention-Port,Infrastructure,Low,NeoModus Direct Connect (Windows file sharing program) / Trap Convention Port
+413,TCP,SMSP,Legacy,Low,SMSP
+414,TCP,InfoSeek,Infrastructure,Low,InfoSeek
+415,TCP,BNet,Infrastructure,Low,BNet
+416,TCP,Silverplatter,Infrastructure,Low,Silverplatter
+417,TCP,Onmux,Infrastructure,Low,Onmux
+418,TCP,Hyper-G,Infrastructure,Low,Hyper-G
+419,TCP,Ariel,Infrastructure,Low,Ariel
+420,TCP,SMPTE,Infrastructure,Low,SMPTE
+421,TCP,Ariel,Infrastructure,Low,Ariel
+422,TCP,Ariel,Infrastructure,Low,Ariel
+423,TCP,IBM-Operations-Planning-and-Control-Start,Infrastructure,Low,IBM Operations Planning and Control Start
+424,TCP,IBM-Operations-Planning-and-Control-Track,Infrastructure,Low,IBM Operations Planning and Control Track
+425,TCP,ICAD,Infrastructure,Low,ICAD
+426,TCP,smartsdp,Infrastructure,Low,smartsdp
+427,TCP,Server-Location,Infrastructure,Low,Server Location
+428,TCP,OCSCMU,Infrastructure,Low,OCS_CMU
+429,TCP,OCSAMU,Infrastructure,Low,OCS_AMU
+430,TCP,UTMPSD,Infrastructure,Low,UTMPSD
+431,TCP,UTMPCD,Infrastructure,Low,UTMPCD
+432,TCP,IASD,Infrastructure,Low,IASD
+433,TCP,NNSP,Infrastructure,Low,NNSP
+434,TCP,MobileIP-Agent,Infrastructure,Low,MobileIP-Agent
+435,TCP,MobilIP-MN,Infrastructure,Low,MobilIP-MN
+436,TCP,DNA-CML,Infrastructure,Low,DNA-CML
+437,TCP,comscm,Infrastructure,Low,comscm
+438,TCP,dsfgw,Infrastructure,Low,dsfgw
+439,TCP,dasp,Infrastructure,Low,dasp
+440,TCP,sgcp,Infrastructure,Low,sgcp
+441,TCP,decvms-sysmgt,Infrastructure,Low,decvms-sysmgt
+442,TCP,cvchostd,Infrastructure,Low,cvc_hostd
+443,TCP,HTTPS,Web,Low,Secure web traffic
+444,TCP,Simple-Network-Paging-Protocol,Infrastructure,Low,Simple Network Paging Protocol
+445,TCP,SMB,Windows,Critical,File sharing and lateral movement
+446,TCP,DDM-RDB,Infrastructure,Low,DDM-RDB
+447,TCP,DDM-RFM,Infrastructure,Low,DDM-RFM
+448,TCP,DDM-SSL,Infrastructure,Low,DDM-SSL
+449,TCP,AS-Server-Mapper,Infrastructure,Low,AS Server Mapper
+450,TCP,TServer,Infrastructure,Low,TServer
+451,TCP,Cray-Network-Semaphore-server,Infrastructure,Low,Cray Network Semaphore server
+452,TCP,Cray-SFS-config-server,Infrastructure,Low,Cray SFS config server
+453,TCP,CreativeServer,Infrastructure,Low,CreativeServer
+454,TCP,ContentServer,Infrastructure,Low,ContentServer
+455,TCP,CreativePartnr,Infrastructure,Low,CreativePartnr
+456,TCP,macon-tcp,Infrastructure,Low,macon-tcp
+457,TCP,scohelp,Infrastructure,Low,scohelp
+458,TCP,apple-quick-time,Infrastructure,Low,apple quick time
+459,TCP,ampr-rcmd,Infrastructure,Low,ampr-rcmd
+460,TCP,skronk,Infrastructure,Low,skronk
+461,TCP,DataRampSrv,Infrastructure,Low,DataRampSrv
+462,TCP,DataRampSrvSec,Infrastructure,Low,DataRampSrvSec
+463,TCP,alpes,Infrastructure,Low,alpes
+464,TCP / UDP,Kerberos-Change,Auth,Low,Password change
+465,TCP,SMTPS,Email,Low,Secure SMTP
+466,TCP,digital-vrc,Development,Medium,digital-vrc
+467,TCP,mylex-mapd,Infrastructure,Low,mylex-mapd
+468,TCP,proturis,Infrastructure,Low,proturis
+469,TCP,Radio-Control-Protocol,Infrastructure,Low,Radio Control Protocol
+470,TCP,scx-proxy,Web,Medium,scx-proxy
+471,TCP,Mondex,Infrastructure,Low,Mondex
+472,TCP,ljk-login,Infrastructure,Low,ljk-login
+473,TCP,hybrid-pop,Infrastructure,Low,hybrid-pop
+474,TCP,tn-tl-w1,Infrastructure,Low,tn-tl-w1
+475,TCP,tcpnethaspsrv,Infrastructure,Low,tcpnethaspsrv
+476,TCP,tn-tl-fd1,Infrastructure,Low,tn-tl-fd1
+477,TCP,ss7ns,Infrastructure,Low,ss7ns
+478,TCP,spsc,Infrastructure,Low,spsc
+479,TCP,iafserver,Infrastructure,Low,iafserver
+480,TCP,iafdbase,Infrastructure,Low,iafdbase
+481,TCP,Ph-service,Infrastructure,Low,Ph service
+482,TCP,bgs-nsi,Infrastructure,Low,bgs-nsi
+483,TCP,ulpnet,Infrastructure,Low,ulpnet
+484,TCP,Integra-Software-Management-Environment,Infrastructure,Low,Integra Software Management Environment
+485,TCP,Air-Soft-Power-Burst,Infrastructure,Low,Air Soft Power Burst
+486,TCP,avian,Infrastructure,Low,avian
+487,TCP,saft-Simple-Asynchronous-File-Transfer,FileTransfer,Medium,saft Simple Asynchronous File Transfer
+488,TCP,gss-HTTP,Web,Medium,gss-HTTP
+489,TCP,nest-protocol,Infrastructure,Low,nest-protocol
+490,TCP,micom-pfs,Infrastructure,Low,micom-pfs
+491,TCP,go-login,Infrastructure,Low,go-login
+492,TCP,Transport-Independent-Convergence-for-FNA,Infrastructure,Low,Transport Independent Convergence for FNA
+493,TCP,Transport-Independent-Convergence-for-FNA,Infrastructure,Low,Transport Independent Convergence for FNA
+494,TCP,POV-Ray,Infrastructure,Low,POV-Ray
+495,TCP,intecourier,Infrastructure,Low,intecourier
+496,TCP,PIM-RP-DISC,Infrastructure,Low,PIM-RP-DISC
+497,TCP,dantz,Infrastructure,Low,dantz
+498,TCP,siam,Infrastructure,Low,siam
+499,TCP,ISO-ILL-Protocol,Infrastructure,Low,ISO ILL Protocol
+500,TCP / UDP,ISAKMP,VPN,Medium,VPN key exchange
+501,TCP,STMF,Infrastructure,Low,STMF
+502,TCP,asa-appl-proto,Infrastructure,Low,asa-appl-proto
+503,TCP,Intrinsa,Infrastructure,Low,Intrinsa
+504,TCP,citadel,Infrastructure,Low,citadel
+505,TCP,mailbox-lm,Infrastructure,Low,mailbox-lm
+506,TCP,ohimsrv,Infrastructure,Low,ohimsrv
+507,TCP,crs,Infrastructure,Low,crs
+508,TCP,xvttp,Infrastructure,Low,xvttp
+509,TCP,snare,Infrastructure,Low,snare
+510,TCP,FirstClass-Protocol,Infrastructure,Low,FirstClass Protocol
+511,TCP,PassGo,Infrastructure,Low,PassGo
+512,TCP,Remote-process-execution,Infrastructure,Low,Remote process execution
+513,TCP,Remote-Login,Infrastructure,Low,Remote Login
+514,TCP / UDP,Syslog,Logging,Low,System logging
+515,TCP,LPD,Legacy,Low,Printer service
+516,TCP,videotex,Infrastructure,Low,videotex
+517,TCP,like-tenex-link-but-across,Infrastructure,Low,like tenex link but across
+518,TCP,talkd,Infrastructure,Low,talkd
+519,TCP,unixtime,Infrastructure,Low,unixtime
+520,TCP / UDP,RIP,Infrastructure,Low,Routing protocol
+521,TCP,ripng,Infrastructure,Low,ripng
+522,TCP,User-Location-Service-ULP,Infrastructure,Low,User Location Service / ULP
+523,TCP,IBM-DB2,Database,Medium,IBM-DB2
+524,TCP,NCP,Infrastructure,Low,NCP
+525,TCP,timeserver,Infrastructure,Low,timeserver
+526,TCP,newdate,Infrastructure,Low,newdate
+527,TCP,Stock-IXChange,Infrastructure,Low,Stock IXChange
+528,TCP,Customer-IXChange,Infrastructure,Low,Customer IXChange
+529,TCP,IRC-SERV,C2,High,IRC-SERV
+530,TCP,rpc,Windows,High,rpc
+531,TCP,chat,Infrastructure,Low,chat
+532,TCP,readnews,Infrastructure,Low,readnews
+533,TCP,for-emergency-broadcasts,Infrastructure,Low,for emergency broadcasts
+534,TCP,MegaMedia-Admin,Infrastructure,Low,MegaMedia Admin
+535,TCP,iiop,Infrastructure,Low,iiop
+536,TCP,opalis-rdv,Infrastructure,Low,opalis-rdv
+537,TCP,Networked-Media-Streaming-Protocol,Infrastructure,Low,Networked Media Streaming Protocol
+538,TCP,gdomap,Infrastructure,Low,gdomap
+539,TCP,Apertus-Technologies-Load-Determination,Infrastructure,Low,Apertus Technologies Load Determination
+540,TCP,uucpd,Infrastructure,Low,uucpd
+541,TCP,uucp-rlogin,Infrastructure,Low,uucp-rlogin
+542,TCP,commerce,Infrastructure,Low,commerce
+543,TCP,kerberos,Infrastructure,Low,kerberos (v4/v5)
+544,TCP,krcmd,Infrastructure,Low,krcmd
+545,TCP,appleqtcsrvr,Infrastructure,Low,appleqtcsrvr
+546,TCP,DHCPv6-Client,Infrastructure,Low,DHCPv6 Client
+547,TCP,DHCPv6-Server,Infrastructure,Low,DHCPv6 Server
+548,TCP,AppleShare-AFP-over-TCP,Infrastructure,Low,AppleShare AFP over TCP
+549,TCP,IDFP,Infrastructure,Low,IDFP
+550,TCP,new-who,Infrastructure,Low,new-who
+551,TCP,cybercash,Infrastructure,Low,cybercash
+552,TCP,deviceshare,Infrastructure,Low,deviceshare
+553,TCP,pirp,Infrastructure,Low,pirp
+554,TCP,Real-Time-Stream-Control-Protocol,Infrastructure,Low,Real Time Stream Control Protocol
+555,TCP,phAse-Zero-backdoor-dsf,Infrastructure,Low,"phAse Zero backdoor (Win 9x, NT) / dsf"
+556,TCP,rfs-server,Infrastructure,Low,rfs server
+557,TCP,openvms-sysipc,Infrastructure,Low,openvms-sysipc
+558,TCP,SDNSKMP,Infrastructure,Low,SDNSKMP
+559,TCP,TEEDTAP-BackdoorDomwis-Win32-trojan,Infrastructure,Low,TEEDTAP / Backdoor.Domwis Win32 trojan
+560,TCP,rmonitord,C2,High,rmonitord
+561,TCP,monitor,C2,High,monitor
+562,TCP,chcmd,Infrastructure,Low,chcmd
+563,TCP,AOL-IM-NNTP-protocol-over-TLS-SSL,Infrastructure,Low,AOL IM / NNTP protocol over TLS/SSL
+564,TCP,plan-9-file-service,Infrastructure,Low,plan 9 file service
+565,TCP,whoami,Infrastructure,Low,whoami
+566,TCP,streettalk,Infrastructure,Low,streettalk
+567,TCP,banyan-rpc,Windows,High,banyan-rpc
+568,TCP,microsoft-shuttle,Windows,High,microsoft shuttle
+569,TCP,microsoft-rome,Windows,High,microsoft rome
+570,TCP,demon,Infrastructure,Low,demon
+571,TCP,udemon,Infrastructure,Low,udemon
+572,TCP,sonar,Infrastructure,Low,sonar
+573,TCP,banyan-vip,Infrastructure,Low,banyan-vip
+574,TCP,FTP-Software-Agent-System,FileTransfer,Medium,FTP Software Agent System
+575,TCP,VEMMI,Infrastructure,Low,VEMMI
+576,TCP,ipcd,Infrastructure,Low,ipcd
+577,TCP,vnas,Infrastructure,Low,vnas
+578,TCP,ipdd,Infrastructure,Low,ipdd
+579,TCP,decbsrv,Infrastructure,Low,decbsrv
+580,TCP,SNTP-HEARTBEAT,Infrastructure,Low,SNTP HEARTBEAT
+581,TCP,Bundle-Discovery-Protocol,Infrastructure,Low,Bundle Discovery Protocol
+582,TCP,SCC-Security,Infrastructure,Low,SCC Security
+583,TCP,Philips-Video-Conferencing,Infrastructure,Low,Philips Video-Conferencing
+584,TCP,Key-Server,Infrastructure,Low,Key Server
+585,TCP,IMAP4+SSL,Infrastructure,Low,IMAP4+SSL
+586,TCP,Password-Change,Infrastructure,Low,Password Change
+587,TCP,SMTP-Submission,Email,Low,Mail submission
+588,TCP,CAL,Infrastructure,Low,CAL
+589,TCP,EyeLink,Infrastructure,Low,EyeLink
+590,TCP,TNS-CML,Infrastructure,Low,TNS CML
+591,TCP,FileMaker-Inc---HTTP-Alternate,Web,Medium,FileMaker Inc. - HTTP Alternate
+592,TCP,Eudora-Set,Infrastructure,Low,Eudora Set
+593,TCP,HTTP-RPC-Ep-Map,Windows,High,HTTP RPC Ep Map
+594,TCP,TPIP,Infrastructure,Low,TPIP
+595,TCP,CAB-Protocol,Infrastructure,Low,CAB Protocol
+596,TCP,SMSD,Infrastructure,Low,SMSD
+597,TCP,PTC-Name-Service,Infrastructure,Low,PTC Name Service
+598,TCP,SCO-Web-Server-Manager-3,Web,Medium,SCO Web Server Manager 3
+599,TCP,Aeolon-Core-Protocol,Infrastructure,Low,Aeolon Core Protocol
+600,TCP,Sun-IPC-server,Infrastructure,Low,Sun IPC server
+606,TCP,Cray-Unified-Resource-Manager,Infrastructure,Low,Cray Unified Resource Manager
+607,TCP,nqs,Infrastructure,Low,nqs
+608,TCP,Sender-Initiated-Unsolicited-File-Transfer,FileTransfer,Medium,Sender-Initiated/Unsolicited File Transfer
+609,TCP,npmp-trap,Infrastructure,Low,npmp-trap
+610,TCP,Apple-Admin-Service-npmp-local,Infrastructure,Low,Apple Admin Service / npmp-local
+611,TCP,npmp-gui,Infrastructure,Low,npmp-gui
+612,TCP,HMMP-Indication,Infrastructure,Low,HMMP Indication
+613,TCP,HMMP-Operation,Infrastructure,Low,HMMP Operation
+614,TCP,SSLshell,Infrastructure,Low,SSLshell
+615,TCP,Internet-Configuration-Manager,Infrastructure,Low,Internet Configuration Manager
+616,TCP,SCO-System-Administration-Server,Infrastructure,Low,SCO System Administration Server
+617,TCP,SCO-Desktop-Administration-Server,Infrastructure,Low,SCO Desktop Administration Server
+618,TCP,DEI-ICDA,Infrastructure,Low,DEI-ICDA
+619,TCP,Digital-EVM,Development,Medium,Digital EVM
+620,TCP,SCO-WebServer-Manager,Web,Medium,SCO WebServer Manager
+621,TCP,ESCP,Infrastructure,Low,ESCP
+622,TCP,Collaborator,C2,High,Collaborator
+623,TCP,Aux-Bus-Shunt,Infrastructure,Low,Aux Bus Shunt
+624,TCP,Crypto-Admin,Infrastructure,Low,Crypto Admin
+625,TCP,DEC-DLM,Infrastructure,Low,DEC DLM
+626,TCP,ASIA,Infrastructure,Low,ASIA
+627,TCP,PassGo-Tivoli,Infrastructure,Low,PassGo Tivoli
+628,TCP,QMQP,Infrastructure,Low,QMQP
+629,TCP,3Com-AMP3,Infrastructure,Low,3Com AMP3
+630,TCP,RDA,Infrastructure,Low,RDA
+631,TCP,IPP,Infrastructure,Low,IPP (Internet Printing Protocol)
+632,TCP,bmpp,Infrastructure,Low,bmpp
+633,TCP,Service-Status-update,Infrastructure,Low,Service Status update (Sterling Software)
+634,TCP,ginad,Infrastructure,Low,ginad
+635,TCP,RLZ-DBase,Infrastructure,Low,RLZ DBase
+636,TCP,LDAPS,Auth,Low,Secure LDAP
+637,TCP,lanserver,Infrastructure,Low,lanserver
+638,TCP,mcns-sec,Infrastructure,Low,mcns-sec
+639,TCP,MSDP,Infrastructure,Low,MSDP
+640,TCP,entrust-sps,Infrastructure,Low,entrust-sps
+641,TCP,repcmd,Infrastructure,Low,repcmd
+642,TCP,ESRO-EMSDP-V13,Infrastructure,Low,ESRO-EMSDP V1.3
+643,TCP,SANity,Infrastructure,Low,SANity
+644,TCP,dwr,Infrastructure,Low,dwr
+645,TCP,PSSC,Infrastructure,Low,PSSC
+646,TCP,LDP,Infrastructure,Low,LDP
+647,TCP,DHCP-Failover,Infrastructure,Low,DHCP Failover
+648,TCP,Registry-Registrar-Protocol,Infrastructure,Low,Registry Registrar Protocol (RRP)
+649,TCP,Aminet,Infrastructure,Low,Aminet
+650,TCP,OBEX,Infrastructure,Low,OBEX
+651,TCP,IEEE-MMS,Infrastructure,Low,IEEE MMS
+652,TCP,UDLRDTCP,Infrastructure,Low,UDLR_DTCP
+653,TCP,RepCmd,Infrastructure,Low,RepCmd
+654,TCP,AODV,Infrastructure,Low,AODV
+655,TCP,TINC,Infrastructure,Low,TINC
+656,TCP,SPMP,Infrastructure,Low,SPMP
+657,TCP,RMC,Infrastructure,Low,RMC
+658,TCP,TenFold,Infrastructure,Low,TenFold
+659,TCP,URL-Rendezvous,Infrastructure,Low,URL Rendezvous
+660,TCP,MacOS-Server-Admin,Infrastructure,Low,MacOS Server Admin
+661,TCP,HAP,Infrastructure,Low,HAP
+662,TCP,PFTP,FileTransfer,Medium,PFTP
+663,TCP,PureNoise,Infrastructure,Low,PureNoise
+664,TCP,Secure-Aux-Bus,Infrastructure,Low,Secure Aux Bus
+665,TCP,Sun-DR,Infrastructure,Low,Sun DR
+666,TCP,doom-Id-Software,Infrastructure,Low,doom Id Software
+667,TCP,campaign-contribution-disclosures---SDR-Technologies,Infrastructure,Low,campaign contribution disclosures - SDR Technologies
+668,TCP,MeComm,Infrastructure,Low,MeComm
+669,TCP,MeRegister,Infrastructure,Low,MeRegister
+670,TCP,VACDSM-SWS,Infrastructure,Low,VACDSM-SWS
+671,TCP,VACDSM-APP,Infrastructure,Low,VACDSM-APP
+672,TCP,VPPS-QUA,Infrastructure,Low,VPPS-QUA
+673,TCP,CIMPLEX,Infrastructure,Low,CIMPLEX
+674,TCP,ACAP,Infrastructure,Low,ACAP
+675,TCP,DCTP,Infrastructure,Low,DCTP
+676,TCP,VPPS-Via,Infrastructure,Low,VPPS Via
+677,TCP,Virtual-Presence-Protocol,Infrastructure,Low,Virtual Presence Protocol
+678,TCP,GNU-Gereration-Foundation-NCP,Infrastructure,Low,GNU Gereration Foundation NCP
+679,TCP,MRM,Infrastructure,Low,MRM
+680,TCP,entrust-aaas,Infrastructure,Low,entrust-aaas
+681,TCP,entrust-aams,Infrastructure,Low,entrust-aams
+682,TCP,XFR,Infrastructure,Low,XFR
+683,TCP,CORBA-IIOP,Infrastructure,Low,CORBA IIOP
+684,TCP,CORBA-IIOP-SSL,Infrastructure,Low,CORBA IIOP SSL
+685,TCP,MDC-Port-Mapper,Infrastructure,Low,MDC Port Mapper
+686,TCP,Hardware-Control-Protocol-Wismar,Infrastructure,Low,Hardware Control Protocol Wismar
+687,TCP,asipregistry,Infrastructure,Low,asipregistry
+688,TCP,REALM-RUSD,Infrastructure,Low,REALM-RUSD
+689,TCP,NMAP,Infrastructure,Low,NMAP
+690,TCP,VATP,Infrastructure,Low,VATP
+691,TCP,MS-Exchange-Routing,Infrastructure,Low,MS Exchange Routing
+692,TCP,Hyperwave-ISP,Infrastructure,Low,Hyperwave-ISP
+693,TCP,connendp,Infrastructure,Low,connendp
+694,TCP,ha-cluster,Infrastructure,Low,ha-cluster
+695,TCP,IEEE-MMS-SSL,Infrastructure,Low,IEEE-MMS-SSL
+696,TCP,RUSHD,Infrastructure,Low,RUSHD
+697,TCP,UUIDGEN,Infrastructure,Low,UUIDGEN
+698,TCP,OLSR,Infrastructure,Low,OLSR
+704,TCP,errlog-copy-server-daemon,Infrastructure,Low,errlog copy/server daemon
+705,TCP,AgentX,Infrastructure,Low,AgentX
+706,TCP,SILC,Infrastructure,Low,SILC
+707,TCP,W32Nachi-Worm-Borland-DSJ,Infrastructure,Low,W32.Nachi Worm / Borland DSJ
+709,TCP,Entrust-Key-Management-Service-Handler,Infrastructure,Low,Entrust Key Management Service Handler
+710,TCP,Entrust-Administration-Service-Handler,Infrastructure,Low,Entrust Administration Service Handler
+711,TCP,Cisco-TDP,Infrastructure,Low,Cisco TDP
+729,TCP,IBM-NetView-DM-6000-Server-Client,Infrastructure,Low,IBM NetView DM/6000 Server/Client
+730,TCP,IBM-NetView-DM-6000-send-tcp,Infrastructure,Low,IBM NetView DM/6000 send/tcp
+731,TCP,IBM-NetView-DM-6000-receive-tcp,Infrastructure,Low,IBM NetView DM/6000 receive/tcp
+740,TCP,NETscout-Control-Protocol,Infrastructure,Low,(old) NETscout Control Protocol (old)
+741,TCP,netGW,Infrastructure,Low,netGW
+742,TCP,Network-based-Rev-Cont-Sys,Infrastructure,Low,Network based Rev. Cont. Sys.
+744,TCP,Flexible-License-Manager,Infrastructure,Low,Flexible License Manager
+747,TCP,Fujitsu-Device-Control,Infrastructure,Low,Fujitsu Device Control
+748,TCP,Russell-Info-Sci-Calendar-Manager,Infrastructure,Low,Russell Info Sci Calendar Manager
+749,TCP,kerberos-administration,Infrastructure,Low,kerberos administration
+750,TCP,rfile,Infrastructure,Low,rfile
+751,TCP,pump,Infrastructure,Low,pump
+752,TCP,Kerberos-password-server,Infrastructure,Low,Kerberos password server
+753,TCP,Kerberos-userreg-server,Infrastructure,Low,Kerberos userreg server
+754,TCP,send,Infrastructure,Low,send
+758,TCP,nlogin,Infrastructure,Low,nlogin
+759,TCP,con,Infrastructure,Low,con
+760,TCP,kreg-kerberos-4-registration,Infrastructure,Low,"kreg, kerberos/4 registration"
+761,TCP,kpwd-Kerberos-4-password,Infrastructure,Low,"kpwd, Kerberos/4 password"
+762,TCP,quotad,Infrastructure,Low,quotad
+763,TCP,cycleserv,Infrastructure,Low,cycleserv
+764,TCP,omserv,Infrastructure,Low,omserv
+765,TCP,webster,Web,Medium,webster
+767,TCP,phone,Infrastructure,Low,phone
+769,TCP,vid,Infrastructure,Low,vid
+770,TCP,cadlock,Infrastructure,Low,cadlock
+771,TCP,rtip,Infrastructure,Low,rtip
+772,TCP,cycleserv2,Infrastructure,Low,cycleserv2
+773,TCP,submit,Infrastructure,Low,submit
+774,TCP,rpasswd,Infrastructure,Low,rpasswd
+775,TCP,entomb,Infrastructure,Low,entomb
+776,TCP,wpages,Infrastructure,Low,wpages
+777,TCP,Multiling-HTTP,Web,Medium,Multiling HTTP
+780,TCP,wpgs,Infrastructure,Low,wpgs
+781,TCP,HP-performance-data-collector,C2,High,HP performance data collector
+782,TCP,node-HP-performance-data-managed-node,Infrastructure,Low,node HP performance data managed node
+783,TCP,HP-performance-data-alarm-manager,Infrastructure,Low,HP performance data alarm manager
+786,TCP,Concert,Infrastructure,Low,Concert
+787,TCP,QSC,Infrastructure,Low,QSC
+799,TCP,ControlIT-Remotely-Possible,Infrastructure,Low,ControlIT / Remotely Possible
+800,TCP,mdbsdaemon-Remotely-Possible,Infrastructure,Low,mdbs_daemon / Remotely Possible
+801,TCP,device,Infrastructure,Low,device
+808,TCP,CCProxy,Web,Medium,CCProxy
+810,TCP,FCP,Infrastructure,Low,FCP
+828,TCP,itm-mcell-s,Infrastructure,Low,itm-mcell-s
+829,TCP,PKIX-3-CA-RA,Infrastructure,Low,PKIX-3 CA/RA
+871,TCP,SUP-server,Infrastructure,Low,SUP server
+873,TCP,rsync,FileTransfer,High,Remote file sync
+886,TCP,ICL-coNETion-locate-server,Infrastructure,Low,ICL coNETion locate server
+887,TCP,ICL-coNETion-server-info,Infrastructure,Low,ICL coNETion server info
+888,TCP,CD-Database-Protocol,Database,Medium,CD Database Protocol
+900,TCP,Check-Point-Firewall-1-HTTP-administration-OMG-Initial-Refs,Web,Medium,Check Point Firewall-1 HTTP administration / OMG Initial Refs
+901,TCP,Samba-Web-Administration-Tool-Realsecure-SMPNAMERES-NetDevil,Web,Medium,Samba Web Administration Tool / Realsecure / SMPNAMERES/ NetDevil trojan
+902,TCP,VMware-ESXi,Hypervisor,High,ESXi management
+903,TCP,VMware-ESXi,Hypervisor,High,ESXi console
+911,TCP,xact-backup,Infrastructure,Low,xact-backup
+912,TCP,VMware-Authentication-Daemon,Hypervisor,High,VMware Authentication Daemon
+989,TCP,FTPS-Data,FileTransfer,Low,Secure FTP data
+990,TCP,FTPS,FileTransfer,Low,Secure FTP control
+991,TCP,Netnews-Administration-System,Infrastructure,Low,Netnews Administration System
+992,TCP,Telnet-protocol-over-TLS-SSL,RemoteAccess,High,Telnet protocol over TLS/SSL
+993,TCP,IMAPS,Email,Low,Secure IMAP
+994,TCP,IRC-protocol-over-TLS-SSL,C2,High,IRC protocol over TLS/SSL
+995,TCP,POP3S,Email,Low,Secure POP3
+996,TCP,vsinet,Infrastructure,Low,vsinet
+997,TCP,maitrd,Infrastructure,Low,maitrd
+998,TCP,busboy,Infrastructure,Low,busboy
+999,TCP,puprouter,Infrastructure,Low,puprouter
+1000,TCP,cadlock,Infrastructure,Low,cadlock
+1002,TCP,Microsoft-Site-Server-Internet-Locator-Service,Windows,High,Microsoft Site Server Internet Locator Service (Netmeeting/ICF)
+1008,TCP,UFS-aware-server,Infrastructure,Low,UFS-aware server
+1010,TCP,surf,Infrastructure,Low,surf
+1011,TCP,Doly,Infrastructure,Low,Doly (Windows Trojan)
+1015,TCP,Doly,Infrastructure,Low,Doly (Windows Trojan)
+1023,TCP,Reserved,Infrastructure,Low,Reserved
+1024,TCP,Reserved,Infrastructure,Medium,Reserved
+1025,TCP,MSTASK-network-blackjack,Infrastructure,Medium,MSTASK / network blackjack
+1026,TCP,MSTASK-Remote-Login-Network-Terminal,Infrastructure,Medium,MSTASK / Remote Login Network Terminal
+1030,TCP,BBN-IAD,Infrastructure,Medium,BBN IAD
+1031,TCP,InetInfo-BBN-IAD,Infrastructure,Medium,InetInfo / BBN IAD
+1032,TCP,BBN-IAD,Infrastructure,Medium,BBN IAD
+1042,TCP,W32MydoomL-virus,Infrastructure,Medium,W32.Mydoom.L virus
+1047,TCP,Suns-NEO-Object-Request-Broker,Infrastructure,Medium,Sun's NEO Object Request Broker
+1048,TCP,Suns-NEO-Object-Request-Broker,Infrastructure,Medium,Sun's NEO Object Request Broker
+1049,TCP,Tobit-David-Postman-VPMN,Infrastructure,Medium,Tobit David Postman VPMN
+1050,TCP,CORBA-Management-Agent,Infrastructure,Medium,CORBA Management Agent
+1051,TCP,Optima-VNET,Infrastructure,Medium,Optima VNET
+1052,TCP,Dynamic-DNS-Tools,Infrastructure,Medium,Dynamic DNS Tools
+1053,TCP,Remote-Assistant,Infrastructure,Medium,Remote Assistant (RA)
+1054,TCP,BRVREAD,Infrastructure,Medium,BRVREAD
+1055,TCP,ANSYS---License-Manager,Infrastructure,Medium,ANSYS - License Manager
+1056,TCP,VFO,Infrastructure,Medium,VFO
+1057,TCP,STARTRON,Infrastructure,Medium,STARTRON
+1058,TCP,nim,Infrastructure,Medium,nim
+1059,TCP,nimreg,Infrastructure,Medium,nimreg
+1060,TCP,POLESTAR,Infrastructure,Medium,POLESTAR
+1061,TCP,KIOSK,Infrastructure,Medium,KIOSK
+1062,TCP,Veracity,Infrastructure,Medium,Veracity
+1063,TCP,KyoceraNetDev,Infrastructure,Medium,KyoceraNetDev
+1064,TCP,JSTEL,Infrastructure,Medium,JSTEL
+1065,TCP,SYSCOMLAN,Infrastructure,Medium,SYSCOMLAN
+1066,TCP,FPO-FNS,Infrastructure,Medium,FPO-FNS
+1067,TCP,Installation-Bootstrap-Proto-Serv,Infrastructure,Medium,Installation Bootstrap Proto. Serv.
+1068,TCP,Installation-Bootstrap-Proto-Cli,Infrastructure,Medium,Installation Bootstrap Proto. Cli.
+1069,TCP,COGNEX-INSIGHT,Infrastructure,Medium,COGNEX-INSIGHT
+1070,TCP,GMRUpdateSERV,Infrastructure,Medium,GMRUpdateSERV
+1071,TCP,BSQUARE-VOIP,Infrastructure,Medium,BSQUARE-VOIP
+1072,TCP,CARDAX,Infrastructure,Medium,CARDAX
+1073,TCP,BridgeControl,Infrastructure,Medium,BridgeControl
+1074,TCP,FASTechnologies-License-Manager,Infrastructure,Medium,FASTechnologies License Manager
+1075,TCP,RDRMSHC,Infrastructure,Medium,RDRMSHC
+1076,TCP,DAB-STI-C,Infrastructure,Medium,DAB STI-C
+1077,TCP,IMGames,Infrastructure,Medium,IMGames
+1078,TCP,eManageCstp,Infrastructure,Medium,eManageCstp
+1079,TCP,ASPROVATalk,Infrastructure,Medium,ASPROVATalk
+1080,TCP,SOCKS-Proxy,C2,High,Proxy used for tunneling/C2
+1081,TCP,PVUNIWIEN,Infrastructure,Medium,PVUNIWIEN
+1082,TCP,AMT-ESD-PROT,Infrastructure,Medium,AMT-ESD-PROT
+1083,TCP,Anasoft-License-Manager,Infrastructure,Medium,Anasoft License Manager
+1084,TCP,Anasoft-License-Manager,Infrastructure,Medium,Anasoft License Manager
+1085,TCP,Web-Objects,Web,Medium,Web Objects
+1086,TCP,CPL-Scrambler-Logging,Infrastructure,Medium,CPL Scrambler Logging
+1087,TCP,CPL-Scrambler-Internal,Infrastructure,Medium,CPL Scrambler Internal
+1088,TCP,CPL-Scrambler-Alarm-Log,Infrastructure,Medium,CPL Scrambler Alarm Log
+1089,TCP,FF-Annunciation,Infrastructure,Medium,FF Annunciation
+1090,TCP,FF-Fieldbus-Message-Specification,Infrastructure,Medium,FF Fieldbus Message Specification
+1091,TCP,FF-System-Management,Infrastructure,Medium,FF System Management
+1092,TCP,OBRPD,Infrastructure,Medium,OBRPD
+1093,TCP,PROOFD,Infrastructure,Medium,PROOFD
+1094,TCP,ROOTD,Infrastructure,Medium,ROOTD
+1095,TCP,NICELink,Infrastructure,Medium,NICELink
+1096,TCP,Common-Name-Resolution-Protocol,Infrastructure,Medium,Common Name Resolution Protocol
+1097,TCP,Sun-Cluster-Manager,Infrastructure,Medium,Sun Cluster Manager
+1098,TCP,RMI-Activation,Infrastructure,Medium,RMI Activation
+1099,TCP,RMI-Registry,Infrastructure,Medium,RMI Registry
+1100,TCP,MCTP,Infrastructure,Medium,MCTP
+1101,TCP,PT2-DISCOVER,Infrastructure,Medium,PT2-DISCOVER
+1102,TCP,ADOBE-SERVER-1,Infrastructure,Medium,ADOBE SERVER 1
+1103,TCP,ADOBE-SERVER-2,Infrastructure,Medium,ADOBE SERVER 2
+1104,TCP,XRL,Infrastructure,Medium,XRL
+1105,TCP,FTRANHC,Infrastructure,Medium,FTRANHC
+1106,TCP,ISOIPSIGPORT-1,Infrastructure,Medium,ISOIPSIGPORT-1
+1107,TCP,ISOIPSIGPORT-2,Infrastructure,Medium,ISOIPSIGPORT-2
+1108,TCP,ratio-adp,Infrastructure,Medium,ratio-adp
+1109,TCP,Pop-with-Kerberos,Infrastructure,Medium,Pop with Kerberos
+1110,TCP,Cluster-status-info,Infrastructure,Medium,Cluster status info
+1111,TCP,LM-Social-Server,Infrastructure,Medium,LM Social Server
+1112,TCP,Intelligent-Communication-Protocol,Infrastructure,Medium,Intelligent Communication Protocol
+1114,TCP,Mini-SQL,Database,High,Mini SQL
+1115,TCP,ARDUS-Transfer,Infrastructure,Medium,ARDUS Transfer
+1116,TCP,ARDUS-Control,Infrastructure,Medium,ARDUS Control
+1117,TCP,ARDUS-Multicast-Transfer,Infrastructure,Medium,ARDUS Multicast Transfer
+1123,TCP,Murray,Infrastructure,Medium,Murray
+1127,TCP,SUP-debugging,Infrastructure,Medium,SUP debugging
+1155,TCP,Network-File-Access,Infrastructure,Medium,Network File Access
+1161,TCP,Health-Polling,Infrastructure,Medium,Health Polling
+1162,TCP,Health-Trap,Infrastructure,Medium,Health Trap
+1169,TCP,TRIPWIRE,Infrastructure,Medium,TRIPWIRE
+1178,TCP,SKK,Infrastructure,Medium,SKK (kanji input)
+1180,TCP,Millicent-Client-Proxy,Web,Medium,Millicent Client Proxy
+1188,TCP,HP-Web-Admin,Web,Medium,HP Web Admin
+1200,TCP,SCOL,Infrastructure,Medium,SCOL
+1201,TCP,Nucleus-Sand,Infrastructure,Medium,Nucleus Sand
+1202,TCP,caiccipc,Infrastructure,Medium,caiccipc
+1203,TCP,License-Validation,Infrastructure,Medium,License Validation
+1204,TCP,Log-Request-Listener,Infrastructure,Medium,Log Request Listener
+1205,TCP,Accord-MGC,Infrastructure,Medium,Accord-MGC
+1206,TCP,Anthony-Data,Infrastructure,Medium,Anthony Data
+1207,TCP,MetaSage,Infrastructure,Medium,MetaSage
+1208,TCP,SEAGULL-AIS,Infrastructure,Medium,SEAGULL AIS
+1209,TCP,IPCD3,Infrastructure,Medium,IPCD3
+1210,TCP,EOSS,Infrastructure,Medium,EOSS
+1211,TCP,Groove-DPP,Infrastructure,Medium,Groove DPP
+1212,TCP,lupa,Infrastructure,Medium,lupa
+1213,TCP,MPC-LIFENET,Infrastructure,Medium,MPC LIFENET
+1214,TCP,KAZAA,Infrastructure,Medium,KAZAA (Morpheus)
+1215,TCP,scanSTAT-10,Infrastructure,Medium,scanSTAT 1.0
+1216,TCP,ETEBAC-5,Infrastructure,Medium,ETEBAC 5
+1217,TCP,HPSS-NDAPI,Infrastructure,Medium,HPSS-NDAPI
+1218,TCP,AeroFlight-ADs,Infrastructure,Medium,AeroFlight-ADs
+1219,TCP,AeroFlight-Ret,Infrastructure,Medium,AeroFlight-Ret
+1220,TCP,QT-SERVER-ADMIN,Infrastructure,Medium,QT SERVER ADMIN
+1221,TCP,SweetWARE-Apps,Infrastructure,Medium,SweetWARE Apps
+1222,TCP,SNI-RD-network,Infrastructure,Medium,SNI R&D network
+1223,TCP,TGP,Infrastructure,Medium,TGP
+1224,TCP,VPNz,Infrastructure,Medium,VPNz
+1225,TCP,SLINKYSEARCH,Infrastructure,Medium,SLINKYSEARCH
+1226,TCP,STGXFWS,Infrastructure,Medium,STGXFWS
+1227,TCP,DNS2Go,Infrastructure,Medium,DNS2Go
+1228,TCP,FLORENCE,Infrastructure,Medium,FLORENCE
+1229,TCP,Novell-ZFS,Infrastructure,Medium,Novell ZFS
+1234,TCP,W32BeagleY-trojan-Infoseek-Search-Agent,Infrastructure,Medium,W32.Beagle.Y trojan / Infoseek Search Agent
+1239,TCP,NMSD,Infrastructure,Medium,NMSD
+1241,TCP,Nessus-Daemon-remote-message-service,Infrastructure,Medium,Nessus Daemon / remote message service
+1243,TCP,SubSeven,Infrastructure,Medium,SubSeven (Windows Trojan)
+1245,TCP,Subseven-backdoor-remote-access-tool,Infrastructure,Medium,Subseven backdoor remote access tool
+1248,TCP,hermes,Infrastructure,Medium,hermes
+1270,TCP,Microsoft-Operations-Manager-MOM-Encrypted,Windows,High,Microsoft Operations Manager MOM-Encrypted
+1300,TCP,H323-Host-Call-Secure,Infrastructure,Medium,H323 Host Call Secure
+1310,TCP,Husky,Infrastructure,Medium,Husky
+1311,TCP,RxMon,Infrastructure,Medium,RxMon
+1312,TCP,STI-Envision,Infrastructure,Medium,STI Envision
+1313,TCP,BMCPATROLDB,Infrastructure,Medium,BMC_PATROLDB
+1314,TCP,Photoscript-Distributed-Printing-System,Infrastructure,Medium,Photoscript Distributed Printing System
+1319,TCP,Panja-ICSP,Infrastructure,Medium,Panja-ICSP
+1320,TCP,Panja-AXBNET,Infrastructure,Medium,Panja-AXBNET
+1321,TCP,PIP,Infrastructure,Medium,PIP
+1335,TCP,Digital-Notary-Protocol,Development,Medium,Digital Notary Protocol
+1345,TCP,VPJP,Infrastructure,Medium,VPJP
+1346,TCP,Alta-Analytics-License-Manager,Infrastructure,Medium,Alta Analytics License Manager
+1347,TCP,multi-media-conferencing,Infrastructure,Medium,multi media conferencing
+1348,TCP,multi-media-conferencing,Infrastructure,Medium,multi media conferencing
+1349,TCP,Registration-Network-Protocol,Infrastructure,Medium,Registration Network Protocol
+1350,TCP,Registration-Network-Protocol,Infrastructure,Medium,Registration Network Protocol
+1351,TCP,Digital-Tool-Works,Development,Medium,Digital Tool Works (MIT)
+1352,TCP,Lotus-Notes,Infrastructure,Medium,Lotus Notes
+1353,TCP,Relief-Consulting,Infrastructure,Medium,Relief Consulting
+1354,TCP,RightBrain-Software,Infrastructure,Medium,RightBrain Software
+1355,TCP,Intuitive-Edge,Infrastructure,Medium,Intuitive Edge
+1356,TCP,CuillaMartin-Company,Infrastructure,Medium,CuillaMartin Company
+1357,TCP,Electronic-PegBoard,Infrastructure,Medium,Electronic PegBoard
+1358,TCP,CONNLCLI,Infrastructure,Medium,CONNLCLI
+1359,TCP,FTSRV,Infrastructure,Medium,FTSRV
+1360,TCP,MIMER,Infrastructure,Medium,MIMER
+1361,TCP,LinX,Infrastructure,Medium,LinX
+1362,TCP,TimeFlies,Infrastructure,Medium,TimeFlies
+1363,TCP,Network-DataMover-Requester,Infrastructure,Medium,Network DataMover Requester
+1364,TCP,Network-DataMover-Server,Infrastructure,Medium,Network DataMover Server
+1365,TCP,Network-Software-Associates,Infrastructure,Medium,Network Software Associates
+1366,TCP,Novell-NetWare-Comm-Service-Platform,Infrastructure,Medium,Novell NetWare Comm Service Platform
+1367,TCP,DCS,Infrastructure,Medium,DCS
+1368,TCP,ScreenCast,Infrastructure,Medium,ScreenCast
+1369,TCP,GlobalView-to-Unix-Shell,Infrastructure,Medium,GlobalView to Unix Shell
+1370,TCP,Unix-Shell-to-GlobalView,Infrastructure,Medium,Unix Shell to GlobalView
+1371,TCP,Fujitsu-Config-Protocol,Infrastructure,Medium,Fujitsu Config Protocol
+1372,TCP,Fujitsu-Config-Protocol,Infrastructure,Medium,Fujitsu Config Protocol
+1373,TCP,Chromagrafx,Infrastructure,Medium,Chromagrafx
+1374,TCP,EPI-Software-Systems,Infrastructure,Medium,EPI Software Systems
+1375,TCP,Bytex,Infrastructure,Medium,Bytex
+1376,TCP,IBM-Person-to-Person-Software,Infrastructure,Medium,IBM Person to Person Software
+1377,TCP,Cichlid-License-Manager,Infrastructure,Medium,Cichlid License Manager
+1378,TCP,Elan-License-Manager,Infrastructure,Medium,Elan License Manager
+1379,TCP,Integrity-Solutions,Infrastructure,Medium,Integrity Solutions
+1380,TCP,Telesis-Network-License-Manager,Infrastructure,Medium,Telesis Network License Manager
+1381,TCP,Apple-Network-License-Manager,Infrastructure,Medium,Apple Network License Manager
+1382,TCP,udtos,Infrastructure,Medium,udt_os
+1383,TCP,GW-Hannaway-Network-License-Manager,Infrastructure,Medium,GW Hannaway Network License Manager
+1384,TCP,Objective-Solutions-License-Manager,Infrastructure,Medium,Objective Solutions License Manager
+1385,TCP,Atex-Publishing-License-Manager,Infrastructure,Medium,Atex Publishing License Manager
+1386,TCP,CheckSum-License-Manager,Infrastructure,Medium,CheckSum License Manager
+1387,TCP,Computer-Aided-Design-Software-Inc-LM,Infrastructure,Medium,Computer Aided Design Software Inc LM
+1388,TCP,Objective-Solutions-DataBase-Cache,Database,Medium,Objective Solutions DataBase Cache
+1389,TCP,Document-Manager,Infrastructure,Medium,Document Manager
+1390,TCP,Storage-Controller,C2,High,Storage Controller
+1391,TCP,Storage-Access-Server,C2,High,Storage Access Server
+1392,TCP,Print-Manager,Infrastructure,Medium,Print Manager
+1393,TCP,Network-Log-Server,Infrastructure,Medium,Network Log Server
+1394,TCP,Network-Log-Client,Infrastructure,Medium,Network Log Client
+1395,TCP,PC-Workstation-Manager-software,Infrastructure,Medium,PC Workstation Manager software
+1396,TCP,DVL-Active-Mail,Infrastructure,Medium,DVL Active Mail
+1397,TCP,Audio-Active-Mail,Infrastructure,Medium,Audio Active Mail
+1398,TCP,Video-Active-Mail,Infrastructure,Medium,Video Active Mail
+1399,TCP,Cadkey-License-Manager,Infrastructure,Medium,Cadkey License Manager
+1400,TCP,Cadkey-Tablet-Daemon,Infrastructure,Medium,Cadkey Tablet Daemon
+1401,TCP,Goldleaf-License-Manager,Infrastructure,Medium,Goldleaf License Manager
+1402,TCP,Prospero-Resource-Manager,Infrastructure,Medium,Prospero Resource Manager
+1403,TCP,Prospero-Resource-Manager,Infrastructure,Medium,Prospero Resource Manager
+1404,TCP,Infinite-Graphics-License-Manager,Infrastructure,Medium,Infinite Graphics License Manager
+1405,TCP,IBM-Remote-Execution-Starter,Infrastructure,Medium,IBM Remote Execution Starter
+1406,TCP,NetLabs-License-Manager,Infrastructure,Medium,NetLabs License Manager
+1407,TCP,DBSA-License-Manager,Infrastructure,Medium,DBSA License Manager
+1408,TCP,Sophia-License-Manager,Infrastructure,Medium,Sophia License Manager
+1409,TCP,Here-License-Manager,Infrastructure,Medium,Here License Manager
+1410,TCP,HiQ-License-Manager,Infrastructure,Medium,HiQ License Manager
+1411,TCP,AudioFile,Infrastructure,Medium,AudioFile
+1412,TCP,InnoSys,Infrastructure,Medium,InnoSys
+1413,TCP,Innosys-ACL,Infrastructure,Medium,Innosys-ACL
+1414,TCP,IBM-MQSeries,Infrastructure,Medium,IBM MQSeries
+1415,TCP,DBStar,Infrastructure,Medium,DBStar
+1416,TCP,Novell-LU62,Infrastructure,Medium,Novell LU6.2
+1417,TCP,Timbuktu-Service-1-Port,Infrastructure,Medium,Timbuktu Service 1 Port
+1418,TCP,Timbuktu-Service-2-Port,Infrastructure,Medium,Timbuktu Service 2 Port
+1419,TCP,Timbuktu-Service-3-Port,Infrastructure,Medium,Timbuktu Service 3 Port
+1420,TCP,Timbuktu-Service-4-Port,Infrastructure,Medium,Timbuktu Service 4 Port
+1421,TCP,Gandalf-License-Manager,Infrastructure,Medium,Gandalf License Manager
+1422,TCP,Autodesk-License-Manager,Infrastructure,Medium,Autodesk License Manager
+1423,TCP,Essbase-Arbor-Software,Infrastructure,Medium,Essbase Arbor Software
+1424,TCP,Hybrid-Encryption-Protocol,Infrastructure,Medium,Hybrid Encryption Protocol
+1425,TCP,Zion-Software-License-Manager,Infrastructure,Medium,Zion Software License Manager
+1426,TCP,Satellite-data-Acquisition-System-1,Infrastructure,Medium,Satellite-data Acquisition System 1
+1427,TCP,mloadd-monitoring-tool,C2,High,mloadd monitoring tool
+1428,TCP,Informatik-License-Manager,Infrastructure,Medium,Informatik License Manager
+1429,TCP,Hypercom-NMS,Infrastructure,Medium,Hypercom NMS
+1430,TCP,Hypercom-TPDU,Infrastructure,Medium,Hypercom TPDU
+1431,TCP,Reverse-Gossip-Transport,Infrastructure,Medium,Reverse Gossip Transport
+1432,TCP,Blueberry-Software-License-Manager,Infrastructure,Medium,Blueberry Software License Manager
+1433,TCP,MSSQL,Database,High,Microsoft SQL Server
+1434,TCP,Microsoft-SQL-Monitor,Windows,High,Microsoft-SQL-Monitor
+1435,TCP,IBM-CICS,Infrastructure,Medium,IBM CICS
+1436,TCP,Satellite-data-Acquisition-System-2,Infrastructure,Medium,Satellite-data Acquisition System 2
+1437,TCP,Tabula,Infrastructure,Medium,Tabula
+1438,TCP,Eicon-Security-Agent-Server,Infrastructure,Medium,Eicon Security Agent/Server
+1439,TCP,Eicon-X25-SNA-Gateway,Infrastructure,Medium,Eicon X25/SNA Gateway
+1440,TCP,Eicon-Service-Location-Protocol,Infrastructure,Medium,Eicon Service Location Protocol
+1441,TCP,Cadis-License-Management,Infrastructure,Medium,Cadis License Management
+1442,TCP,Cadis-License-Management,Infrastructure,Medium,Cadis License Management
+1443,TCP,Integrated-Engineering-Software,Infrastructure,Medium,Integrated Engineering Software
+1444,TCP,Marcam-License-Management,Infrastructure,Medium,Marcam License Management
+1445,TCP,Proxima-License-Manager,Infrastructure,Medium,Proxima License Manager
+1446,TCP,Optical-Research-Associates-License-Manager,Infrastructure,Medium,Optical Research Associates License Manager
+1447,TCP,Applied-Parallel-Research-LM,Infrastructure,Medium,Applied Parallel Research LM
+1448,TCP,OpenConnect-License-Manager,Infrastructure,Medium,OpenConnect License Manager
+1449,TCP,PEport,Infrastructure,Medium,PEport
+1450,TCP,Tandem-Distributed-Workbench-Facility,Infrastructure,Medium,Tandem Distributed Workbench Facility
+1451,TCP,IBM-Information-Management,Infrastructure,Medium,IBM Information Management
+1452,TCP,GTE-Government-Systems-License-Man,Infrastructure,Medium,GTE Government Systems License Man
+1453,TCP,Genie-License-Manager,Infrastructure,Medium,Genie License Manager
+1454,TCP,interHDL-License-Manager,Infrastructure,Medium,interHDL License Manager
+1455,TCP,ESL-License-Manager,Infrastructure,Medium,ESL License Manager
+1456,TCP,DCA,Infrastructure,Medium,DCA
+1457,TCP,Valisys-License-Manager,Infrastructure,Medium,Valisys License Manager
+1458,TCP,Nichols-Research-Corp,Infrastructure,Medium,Nichols Research Corp.
+1459,TCP,Proshare-Notebook-Application,Infrastructure,Medium,Proshare Notebook Application
+1460,TCP,Proshare-Notebook-Application,Infrastructure,Medium,Proshare Notebook Application
+1461,TCP,IBM-Wireless-LAN,Infrastructure,Medium,IBM Wireless LAN
+1462,TCP,World-License-Manager,Infrastructure,Medium,World License Manager
+1463,TCP,Nucleus,Infrastructure,Medium,Nucleus
+1464,TCP,MSL-License-Manager,Infrastructure,Medium,MSL License Manager
+1465,TCP,Pipes-Platform,Infrastructure,Medium,Pipes Platform
+1466,TCP,Ocean-Software-License-Manager,Infrastructure,Medium,Ocean Software License Manager
+1467,TCP,CSDMBASE,Infrastructure,Medium,CSDMBASE
+1468,TCP,CSDM,Infrastructure,Medium,CSDM
+1469,TCP,Active-Analysis-Limited-License-Manager,Infrastructure,Medium,Active Analysis Limited License Manager
+1470,TCP,Universal-Analytics,Infrastructure,Medium,Universal Analytics
+1471,TCP,csdmbase,Infrastructure,Medium,csdmbase
+1472,TCP,csdm,Infrastructure,Medium,csdm
+1473,TCP,OpenMath,Infrastructure,Medium,OpenMath
+1474,TCP,Telefinder,Infrastructure,Medium,Telefinder
+1475,TCP,Taligent-License-Manager,Infrastructure,Medium,Taligent License Manager
+1476,TCP,clvm-cfg,Infrastructure,Medium,clvm-cfg
+1477,TCP,ms-sna-server,Infrastructure,Medium,ms-sna-server
+1478,TCP,ms-sna-base,Infrastructure,Medium,ms-sna-base
+1479,TCP,dberegister,Infrastructure,Medium,dberegister
+1480,TCP,PacerForum,Infrastructure,Medium,PacerForum
+1481,TCP,AIRS,Infrastructure,Medium,AIRS
+1482,TCP,Miteksys-License-Manager,Infrastructure,Medium,Miteksys License Manager
+1483,TCP,AFS-License-Manager,Infrastructure,Medium,AFS License Manager
+1484,TCP,Confluent-License-Manager,Infrastructure,Medium,Confluent License Manager
+1485,TCP,LANSource,Infrastructure,Medium,LANSource
+1486,TCP,nmstoposerv,Infrastructure,Medium,nms_topo_serv
+1487,TCP,LocalInfoSrvr,Infrastructure,Medium,LocalInfoSrvr
+1488,TCP,DocStor,C2,High,DocStor
+1489,TCP,dmdocbroker,Infrastructure,Medium,dmdocbroker
+1490,TCP,insitu-conf,Infrastructure,Medium,insitu-conf
+1491,TCP,anynetgateway,Infrastructure,Medium,anynetgateway
+1492,TCP,stone-design-1,Infrastructure,Medium,stone-design-1
+1493,TCP,netmaplm,Infrastructure,Medium,netmap_lm
+1494,TCP,Citrix-ica,Infrastructure,Medium,Citrix/ica
+1495,TCP,cvc,Infrastructure,Medium,cvc
+1496,TCP,liberty-lm,Infrastructure,Medium,liberty-lm
+1497,TCP,rfx-lm,Infrastructure,Medium,rfx-lm
+1498,TCP,Sybase-SQL-Any,Database,High,Sybase SQL Any
+1499,TCP,Federico-Heinz-Consultora,C2,High,Federico Heinz Consultora
+1500,TCP,VLSI-License-Manager,Infrastructure,Medium,VLSI License Manager
+1501,TCP,Satellite-data-Acquisition-System-3,Infrastructure,Medium,Satellite-data Acquisition System 3
+1502,TCP,Shiva,Infrastructure,Medium,Shiva
+1503,TCP,MS-Netmeeting-T120-Databeam,Infrastructure,Medium,MS Netmeeting / T.120 / Databeam
+1504,TCP,EVB-Software-Engineering-License-Manager,Infrastructure,Medium,EVB Software Engineering License Manager
+1505,TCP,Funk-Software-Inc,Infrastructure,Medium,Funk Software Inc.
+1506,TCP,Universal-Time-daemon,Infrastructure,Medium,Universal Time daemon (utcd)
+1507,TCP,symplex,Infrastructure,Medium,symplex
+1508,TCP,diagmond,Infrastructure,Medium,diagmond
+1509,TCP,Robcad-Ltd-License-Manager,Infrastructure,Medium,Robcad Ltd. License Manager
+1510,TCP,Midland-Valley-Exploration-Ltd-Lic-Man,Infrastructure,Medium,Midland Valley Exploration Ltd. Lic. Man.
+1511,TCP,3l-l1,Infrastructure,Medium,3l-l1
+1512,TCP,Microsofts-Windows-Internet-Name-Service,Windows,High,Microsoft's Windows Internet Name Service
+1513,TCP,Fujitsu-Systems-Business-of-America-Inc,Infrastructure,Medium,Fujitsu Systems Business of America Inc
+1514,TCP,Fujitsu-Systems-Business-of-America-Inc,Infrastructure,Medium,Fujitsu Systems Business of America Inc
+1515,TCP,ifor-protocol,Infrastructure,Medium,ifor-protocol
+1516,TCP,Virtual-Places-Audio-data,Infrastructure,Medium,Virtual Places Audio data
+1517,TCP,Virtual-Places-Audio-control,Infrastructure,Medium,Virtual Places Audio control
+1518,TCP,Virtual-Places-Video-data,Infrastructure,Medium,Virtual Places Video data
+1519,TCP,Virtual-Places-Video-control,Infrastructure,Medium,Virtual Places Video control
+1520,TCP,atm-zip-office,Infrastructure,Medium,atm zip office
+1521,TCP,Oracle,Database,High,Oracle database
+1522,TCP,Ricardo-North-America-License-Manager,Infrastructure,Medium,Ricardo North America License Manager
+1523,TCP,cichild,Infrastructure,Medium,cichild
+1524,TCP,dtspcd-ingres,Infrastructure,Medium,dtspcd / ingres
+1525,TCP,Oracle-Prospero-Directory-Service-non-priv,Database,High,Oracle / Prospero Directory Service non-priv
+1526,TCP,Prospero-Data-Access-Prot-non-priv,Infrastructure,Medium,Prospero Data Access Prot non-priv
+1527,TCP,oracle,Database,High,oracle
+1528,TCP,micautoreg,C2,High,micautoreg
+1529,TCP,oracle,Database,High,oracle
+1530,TCP,Oracle-ExtProc-rap-service,Database,High,Oracle ExtProc (PLSExtProc) / rap-service
+1531,TCP,rap-listen,Infrastructure,Medium,rap-listen
+1532,TCP,miroconnect,Infrastructure,Medium,miroconnect
+1533,TCP,Virtual-Places-Software,Infrastructure,Medium,Virtual Places Software
+1534,TCP,micromuse-lm,Infrastructure,Medium,micromuse-lm
+1535,TCP,ampr-info,Infrastructure,Medium,ampr-info
+1536,TCP,ampr-inter,Infrastructure,Medium,ampr-inter
+1537,TCP,isi-lm,Infrastructure,Medium,isi-lm
+1538,TCP,3ds-lm,Infrastructure,Medium,3ds-lm
+1539,TCP,Intellistor-License-Manager,C2,High,Intellistor License Manager
+1540,TCP,rds,Infrastructure,Medium,rds
+1541,TCP,rds2,Infrastructure,Medium,rds2
+1542,TCP,gridgen-elmd,Infrastructure,Medium,gridgen-elmd
+1543,TCP,simba-cs,Infrastructure,Medium,simba-cs
+1544,TCP,aspeclmd,Infrastructure,Medium,aspeclmd
+1545,TCP,vistium-share,Infrastructure,Medium,vistium-share
+1546,TCP,abbaccuray,Infrastructure,Medium,abbaccuray
+1547,TCP,laplink,Infrastructure,Medium,laplink
+1548,TCP,Axon-License-Manager,Infrastructure,Medium,Axon License Manager
+1549,TCP,Shiva-Hose,Infrastructure,Medium,Shiva Hose
+1550,TCP,Image-Storage-license-manager-3M-Company,C2,High,Image Storage license manager 3M Company
+1551,TCP,HECMTL-DB,Infrastructure,Medium,HECMTL-DB
+1552,TCP,pciarray,Infrastructure,Medium,pciarray
+1553,TCP,sna-cs,Infrastructure,Medium,sna-cs
+1554,TCP,CACI-Products-Company-License-Manager,Infrastructure,Medium,CACI Products Company License Manager
+1555,TCP,livelan,Infrastructure,Medium,livelan
+1556,TCP,AshWin-CI-Tecnologies,Infrastructure,Medium,AshWin CI Tecnologies
+1557,TCP,ArborText-License-Manager,Infrastructure,Medium,ArborText License Manager
+1558,TCP,xingmpeg,Infrastructure,Medium,xingmpeg
+1559,TCP,web2host,Web,Medium,web2host
+1560,TCP,asci-val,Infrastructure,Medium,asci-val
+1561,TCP,facilityview,Infrastructure,Medium,facilityview
+1562,TCP,pconnectmgr,Infrastructure,Medium,pconnectmgr
+1563,TCP,Cadabra-License-Manager,Infrastructure,Medium,Cadabra License Manager
+1564,TCP,Pay-Per-View,Infrastructure,Medium,Pay-Per-View
+1565,TCP,WinDD,Infrastructure,Medium,WinDD
+1566,TCP,CORELVIDEO,Infrastructure,Medium,CORELVIDEO
+1567,TCP,jlicelmd,Infrastructure,Medium,jlicelmd
+1568,TCP,tsspmap,Infrastructure,Medium,tsspmap
+1569,TCP,ets,Infrastructure,Medium,ets
+1570,TCP,orbixd,Infrastructure,Medium,orbixd
+1571,TCP,Oracle-Remote-Data-Base,Database,High,Oracle Remote Data Base
+1572,TCP,Chipcom-License-Manager,Infrastructure,Medium,Chipcom License Manager
+1573,TCP,itscomm-ns,Infrastructure,Medium,itscomm-ns
+1574,TCP,mvel-lm,Infrastructure,Medium,mvel-lm
+1575,TCP,oraclenames,Database,High,oraclenames
+1576,TCP,moldflow-lm,Infrastructure,Medium,moldflow-lm
+1577,TCP,hypercube-lm,Infrastructure,Medium,hypercube-lm
+1578,TCP,Jacobus-License-Manager,Infrastructure,Medium,Jacobus License Manager
+1579,TCP,ioc-sea-lm,Infrastructure,Medium,ioc-sea-lm
+1580,TCP,tn-tl-r1,Infrastructure,Medium,tn-tl-r1
+1581,TCP,MIL-2045-47001,Infrastructure,Medium,MIL-2045-47001
+1582,TCP,MSIMS,Infrastructure,Medium,MSIMS
+1583,TCP,simbaexpress,Infrastructure,Medium,simbaexpress
+1584,TCP,tn-tl-fd2,Infrastructure,Medium,tn-tl-fd2
+1585,TCP,intv,Infrastructure,Medium,intv
+1586,TCP,ibm-abtact,Infrastructure,Medium,ibm-abtact
+1587,TCP,praelmd,Infrastructure,Medium,pra_elmd
+1588,TCP,triquest-lm,Infrastructure,Medium,triquest-lm
+1589,TCP,VQP,Infrastructure,Medium,VQP
+1590,TCP,gemini-lm,Infrastructure,Medium,gemini-lm
+1591,TCP,ncpm-pm,Infrastructure,Medium,ncpm-pm
+1592,TCP,commonspace,Infrastructure,Medium,commonspace
+1593,TCP,mainsoft-lm,Infrastructure,Medium,mainsoft-lm
+1594,TCP,sixtrak,Infrastructure,Medium,sixtrak
+1595,TCP,radio,Infrastructure,Medium,radio
+1596,TCP,radio-sm,Infrastructure,Medium,radio-sm
+1597,TCP,orbplus-iiop,Infrastructure,Medium,orbplus-iiop
+1598,TCP,picknfs,Infrastructure,Medium,picknfs
+1599,TCP,simbaservices,Infrastructure,Medium,simbaservices
+1600,TCP,Bofra-A-worm-issd,Infrastructure,Medium,Bofra-A worm / issd
+1601,TCP,aas,Infrastructure,Medium,aas
+1602,TCP,inspect,Infrastructure,Medium,inspect
+1603,TCP,pickodbc,Infrastructure,Medium,pickodbc
+1604,TCP,icabrowser,Infrastructure,Medium,icabrowser
+1605,TCP,Salutation-Manager,Infrastructure,Medium,Salutation Manager (Salutation Protocol)
+1606,TCP,Salutation-Manager,Infrastructure,Medium,Salutation Manager (SLM-API)
+1607,TCP,stt,Infrastructure,Medium,stt
+1608,TCP,Smart-Corp-License-Manager,Infrastructure,Medium,Smart Corp. License Manager
+1609,TCP,isysg-lm,Infrastructure,Medium,isysg-lm
+1610,TCP,taurus-wh,Infrastructure,Medium,taurus-wh
+1611,TCP,Inter-Library-Loan,Infrastructure,Medium,Inter Library Loan
+1612,TCP,NetBill-Transaction-Server,Infrastructure,Medium,NetBill Transaction Server
+1613,TCP,NetBill-Key-Repository,C2,High,NetBill Key Repository
+1614,TCP,NetBill-Credential-Server,Infrastructure,Medium,NetBill Credential Server
+1615,TCP,NetBill-Authorization-Server,Infrastructure,Medium,NetBill Authorization Server
+1616,TCP,NetBill-Product-Server,Infrastructure,Medium,NetBill Product Server
+1617,TCP,Nimrod-Inter-Agent-Communication,Infrastructure,Medium,Nimrod Inter-Agent Communication
+1618,TCP,skytelnet,RemoteAccess,High,skytelnet
+1619,TCP,xs-openstorage,C2,High,xs-openstorage
+1620,TCP,faxportwinport,Infrastructure,Medium,faxportwinport
+1621,TCP,softdataphone,Infrastructure,Medium,softdataphone
+1622,TCP,ontime,Infrastructure,Medium,ontime
+1623,TCP,jaleosnd,Infrastructure,Medium,jaleosnd
+1624,TCP,udp-sr-port,Infrastructure,Medium,udp-sr-port
+1625,TCP,svs-omagent,Infrastructure,Medium,svs-omagent
+1626,TCP,Shockwave,Infrastructure,Medium,Shockwave
+1627,TCP,T128-Gateway,Infrastructure,Medium,T.128 Gateway
+1628,TCP,LonTalk-normal,Infrastructure,Medium,LonTalk normal
+1629,TCP,LonTalk-urgent,Infrastructure,Medium,LonTalk urgent
+1630,TCP,Oracle-Net8-Cman,Database,High,Oracle Net8 Cman
+1631,TCP,Visit-view,Infrastructure,Medium,Visit view
+1632,TCP,PAMMRATC,Infrastructure,Medium,PAMMRATC
+1633,TCP,PAMMRPC,Windows,High,PAMMRPC
+1634,TCP,Log-On-America-Probe,Infrastructure,Medium,Log On America Probe
+1635,TCP,EDB-Server-1,Infrastructure,Medium,EDB Server 1
+1636,TCP,CableNet-Control-Protocol,Infrastructure,Medium,CableNet Control Protocol
+1637,TCP,CableNet-Admin-Protocol,Infrastructure,Medium,CableNet Admin Protocol
+1638,TCP,Bofra-A-worm-CableNet-Info-Protocol,Infrastructure,Medium,Bofra-A worm / CableNet Info Protocol
+1639,TCP,cert-initiator,C2,High,cert-initiator
+1640,TCP,cert-responder,Infrastructure,Medium,cert-responder
+1641,TCP,InVision,Infrastructure,Medium,InVision
+1642,TCP,isis-am,Infrastructure,Medium,isis-am
+1643,TCP,isis-ambc,Infrastructure,Medium,isis-ambc
+1644,TCP,Satellite-data-Acquisition-System-4,Infrastructure,Medium,Satellite-data Acquisition System 4
+1645,TCP,datametrics,Infrastructure,Medium,datametrics
+1646,TCP,sa-msg-port,Infrastructure,Medium,sa-msg-port
+1647,TCP,rsap,Infrastructure,Medium,rsap
+1648,TCP,concurrent-lm,Infrastructure,Medium,concurrent-lm
+1649,TCP,kermit,Infrastructure,Medium,kermit
+1650,TCP,nkd,Infrastructure,Medium,nkd
+1651,TCP,shivaconfsrvr,Infrastructure,Medium,shiva_confsrvr
+1652,TCP,xnmp,Infrastructure,Medium,xnmp
+1653,TCP,alphatech-lm,Infrastructure,Medium,alphatech-lm
+1654,TCP,stargatealerts,Infrastructure,Medium,stargatealerts
+1655,TCP,dec-mbadmin,Infrastructure,Medium,dec-mbadmin
+1656,TCP,dec-mbadmin-h,Infrastructure,Medium,dec-mbadmin-h
+1657,TCP,fujitsu-mmpdc,Infrastructure,Medium,fujitsu-mmpdc
+1658,TCP,sixnetudr,Infrastructure,Medium,sixnetudr
+1659,TCP,Silicon-Grail-License-Manager,Infrastructure,Medium,Silicon Grail License Manager
+1660,TCP,skip-mc-gikreq,Infrastructure,Medium,skip-mc-gikreq
+1661,TCP,netview-aix-1,Infrastructure,Medium,netview-aix-1
+1662,TCP,netview-aix-2,Infrastructure,Medium,netview-aix-2
+1663,TCP,netview-aix-3,Infrastructure,Medium,netview-aix-3
+1664,TCP,netview-aix-4,Infrastructure,Medium,netview-aix-4
+1665,TCP,netview-aix-5,Infrastructure,Medium,netview-aix-5
+1666,TCP,netview-aix-6,Infrastructure,Medium,netview-aix-6
+1667,TCP,netview-aix-7,Infrastructure,Medium,netview-aix-7
+1668,TCP,netview-aix-8,Infrastructure,Medium,netview-aix-8
+1669,TCP,netview-aix-9,Infrastructure,Medium,netview-aix-9
+1670,TCP,netview-aix-10,Infrastructure,Medium,netview-aix-10
+1671,TCP,netview-aix-11,Infrastructure,Medium,netview-aix-11
+1672,TCP,netview-aix-12,Infrastructure,Medium,netview-aix-12
+1673,TCP,Intel-Proshare-Multicast,Infrastructure,Medium,Intel Proshare Multicast
+1674,TCP,Intel-Proshare-Multicast,Infrastructure,Medium,Intel Proshare Multicast
+1675,TCP,Pacific-Data-Products,Infrastructure,Medium,Pacific Data Products
+1676,TCP,netcomm1,Infrastructure,Medium,netcomm1
+1677,TCP,groupwise,Infrastructure,Medium,groupwise
+1678,TCP,prolink,Infrastructure,Medium,prolink
+1679,TCP,darcorp-lm,Infrastructure,Medium,darcorp-lm
+1680,TCP,microcom-sbp,Infrastructure,Medium,microcom-sbp
+1681,TCP,sd-elmd,Infrastructure,Medium,sd-elmd
+1682,TCP,lanyon-lantern,Infrastructure,Medium,lanyon-lantern
+1683,TCP,ncpm-hip,Infrastructure,Medium,ncpm-hip
+1684,TCP,SnareSecure,Infrastructure,Medium,SnareSecure
+1685,TCP,n2nremote,Infrastructure,Medium,n2nremote
+1686,TCP,cvmon,Infrastructure,Medium,cvmon
+1687,TCP,nsjtp-ctrl,Infrastructure,Medium,nsjtp-ctrl
+1688,TCP,nsjtp-data,Infrastructure,Medium,nsjtp-data
+1689,TCP,firefox,Infrastructure,Medium,firefox
+1690,TCP,ng-umds,Infrastructure,Medium,ng-umds
+1691,TCP,empire-empuma,Infrastructure,Medium,empire-empuma
+1692,TCP,sstsys-lm,Infrastructure,Medium,sstsys-lm
+1693,TCP,rrirtr,Infrastructure,Medium,rrirtr
+1694,TCP,rrimwm,Infrastructure,Medium,rrimwm
+1695,TCP,rrilwm,Infrastructure,Medium,rrilwm
+1696,TCP,rrifmm,Infrastructure,Medium,rrifmm
+1697,TCP,rrisat,Infrastructure,Medium,rrisat
+1698,TCP,RSVP-ENCAPSULATION-1,Infrastructure,Medium,RSVP-ENCAPSULATION-1
+1699,TCP,RSVP-ENCAPSULATION-2,Infrastructure,Medium,RSVP-ENCAPSULATION-2
+1700,TCP,mps-raft,Infrastructure,Medium,mps-raft
+1701,TCP,l2tp-AOL,Infrastructure,Medium,l2tp / AOL
+1702,TCP,deskshare,Infrastructure,Medium,deskshare
+1703,TCP,hb-engine,Infrastructure,Medium,hb-engine
+1704,TCP,bcs-broker,Infrastructure,Medium,bcs-broker
+1705,TCP,slingshot,Infrastructure,Medium,slingshot
+1706,TCP,jetform,Infrastructure,Medium,jetform
+1707,TCP,vdmplay,Infrastructure,Medium,vdmplay
+1708,TCP,gat-lmd,Infrastructure,Medium,gat-lmd
+1709,TCP,centra,Infrastructure,Medium,centra
+1710,TCP,impera,Infrastructure,Medium,impera
+1711,TCP,pptconference,Infrastructure,Medium,pptconference
+1712,TCP,resource-monitoring-service,C2,High,resource monitoring service
+1713,TCP,ConferenceTalk,Infrastructure,Medium,ConferenceTalk
+1714,TCP,sesi-lm,Infrastructure,Medium,sesi-lm
+1715,TCP,houdini-lm,Infrastructure,Medium,houdini-lm
+1716,TCP,xmsg,Infrastructure,Medium,xmsg
+1717,TCP,fj-hdnet,Infrastructure,Medium,fj-hdnet
+1718,TCP,h323gatedisc,Infrastructure,Medium,h323gatedisc
+1719,TCP,h323gatestat,Infrastructure,Medium,h323gatestat
+1720,TCP,h323hostcall,Infrastructure,Medium,h323hostcall
+1721,TCP,caicci,Infrastructure,Medium,caicci
+1722,TCP,HKS-License-Manager,Infrastructure,Medium,HKS License Manager
+1723,TCP,pptp,Infrastructure,Medium,pptp
+1724,TCP,csbphonemaster,Infrastructure,Medium,csbphonemaster
+1725,TCP,iden-ralp,Infrastructure,Medium,iden-ralp
+1726,TCP,IBERIAGAMES,Infrastructure,Medium,IBERIAGAMES
+1727,TCP,winddx,Infrastructure,Medium,winddx
+1728,TCP,TELINDUS,Infrastructure,Medium,TELINDUS
+1729,TCP,CityNL-License-Management,Infrastructure,Medium,CityNL License Management
+1730,TCP,roketz,Infrastructure,Medium,roketz
+1731,TCP,MS-Netmeeting-Audio-call-control-MSICCP,Infrastructure,Medium,MS Netmeeting / Audio call control / MSICCP
+1732,TCP,proxim,Infrastructure,Medium,proxim
+1733,TCP,SIMS---SIIPAT-Protocol-for-Alarm-Transmission,Infrastructure,Medium,SIMS - SIIPAT Protocol for Alarm Transmission
+1734,TCP,Camber-Corporation-License-Management,Infrastructure,Medium,Camber Corporation License Management
+1735,TCP,PrivateChat,Infrastructure,Medium,PrivateChat
+1736,TCP,street-stream,Infrastructure,Medium,street-stream
+1737,TCP,ultimad,Infrastructure,Medium,ultimad
+1738,TCP,GameGen1,Infrastructure,Medium,GameGen1
+1739,TCP,webaccess,Web,Medium,webaccess
+1740,TCP,encore,Infrastructure,Medium,encore
+1741,TCP,cisco-net-mgmt,Infrastructure,Medium,cisco-net-mgmt
+1742,TCP,3Com-nsd,Infrastructure,Medium,3Com-nsd
+1743,TCP,Cinema-Graphics-License-Manager,Infrastructure,Medium,Cinema Graphics License Manager
+1744,TCP,ncpm-ft,Infrastructure,Medium,ncpm-ft
+1745,TCP,ISA-Server-proxy-autoconfig-Remote-Winsock,Web,Medium,ISA Server proxy autoconfig / Remote Winsock
+1746,TCP,ftrapid-1,Infrastructure,Medium,ftrapid-1
+1747,TCP,ftrapid-2,Infrastructure,Medium,ftrapid-2
+1748,TCP,oracle-em1,Database,High,oracle-em1
+1749,TCP,aspen-services,Infrastructure,Medium,aspen-services
+1750,TCP,Simple-Socket-Librarys-PortMaster,Infrastructure,Medium,Simple Socket Library's PortMaster
+1751,TCP,SwiftNet,Infrastructure,Medium,SwiftNet
+1752,TCP,Leap-of-Faith-Research-License-Manager,Infrastructure,Medium,Leap of Faith Research License Manager
+1753,TCP,Translogic-License-Manager,Infrastructure,Medium,Translogic License Manager
+1754,TCP,oracle-em2,Database,High,oracle-em2
+1755,TCP,Microsoft-Streaming-Server,Windows,High,Microsoft Streaming Server
+1756,TCP,capfast-lmd,Infrastructure,Medium,capfast-lmd
+1757,TCP,cnhrp,Infrastructure,Medium,cnhrp
+1758,TCP,tftp-mcast,FileTransfer,High,tftp-mcast
+1759,TCP,SPSS-License-Manager,Infrastructure,Medium,SPSS License Manager
+1760,TCP,www-ldap-gw,Web,Medium,www-ldap-gw
+1761,TCP,cft-0,Infrastructure,Medium,cft-0
+1762,TCP,cft-1,Infrastructure,Medium,cft-1
+1763,TCP,cft-2,Infrastructure,Medium,cft-2
+1764,TCP,cft-3,Infrastructure,Medium,cft-3
+1765,TCP,cft-4,Infrastructure,Medium,cft-4
+1766,TCP,cft-5,Infrastructure,Medium,cft-5
+1767,TCP,cft-6,Infrastructure,Medium,cft-6
+1768,TCP,cft-7,Infrastructure,Medium,cft-7
+1769,TCP,bmc-net-adm,Infrastructure,Medium,bmc-net-adm
+1770,TCP,bmc-net-svc,Infrastructure,Medium,bmc-net-svc
+1771,TCP,vaultbase,Infrastructure,Medium,vaultbase
+1772,TCP,EssWeb-Gateway,Web,Medium,EssWeb Gateway
+1773,TCP,KMSControl,Infrastructure,Medium,KMSControl
+1774,TCP,global-dtserv,Infrastructure,Medium,global-dtserv
+1776,TCP,Federal-Emergency-Management-Information-System,Infrastructure,Medium,Federal Emergency Management Information System
+1777,TCP,powerguardian,Infrastructure,Medium,powerguardian
+1778,TCP,prodigy-internet,Infrastructure,Medium,prodigy-internet
+1779,TCP,pharmasoft,Infrastructure,Medium,pharmasoft
+1780,TCP,dpkeyserv,Infrastructure,Medium,dpkeyserv
+1781,TCP,answersoft-lm,Infrastructure,Medium,answersoft-lm
+1782,TCP,HP-JetSend,Infrastructure,Medium,HP JetSend
+1783,TCP,Port-04-14-00-fujitsucojp,Infrastructure,Medium,Port 04/14/00 fujitsu.co.jp
+1784,TCP,Finle-License-Manager,Infrastructure,Medium,Finle License Manager
+1785,TCP,Wind-River-Systems-License-Manager,Infrastructure,Medium,Wind River Systems License Manager
+1786,TCP,funk-logger,Infrastructure,Medium,funk-logger
+1787,TCP,funk-license,Infrastructure,Medium,funk-license
+1788,TCP,psmond,Infrastructure,Medium,psmond
+1789,TCP,hello,Infrastructure,Medium,hello
+1790,TCP,Narrative-Media-Streaming-Protocol,Infrastructure,Medium,Narrative Media Streaming Protocol
+1791,TCP,EA1,Infrastructure,Medium,EA1
+1792,TCP,ibm-dt-2,Infrastructure,Medium,ibm-dt-2
+1793,TCP,rsc-robot,Infrastructure,Medium,rsc-robot
+1794,TCP,cera-bcm,Infrastructure,Medium,cera-bcm
+1795,TCP,dpi-proxy,Web,Medium,dpi-proxy
+1796,TCP,Vocaltec-Server-Administration,Infrastructure,Medium,Vocaltec Server Administration
+1797,TCP,UMA,Infrastructure,Medium,UMA
+1798,TCP,Event-Transfer-Protocol,Infrastructure,Medium,Event Transfer Protocol
+1799,TCP,NETRISK,Infrastructure,Medium,NETRISK
+1800,TCP,ANSYS-License-manager,Infrastructure,Medium,ANSYS-License manager
+1801,TCP,Microsoft-Message-Queuing,Windows,High,Microsoft Message Queuing
+1802,TCP,ConComp1,Infrastructure,Medium,ConComp1
+1803,TCP,HP-HCIP-GWY,Infrastructure,Medium,HP-HCIP-GWY
+1804,TCP,ENL,Infrastructure,Medium,ENL
+1805,TCP,ENL-Name,Infrastructure,Medium,ENL-Name
+1806,TCP,Musiconline,Infrastructure,Medium,Musiconline
+1807,TCP,Fujitsu-Hot-Standby-Protocol,Infrastructure,Medium,Fujitsu Hot Standby Protocol
+1808,TCP,Oracle-VP2,Database,High,Oracle-VP2
+1809,TCP,Oracle-VP1,Database,High,Oracle-VP1
+1810,TCP,Jerand-License-Manager,Infrastructure,Medium,Jerand License Manager
+1811,TCP,Scientia-SDB,Infrastructure,Medium,Scientia-SDB
+1812,TCP,RADIUS,Infrastructure,Medium,RADIUS
+1813,TCP,RADIUS-Accounting-HackToolSkSocket,Infrastructure,Medium,RADIUS Accounting / HackTool.SkSocket
+1814,TCP,TDP-Suite,Infrastructure,Medium,TDP Suite
+1815,TCP,MMPFT,Infrastructure,Medium,MMPFT
+1816,TCP,HARP,Infrastructure,Medium,HARP
+1817,TCP,RKB-OSCS,Infrastructure,Medium,RKB-OSCS
+1818,TCP,Enhanced-Trivial-File-Transfer-Protocol,FileTransfer,Medium,Enhanced Trivial File Transfer Protocol
+1819,TCP,Plato-License-Manager,Infrastructure,Medium,Plato License Manager
+1820,TCP,mcagent,Infrastructure,Medium,mcagent
+1821,TCP,donnyworld,Infrastructure,Medium,donnyworld
+1822,TCP,es-elmd,Infrastructure,Medium,es-elmd
+1823,TCP,Unisys-Natural-Language-License-Manager,Infrastructure,Medium,Unisys Natural Language License Manager
+1824,TCP,metrics-pas,Infrastructure,Medium,metrics-pas
+1825,TCP,DirecPC-Video,Infrastructure,Medium,DirecPC Video
+1826,TCP,ARDT,Infrastructure,Medium,ARDT
+1827,TCP,ASI,Infrastructure,Medium,ASI
+1828,TCP,itm-mcell-u,Infrastructure,Medium,itm-mcell-u
+1829,TCP,Optika-eMedia,Infrastructure,Medium,Optika eMedia
+1830,TCP,Oracle-Net8-CMan-Admin,Database,High,Oracle Net8 CMan Admin
+1831,TCP,Myrtle,Infrastructure,Medium,Myrtle
+1832,TCP,ThoughtTreasure,Infrastructure,Medium,ThoughtTreasure
+1833,TCP,udpradio,Infrastructure,Medium,udpradio
+1834,TCP,ARDUS-Unicast,Infrastructure,Medium,ARDUS Unicast
+1835,TCP,ARDUS-Multicast,Infrastructure,Medium,ARDUS Multicast
+1836,TCP,ste-smsc,Infrastructure,Medium,ste-smsc
+1837,TCP,csoft1,Infrastructure,Medium,csoft1
+1838,TCP,TALNET,Infrastructure,Medium,TALNET
+1839,TCP,netopia-vo1,Infrastructure,Medium,netopia-vo1
+1840,TCP,netopia-vo2,Infrastructure,Medium,netopia-vo2
+1841,TCP,netopia-vo3,Infrastructure,Medium,netopia-vo3
+1842,TCP,netopia-vo4,Infrastructure,Medium,netopia-vo4
+1843,TCP,netopia-vo5,Infrastructure,Medium,netopia-vo5
+1844,TCP,DirecPC-DLL,Infrastructure,Medium,DirecPC-DLL
+1850,TCP,GSI,Infrastructure,Medium,GSI
+1851,TCP,ctcd,Infrastructure,Medium,ctcd
+1860,TCP,SunSCALAR-Services,Infrastructure,Medium,SunSCALAR Services
+1861,TCP,LeCroy-VICP,Infrastructure,Medium,LeCroy VICP
+1862,TCP,techra-server,Infrastructure,Medium,techra-server
+1863,TCP,MSN-Messenger,Infrastructure,Medium,MSN Messenger
+1864,TCP,Paradym-31-Port,Infrastructure,Medium,Paradym 31 Port
+1865,TCP,ENTP,Infrastructure,Medium,ENTP
+1870,TCP,SunSCALAR-DNS-Service,Infrastructure,Medium,SunSCALAR DNS Service
+1871,TCP,Cano-Central-0,Infrastructure,Medium,Cano Central 0
+1872,TCP,Cano-Central-1,Infrastructure,Medium,Cano Central 1
+1873,TCP,Fjmpjps,Infrastructure,Medium,Fjmpjps
+1874,TCP,Fjswapsnp,Infrastructure,Medium,Fjswapsnp
+1881,TCP,IBM-MQSeries,Infrastructure,Medium,IBM MQSeries
+1895,TCP,Vista-4GL,Infrastructure,Medium,Vista 4GL
+1899,TCP,MC2Studios,Infrastructure,Medium,MC2Studios
+1900,TCP,SSDP,Infrastructure,Medium,SSDP
+1901,TCP,Fujitsu-ICL-Terminal-Emulator-Program-A,C2,High,Fujitsu ICL Terminal Emulator Program A
+1902,TCP,Fujitsu-ICL-Terminal-Emulator-Program-B,C2,High,Fujitsu ICL Terminal Emulator Program B
+1903,TCP,Local-Link-Name-Resolution,Infrastructure,Medium,Local Link Name Resolution
+1904,TCP,Fujitsu-ICL-Terminal-Emulator-Program-C,C2,High,Fujitsu ICL Terminal Emulator Program C
+1905,TCP,Secure-UPLink-Gateway-Protocol,Infrastructure,Medium,Secure UP.Link Gateway Protocol
+1906,TCP,TPortMapperReq,Infrastructure,Medium,TPortMapperReq
+1907,TCP,IntraSTAR,Infrastructure,Medium,IntraSTAR
+1908,TCP,Dawn,Infrastructure,Medium,Dawn
+1909,TCP,Global-World-Link,Infrastructure,Medium,Global World Link
+1910,TCP,ultrabac,Infrastructure,Medium,ultrabac
+1911,TCP,Starlight-Networks-Multimedia-Transport-Protocol,Infrastructure,Medium,Starlight Networks Multimedia Transport Protocol
+1912,TCP,rhp-iibp,Infrastructure,Medium,rhp-iibp
+1913,TCP,armadp,Infrastructure,Medium,armadp
+1914,TCP,Elm-Momentum,Infrastructure,Medium,Elm-Momentum
+1915,TCP,FACELINK,Infrastructure,Medium,FACELINK
+1916,TCP,Persoft-Persona,Infrastructure,Medium,Persoft Persona
+1917,TCP,nOAgent,Infrastructure,Medium,nOAgent
+1918,TCP,Candle-Directory-Service---NDS,C2,High,Candle Directory Service - NDS
+1919,TCP,Candle-Directory-Service---DCH,C2,High,Candle Directory Service - DCH
+1920,TCP,Candle-Directory-Service---FERRET,C2,High,Candle Directory Service - FERRET
+1921,TCP,NoAdmin,Infrastructure,Medium,NoAdmin
+1922,TCP,Tapestry,Infrastructure,Medium,Tapestry
+1923,TCP,SPICE,Infrastructure,Medium,SPICE
+1924,TCP,XIIP,Infrastructure,Medium,XIIP
+1930,TCP,Drive-AppServer,Infrastructure,Medium,Drive AppServer
+1931,TCP,AMD-SCHED,Infrastructure,Medium,AMD SCHED
+1944,TCP,close-combat,Infrastructure,Medium,close-combat
+1945,TCP,dialogic-elmd,Infrastructure,Medium,dialogic-elmd
+1946,TCP,tekpls,Infrastructure,Medium,tekpls
+1947,TCP,hlserver,Infrastructure,Medium,hlserver
+1948,TCP,eye2eye,Infrastructure,Medium,eye2eye
+1949,TCP,ISMA-Easdaq-Live,Infrastructure,Medium,ISMA Easdaq Live
+1950,TCP,ISMA-Easdaq-Test,Infrastructure,Medium,ISMA Easdaq Test
+1951,TCP,bcs-lmserver,Infrastructure,Medium,bcs-lmserver
+1952,TCP,mpnjsc,Infrastructure,Medium,mpnjsc
+1953,TCP,Rapid-Base,Infrastructure,Medium,Rapid Base
+1961,TCP,BTS-APPSERVER,Infrastructure,Medium,BTS APPSERVER
+1962,TCP,BIAP-MP,Infrastructure,Medium,BIAP-MP
+1963,TCP,WebMachine,Web,Medium,WebMachine
+1964,TCP,SOLID-E-ENGINE,Infrastructure,Medium,SOLID E ENGINE
+1965,TCP,Tivoli-NPM,Infrastructure,Medium,Tivoli NPM
+1966,TCP,Slush,Infrastructure,Medium,Slush
+1967,TCP,SNS-Quote,Infrastructure,Medium,SNS Quote
+1972,TCP,Cache,Infrastructure,Medium,Cache
+1973,TCP,Data-Link-Switching-Remote-Access-Protocol,Infrastructure,Medium,Data Link Switching Remote Access Protocol
+1974,TCP,DRP,Infrastructure,Medium,DRP
+1975,TCP,TCO-Flash-Agent,Infrastructure,Medium,TCO Flash Agent
+1976,TCP,TCO-Reg-Agent,Infrastructure,Medium,TCO Reg Agent
+1977,TCP,TCO-Address-Book,Infrastructure,Medium,TCO Address Book
+1978,TCP,UniSQL,Database,High,UniSQL
+1979,TCP,UniSQL-Java,Database,High,UniSQL Java
+1984,TCP,BB,Infrastructure,Medium,BB
+1985,TCP,Hot-Standby-Router-Protocol,Infrastructure,Medium,Hot Standby Router Protocol
+1986,TCP,cisco-license-management,Infrastructure,Medium,cisco license management
+1987,TCP,cisco-RSRB-Priority-1-port,Infrastructure,Medium,cisco RSRB Priority 1 port
+1988,TCP,cisco-RSRB-Priority-2-port,Infrastructure,Medium,cisco RSRB Priority 2 port
+1989,TCP,MHSnet-system,Infrastructure,Medium,MHSnet system
+1990,TCP,cisco-STUN-Priority-1-port,Infrastructure,Medium,cisco STUN Priority 1 port
+1991,TCP,cisco-STUN-Priority-2-port,Infrastructure,Medium,cisco STUN Priority 2 port
+1992,TCP,IPsendmsg,Infrastructure,Medium,IPsendmsg
+1993,TCP,cisco-SNMP-TCP-port,Infrastructure,Medium,cisco SNMP TCP port
+1994,TCP,cisco-serial-tunnel-port,Infrastructure,Medium,cisco serial tunnel port
+1995,TCP,cisco-perf-port,Infrastructure,Medium,cisco perf port
+1996,TCP,cisco-Remote-SRB-port,Infrastructure,Medium,cisco Remote SRB port
+1997,TCP,cisco-Gateway-Discovery-Protocol,Infrastructure,Medium,cisco Gateway Discovery Protocol
+1998,TCP,cisco-X25-service,Infrastructure,Medium,cisco X.25 service (XOT)
+1999,TCP,cisco-identification-port-SubSeven-Backdoor,Infrastructure,Medium,cisco identification port / SubSeven (Windows Trojan) / Backdoor (Windows Trojan)
+2000,TCP,Remotely-Anywhere-VIA-NETWORKS-PostOffice-Plus,Infrastructure,Medium,Remotely Anywhere / VIA NET.WORKS PostOffice Plus
+2001,TCP,Cisco-mgmt-Remotely-Anywhere,Infrastructure,Medium,Cisco mgmt / Remotely Anywhere
+2002,TCP,globe,Infrastructure,Medium,globe
+2003,TCP,GNU-finger,Legacy,Low,GNU finger
+2004,TCP,mailbox,Infrastructure,Medium,mailbox
+2005,TCP,encrypted-symmetric-telnet-login,RemoteAccess,High,encrypted symmetric telnet/login
+2006,TCP,invokator,C2,High,invokator
+2007,TCP,dectalk,Infrastructure,Medium,dectalk
+2008,TCP,conf,Infrastructure,Medium,conf
+2009,TCP,news,Infrastructure,Medium,news
+2010,TCP,search,Infrastructure,Medium,search
+2011,TCP,raid,Infrastructure,Medium,raid
+2012,TCP,ttyinfo,Infrastructure,Medium,ttyinfo
+2013,TCP,raid-am,Infrastructure,Medium,raid-am
+2014,TCP,troff,Infrastructure,Medium,troff
+2015,TCP,cypress,Infrastructure,Medium,cypress
+2016,TCP,bootserver,Infrastructure,Medium,bootserver
+2017,TCP,cypress-stat,Infrastructure,Medium,cypress-stat
+2018,TCP,terminaldb,Infrastructure,Medium,terminaldb
+2019,TCP,whosockami,Infrastructure,Medium,whosockami
+2020,TCP,xinupageserver,Infrastructure,Medium,xinupageserver
+2021,TCP,servexec,Infrastructure,Medium,servexec
+2022,TCP,down,Infrastructure,Medium,down
+2023,TCP,xinuexpansion3,Infrastructure,Medium,xinuexpansion3
+2024,TCP,xinuexpansion4,Infrastructure,Medium,xinuexpansion4
+2025,TCP,ellpack,Infrastructure,Medium,ellpack
+2026,TCP,scrabble,Infrastructure,Medium,scrabble
+2027,TCP,shadowserver,Infrastructure,Medium,shadowserver
+2028,TCP,submitserver,Infrastructure,Medium,submitserver
+2030,TCP,device2,Infrastructure,Medium,device2
+2032,TCP,blackboard,Infrastructure,Medium,blackboard
+2033,TCP,glogger,Infrastructure,Medium,glogger
+2034,TCP,scoremgr,Infrastructure,Medium,scoremgr
+2035,TCP,imsldoc,Infrastructure,Medium,imsldoc
+2038,TCP,objectmanager,Infrastructure,Medium,objectmanager
+2040,TCP,lam,Infrastructure,Medium,lam
+2041,TCP,W32Korgo-Worm-interbase,Infrastructure,Medium,W32.Korgo Worm / interbase
+2042,TCP,isis,Infrastructure,Medium,isis
+2043,TCP,isis-bcast,Infrastructure,Medium,isis-bcast
+2044,TCP,rimsl,Infrastructure,Medium,rimsl
+2045,TCP,cdfunc,Infrastructure,Medium,cdfunc
+2046,TCP,sdfunc,Infrastructure,Medium,sdfunc
+2047,TCP,dls,Infrastructure,Medium,dls
+2048,TCP,dls-monitor,C2,High,dls-monitor
+2049,TCP,NFS,FileShare,High,Network file system
+2053,TCP,Kerberos-de-multiplexer,Infrastructure,Medium,Kerberos de-multiplexer
+2054,TCP,distrib-net,Infrastructure,Medium,distrib-net
+2065,TCP,Data-Link-Switch-Read-Port-Number,Infrastructure,Medium,Data Link Switch Read Port Number
+2067,TCP,Data-Link-Switch-Write-Port-Number,Infrastructure,Medium,Data Link Switch Write Port Number
+2080,TCP,Wingate,Infrastructure,Medium,Wingate
+2090,TCP,Load-Report-Protocol,Infrastructure,Medium,Load Report Protocol
+2091,TCP,PRP,Infrastructure,Medium,PRP
+2092,TCP,Descent-3,Infrastructure,Medium,Descent 3
+2093,TCP,NBX-CC,Infrastructure,Medium,NBX CC
+2094,TCP,NBX-AU,Infrastructure,Medium,NBX AU
+2095,TCP,NBX-SER,Infrastructure,Medium,NBX SER
+2096,TCP,NBX-DIR,Infrastructure,Medium,NBX DIR
+2097,TCP,Jet-Form-Preview,Infrastructure,Medium,Jet Form Preview
+2098,TCP,Dialog-Port,Infrastructure,Medium,Dialog Port
+2099,TCP,H2250-Annex-G,Infrastructure,Medium,H.225.0 Annex G
+2100,TCP,amiganetfs,Infrastructure,Medium,amiganetfs
+2101,TCP,Microsoft-Message-Queuing-rtcm-sc104,Windows,High,Microsoft Message Queuing / rtcm-sc104
+2102,TCP,Zephyr-server,Infrastructure,Medium,Zephyr server
+2103,TCP,Microsoft-Message-Queuing-RPC-Zephyr-serv-hm-connection,Windows,High,Microsoft Message Queuing RPC / Zephyr serv-hm connection
+2104,TCP,Zephyr-hostmanager,Infrastructure,Medium,Zephyr hostmanager
+2105,TCP,Microsoft-Message-Queuing-RPC-MiniPay,Windows,High,Microsoft Message Queuing RPC / MiniPay
+2106,TCP,MZAP,Infrastructure,Medium,MZAP
+2107,TCP,Microsoft-Message-Queuing-Management-BinTec-Admin,Windows,High,Microsoft Message Queuing Management / BinTec Admin
+2108,TCP,Comcam,Infrastructure,Medium,Comcam
+2109,TCP,Ergolight,Infrastructure,Medium,Ergolight
+2110,TCP,UMSP,Legacy,Low,UMSP
+2111,TCP,DSATP,Infrastructure,Medium,DSATP
+2112,TCP,Idonix-MetaNet,Infrastructure,Medium,Idonix MetaNet
+2113,TCP,HSL-StoRM,C2,High,HSL StoRM
+2114,TCP,NEWHEIGHTS,Infrastructure,Medium,NEWHEIGHTS
+2115,TCP,KDM-Bugs,Infrastructure,Medium,KDM / Bugs (Windows Trojan)
+2116,TCP,CCOWCMR,Infrastructure,Medium,CCOWCMR
+2117,TCP,MENTACLIENT,Infrastructure,Medium,MENTACLIENT
+2118,TCP,MENTASERVER,Infrastructure,Medium,MENTASERVER
+2119,TCP,GSIGATEKEEPER,Infrastructure,Medium,GSIGATEKEEPER
+2120,TCP,Quick-Eagle-Networks-CP,Infrastructure,Medium,Quick Eagle Networks CP
+2121,TCP,CCProxy-FTP-SCIENTIA-SSDB,Web,Medium,CCProxy FTP / SCIENTIA-SSDB
+2122,TCP,CauPC-Remote-Control,Infrastructure,Medium,CauPC Remote Control
+2123,TCP,GTP-Control-Plane,Infrastructure,Medium,GTP-Control Plane (3GPP)
+2124,TCP,ELATELINK,Infrastructure,Medium,ELATELINK
+2125,TCP,LOCKSTEP,Infrastructure,Medium,LOCKSTEP
+2126,TCP,PktCable-COPS,Infrastructure,Medium,PktCable-COPS
+2127,TCP,INDEX-PC-WB,Infrastructure,Medium,INDEX-PC-WB
+2128,TCP,Net-Steward-Control,Infrastructure,Medium,Net Steward Control
+2129,TCP,cs-livecom,Infrastructure,Medium,cs-live.com
+2130,TCP,SWC-XDS,Infrastructure,Medium,SWC-XDS
+2131,TCP,Avantageb2b,Infrastructure,Medium,Avantageb2b
+2132,TCP,AVAIL-EPMAP,Infrastructure,Medium,AVAIL-EPMAP
+2133,TCP,ZYMED-ZPP,Infrastructure,Medium,ZYMED-ZPP
+2134,TCP,AVENUE,Infrastructure,Medium,AVENUE
+2135,TCP,Grid-Resource-Information-Server,Infrastructure,Medium,Grid Resource Information Server
+2136,TCP,APPWORXSRV,Infrastructure,Medium,APPWORXSRV
+2137,TCP,CONNECT,Infrastructure,Medium,CONNECT
+2138,TCP,UNBIND-CLUSTER,Infrastructure,Medium,UNBIND-CLUSTER
+2139,TCP,IAS-AUTH,Infrastructure,Medium,IAS-AUTH
+2140,TCP,IAS-REG,Infrastructure,Medium,IAS-REG
+2141,TCP,IAS-ADMIND,Infrastructure,Medium,IAS-ADMIND
+2142,TCP,TDM-OVER-IP,Infrastructure,Medium,TDM-OVER-IP
+2143,TCP,Live-Vault-Job-Control,Infrastructure,Medium,Live Vault Job Control
+2144,TCP,Live-Vault-Fast-Object-Transfer,Infrastructure,Medium,Live Vault Fast Object Transfer
+2145,TCP,Live-Vault-Remote-Diagnostic-Console-Support,Infrastructure,Medium,Live Vault Remote Diagnostic Console Support
+2146,TCP,Live-Vault-Admin-Event-Notification,Infrastructure,Medium,Live Vault Admin Event Notification
+2147,TCP,Live-Vault-Authentication,Infrastructure,Medium,Live Vault Authentication
+2148,TCP,VERITAS-UNIVERSAL-COMMUNICATION-LAYER,Infrastructure,Medium,VERITAS UNIVERSAL COMMUNICATION LAYER
+2149,TCP,ACPTSYS,Infrastructure,Medium,ACPTSYS
+2150,TCP,DYNAMIC3D,Infrastructure,Medium,DYNAMIC3D
+2151,TCP,DOCENT,Infrastructure,Medium,DOCENT
+2152,TCP,GTP-User-Plane,Infrastructure,Medium,GTP-User Plane (3GPP)
+2165,TCP,X-Bone-API,Infrastructure,Medium,X-Bone API
+2166,TCP,IWSERVER,Infrastructure,Medium,IWSERVER
+2180,TCP,Millicent-Vendor-Gateway-Server,Infrastructure,Medium,Millicent Vendor Gateway Server
+2181,TCP,Zookeeper,Infrastructure,Medium,Coordination service
+2190,TCP,TiVoConnect-Beacon,Infrastructure,Medium,TiVoConnect Beacon
+2191,TCP,TvBus-Messaging,Infrastructure,Medium,TvBus Messaging
+2200,TCP,ICI,Infrastructure,Medium,ICI
+2201,TCP,Advanced-Training-System-Program,Infrastructure,Medium,Advanced Training System Program
+2202,TCP,Int-Multimedia-Teleconferencing-Cosortium,Infrastructure,Medium,Int. Multimedia Teleconferencing Cosortium
+2213,TCP,Kali,Infrastructure,Medium,Kali
+2220,TCP,Ganymede,Infrastructure,Medium,Ganymede
+2221,TCP,Rockwell-CSP1,Infrastructure,Medium,Rockwell CSP1
+2222,TCP,SSH-Alt,RemoteAccess,High,Alternative SSH port
+2223,TCP,Rockwell-CSP3,Infrastructure,Medium,Rockwell CSP3
+2232,TCP,IVS-Video-default,Infrastructure,Medium,IVS Video default
+2233,TCP,INFOCRYPT,Infrastructure,Medium,INFOCRYPT
+2234,TCP,DirectPlay,Infrastructure,Medium,DirectPlay
+2235,TCP,Sercomm-WLink,Infrastructure,Medium,Sercomm-WLink
+2236,TCP,Nani,Infrastructure,Medium,Nani
+2237,TCP,Optech-Port1-License-Manager,Infrastructure,Medium,Optech Port1 License Manager
+2238,TCP,AVIVA-SNA-SERVER,Infrastructure,Medium,AVIVA SNA SERVER
+2239,TCP,Image-Query,Infrastructure,Medium,Image Query
+2240,TCP,RECIPe,Infrastructure,Medium,RECIPe
+2241,TCP,IVS-Daemon,Infrastructure,Medium,IVS Daemon
+2242,TCP,Folio-Remote-Server,Infrastructure,Medium,Folio Remote Server
+2243,TCP,Magicom-Protocol,Infrastructure,Medium,Magicom Protocol
+2244,TCP,NMS-Server,Infrastructure,Medium,NMS Server
+2245,TCP,HaO,Infrastructure,Medium,HaO
+2279,TCP,xmquery,Infrastructure,Medium,xmquery
+2280,TCP,LNVPOLLER,Infrastructure,Medium,LNVPOLLER
+2281,TCP,LNVCONSOLE,Infrastructure,Medium,LNVCONSOLE
+2282,TCP,LNVALARM,Infrastructure,Medium,LNVALARM
+2283,TCP,DumaruY-LNVSTATUS,Infrastructure,Medium,Dumaru.Y (Windows trojan) / LNVSTATUS
+2284,TCP,LNVMAPS,Infrastructure,Medium,LNVMAPS
+2285,TCP,LNVMAILMON,Infrastructure,Medium,LNVMAILMON
+2286,TCP,NAS-Metering,Infrastructure,Medium,NAS-Metering
+2287,TCP,DNA,Infrastructure,Medium,DNA
+2288,TCP,NETML,Infrastructure,Medium,NETML
+2294,TCP,Konshus-License-Manager,Infrastructure,Medium,Konshus License Manager (FLEX)
+2295,TCP,Advant-License-Manager,Infrastructure,Medium,Advant License Manager
+2296,TCP,Theta-License-Manager,Infrastructure,Medium,Theta License Manager (Rainbow)
+2297,TCP,D2K-DataMover-1,Infrastructure,Medium,D2K DataMover 1
+2298,TCP,D2K-DataMover-2,Infrastructure,Medium,D2K DataMover 2
+2299,TCP,PC-Telecommute,Infrastructure,Medium,PC Telecommute
+2300,TCP,CVMMON,Infrastructure,Medium,CVMMON
+2301,TCP,Compaq-HTTP,Web,Medium,Compaq HTTP
+2302,TCP,Bindery-Support,Infrastructure,Medium,Bindery Support
+2303,TCP,Proxy-Gateway,Web,Medium,Proxy Gateway
+2304,TCP,Attachmate-UTS,Infrastructure,Medium,Attachmate UTS
+2305,TCP,MT-ScaleServer,Infrastructure,Medium,MT ScaleServer
+2306,TCP,TAPPI-BoxNet,Infrastructure,Medium,TAPPI BoxNet
+2307,TCP,pehelp,Infrastructure,Medium,pehelp
+2308,TCP,sdhelp,Infrastructure,Medium,sdhelp
+2309,TCP,SD-Server,Infrastructure,Medium,SD Server
+2310,TCP,SD-Client,Infrastructure,Medium,SD Client
+2311,TCP,Message-Service,Infrastructure,Medium,Message Service
+2313,TCP,IAPP,Infrastructure,Medium,IAPP (Inter Access Point Protocol)
+2314,TCP,CR-WebSystems,Web,Medium,CR WebSystems
+2315,TCP,Precise-Sft,Infrastructure,Medium,Precise Sft.
+2316,TCP,SENT-License-Manager,Infrastructure,Medium,SENT License Manager
+2317,TCP,Attachmate-G32,Infrastructure,Medium,Attachmate G32
+2318,TCP,Cadence-Control,Infrastructure,Medium,Cadence Control
+2319,TCP,InfoLibria,Infrastructure,Medium,InfoLibria
+2320,TCP,Siebel-NS,Infrastructure,Medium,Siebel NS
+2321,TCP,RDLAP-over-UDP,Infrastructure,Medium,RDLAP over UDP
+2322,TCP,ofsd,Infrastructure,Medium,ofsd
+2323,TCP,3d-nfsd,Infrastructure,Medium,3d-nfsd
+2324,TCP,Cosmocall,Infrastructure,Medium,Cosmocall
+2325,TCP,Design-Space-License-Management,Infrastructure,Medium,Design Space License Management
+2326,TCP,IDCP,Infrastructure,Medium,IDCP
+2327,TCP,xingcsm,Infrastructure,Medium,xingcsm
+2328,TCP,Netrix-SFTM,Infrastructure,Medium,Netrix SFTM
+2329,TCP,NVD,Infrastructure,Medium,NVD
+2330,TCP,TSCCHAT,Infrastructure,Medium,TSCCHAT
+2331,TCP,AGENTVIEW,Infrastructure,Medium,AGENTVIEW
+2332,TCP,RCC-Host,Infrastructure,Medium,RCC Host
+2333,TCP,SNAPP,Infrastructure,Medium,SNAPP
+2334,TCP,ACE-Client-Auth,Infrastructure,Medium,ACE Client Auth
+2335,TCP,ACE-Proxy,Web,Medium,ACE Proxy
+2336,TCP,Apple-UG-Control,Infrastructure,Medium,Apple UG Control
+2337,TCP,ideesrv,Infrastructure,Medium,ideesrv
+2338,TCP,Norton-Lambert,Infrastructure,Medium,Norton Lambert
+2339,TCP,3Com-WebView,Web,Medium,3Com WebView
+2340,TCP,WRS-Registry,Infrastructure,Medium,WRS Registry
+2341,TCP,XIO-Status,Infrastructure,Medium,XIO Status
+2342,TCP,Seagate-Manage-Exec,Infrastructure,Medium,Seagate Manage Exec
+2343,TCP,nati-logos,Infrastructure,Medium,nati logos
+2344,TCP,fcmsys,Infrastructure,Medium,fcmsys
+2345,TCP,dbm,Infrastructure,Medium,dbm
+2346,TCP,Game-Connection-Port,Infrastructure,Medium,Game Connection Port
+2347,TCP,Game-Announcement-and-Location,Infrastructure,Medium,Game Announcement and Location
+2348,TCP,Information-to-query-for-game-status,Infrastructure,Medium,Information to query for game status
+2349,TCP,Diagnostics-Port,Infrastructure,Medium,Diagnostics Port
+2350,TCP,psbserver,Infrastructure,Medium,psbserver
+2351,TCP,psrserver,Infrastructure,Medium,psrserver
+2352,TCP,pslserver,Infrastructure,Medium,pslserver
+2353,TCP,pspserver,Infrastructure,Medium,pspserver
+2354,TCP,psprserver,Infrastructure,Medium,psprserver
+2355,TCP,psdbserver,Infrastructure,Medium,psdbserver
+2356,TCP,GXT-License-Managemant,Infrastructure,Medium,GXT License Managemant
+2357,TCP,UniHub-Server,Infrastructure,Medium,UniHub Server
+2358,TCP,Futrix,Infrastructure,Medium,Futrix
+2359,TCP,FlukeServer,Infrastructure,Medium,FlukeServer
+2360,TCP,NexstorIndLtd,C2,High,NexstorIndLtd
+2361,TCP,TL1,Infrastructure,Medium,TL1
+2362,TCP,digiman,Infrastructure,Medium,digiman
+2363,TCP,Media-Central-NFSD,Infrastructure,Medium,Media Central NFSD
+2364,TCP,OI-2000,Infrastructure,Medium,OI-2000
+2365,TCP,dbref,Infrastructure,Medium,dbref
+2366,TCP,qip-login,Infrastructure,Medium,qip-login
+2367,TCP,Service-Control,Infrastructure,Medium,Service Control
+2368,TCP,OpenTable,Infrastructure,Medium,OpenTable
+2369,TCP,ACS2000-DSP,Infrastructure,Medium,ACS2000 DSP
+2370,TCP,L3-HBMon,Infrastructure,Medium,L3-HBMon
+2381,TCP,Compaq-HTTPS,Web,Medium,Compaq HTTPS
+2382,TCP,Microsoft-OLAP,Windows,High,Microsoft OLAP
+2383,TCP,Microsoft-OLAP,Windows,High,Microsoft OLAP
+2384,TCP,SD-REQUEST,Infrastructure,Medium,SD-REQUEST
+2389,TCP,OpenView-Session-Mgr,Infrastructure,Medium,OpenView Session Mgr
+2390,TCP,RSMTP,Infrastructure,Medium,RSMTP
+2391,TCP,3COM-Net-Management,Infrastructure,Medium,3COM Net Management
+2392,TCP,Tactical-Auth,Infrastructure,Medium,Tactical Auth
+2393,TCP,MS-OLAP-1,Infrastructure,Medium,MS OLAP 1
+2394,TCP,MS-OLAP-2,Infrastructure,Medium,MS OLAP 2
+2395,TCP,LAN900-Remote,Infrastructure,Medium,LAN900 Remote
+2396,TCP,Wusage,Infrastructure,Medium,Wusage
+2397,TCP,NCL,Infrastructure,Medium,NCL
+2398,TCP,Orbiter,Infrastructure,Medium,Orbiter
+2399,TCP,FileMaker-Inc---Data-Access-Layer,Infrastructure,Medium,FileMaker Inc. - Data Access Layer
+2400,TCP,OpEquus-Server,Infrastructure,Medium,OpEquus Server
+2401,TCP,cvspserver,Infrastructure,Medium,cvspserver
+2402,TCP,TaskMaster-2000-Server,Infrastructure,Medium,TaskMaster 2000 Server
+2403,TCP,TaskMaster-2000-Web,Web,Medium,TaskMaster 2000 Web
+2404,TCP,IEC870-5-104,Infrastructure,Medium,IEC870-5-104
+2405,TCP,TRC-Netpoll,Infrastructure,Medium,TRC Netpoll
+2406,TCP,JediServer,Infrastructure,Medium,JediServer
+2407,TCP,Orion,Infrastructure,Medium,Orion
+2408,TCP,OptimaNet,Infrastructure,Medium,OptimaNet
+2409,TCP,SNS-Protocol,Infrastructure,Medium,SNS Protocol
+2410,TCP,VRTS-Registry,Infrastructure,Medium,VRTS Registry
+2411,TCP,Netwave-AP-Management,Infrastructure,Medium,Netwave AP Management
+2412,TCP,CDN,Infrastructure,Medium,CDN
+2413,TCP,orion-rmi-reg,Infrastructure,Medium,orion-rmi-reg
+2414,TCP,Interlingua,Infrastructure,Medium,Interlingua
+2415,TCP,COMTEST,Infrastructure,Medium,COMTEST
+2416,TCP,RMT-Server,Infrastructure,Medium,RMT Server
+2417,TCP,Composit-Server,Infrastructure,Medium,Composit Server
+2418,TCP,cas,Infrastructure,Medium,cas
+2419,TCP,Attachmate-S2S,Infrastructure,Medium,Attachmate S2S
+2420,TCP,DSL-Remote-Management,Infrastructure,Medium,DSL Remote Management
+2421,TCP,G-Talk,Infrastructure,Medium,G-Talk
+2422,TCP,CRMSBITS,Infrastructure,Medium,CRMSBITS
+2423,TCP,RNRP,Infrastructure,Medium,RNRP
+2424,TCP,KOFAX-SVR,Infrastructure,Medium,KOFAX-SVR
+2425,TCP,Fujitsu-App-Manager,Infrastructure,Medium,Fujitsu App Manager
+2426,TCP,Appliant-TCP,Infrastructure,Medium,Appliant TCP
+2427,TCP,Media-Gateway-Control-Protocol-Gateway,Infrastructure,Medium,Media Gateway Control Protocol Gateway
+2428,TCP,One-Way-Trip-Time,Infrastructure,Medium,One Way Trip Time
+2429,TCP,FT-ROLE,Infrastructure,Medium,FT-ROLE
+2430,TCP,venus,Infrastructure,Medium,venus
+2431,TCP,venus-se,Infrastructure,Medium,venus-se
+2432,TCP,codasrv,Infrastructure,Medium,codasrv
+2433,TCP,codasrv-se,Infrastructure,Medium,codasrv-se
+2434,TCP,pxc-epmap,Infrastructure,Medium,pxc-epmap
+2435,TCP,OptiLogic,Infrastructure,Medium,OptiLogic
+2436,TCP,TOP-X,Infrastructure,Medium,TOP/X
+2437,TCP,UniControl,Infrastructure,Medium,UniControl
+2438,TCP,MSP,Legacy,Low,MSP
+2439,TCP,SybaseDBSynch,Infrastructure,Medium,SybaseDBSynch
+2440,TCP,Spearway-Lockers,Infrastructure,Medium,Spearway Lockers
+2441,TCP,pvsw-inet,Infrastructure,Medium,pvsw-inet
+2442,TCP,Netangel,Infrastructure,Medium,Netangel
+2443,TCP,PowerClient-Central-Storage-Facility,C2,High,PowerClient Central Storage Facility
+2444,TCP,BT-PP2-Sectrans,Infrastructure,Medium,BT PP2 Sectrans
+2445,TCP,DTN1,Infrastructure,Medium,DTN1
+2446,TCP,buesservice,Infrastructure,Medium,bues_service
+2447,TCP,OpenView-NNM-daemon,Infrastructure,Medium,OpenView NNM daemon
+2448,TCP,hpppsvr,Infrastructure,Medium,hpppsvr
+2449,TCP,RATL,Infrastructure,Medium,RATL
+2450,TCP,netadmin,Infrastructure,Medium,netadmin
+2451,TCP,netchat,Infrastructure,Medium,netchat
+2452,TCP,SnifferClient,Infrastructure,Medium,SnifferClient
+2453,TCP,madge-om,Infrastructure,Medium,madge-om
+2454,TCP,IndX-DDS,Infrastructure,Medium,IndX-DDS
+2455,TCP,WAGO-IO-SYSTEM,Infrastructure,Medium,WAGO-IO-SYSTEM
+2456,TCP,altav-remmgt,Infrastructure,Medium,altav-remmgt
+2457,TCP,RapidoIP,Infrastructure,Medium,Rapido_IP
+2458,TCP,griffin,Infrastructure,Medium,griffin
+2459,TCP,Community,Infrastructure,Medium,Community
+2460,TCP,ms-theater,Infrastructure,Medium,ms-theater
+2461,TCP,qadmifoper,Infrastructure,Medium,qadmifoper
+2462,TCP,qadmifevent,Infrastructure,Medium,qadmifevent
+2463,TCP,Symbios-Raid,Infrastructure,Medium,Symbios Raid
+2464,TCP,DirecPC-SI,Infrastructure,Medium,DirecPC SI
+2465,TCP,Load-Balance-Management,Infrastructure,Medium,Load Balance Management
+2466,TCP,Load-Balance-Forwarding,Infrastructure,Medium,Load Balance Forwarding
+2467,TCP,High-Criteria,Infrastructure,Medium,High Criteria
+2468,TCP,qipmsgd,Infrastructure,Medium,qip_msgd
+2469,TCP,MTI-TCS-COMM,Infrastructure,Medium,MTI-TCS-COMM
+2470,TCP,taskman-port,Infrastructure,Medium,taskman port
+2471,TCP,SeaODBC,Infrastructure,Medium,SeaODBC
+2472,TCP,C3,Infrastructure,Medium,C3
+2473,TCP,Aker-cdp,Infrastructure,Medium,Aker-cdp
+2474,TCP,Vital-Analysis,Infrastructure,Medium,Vital Analysis
+2475,TCP,ACE-Server,Infrastructure,Medium,ACE Server
+2476,TCP,ACE-Server-Propagation,Infrastructure,Medium,ACE Server Propagation
+2477,TCP,SecurSight-Certificate-Valifation-Service,Infrastructure,Medium,SecurSight Certificate Valifation Service
+2478,TCP,SecurSight-Authentication-Server,Infrastructure,Medium,SecurSight Authentication Server (SLL)
+2479,TCP,SecurSight-Event-Logging-Server,Infrastructure,Medium,SecurSight Event Logging Server (SSL)
+2480,TCP,Lingwoods-Detail,Infrastructure,Medium,Lingwood's Detail
+2481,TCP,Oracle-GIOP,Database,High,Oracle GIOP
+2482,TCP,Oracle-GIOP-SSL,Database,High,Oracle GIOP SSL
+2483,TCP,Oracle-SSL,Database,Medium,Secure Oracle
+2484,TCP,Oracle-TCPS,Database,Medium,Secure Oracle TCPS
+2485,TCP,Net-Objects1,Infrastructure,Medium,Net Objects1
+2486,TCP,Net-Objects2,Infrastructure,Medium,Net Objects2
+2487,TCP,Policy-Notice-Service,Infrastructure,Medium,Policy Notice Service
+2488,TCP,Moy-Corporation,Infrastructure,Medium,Moy Corporation
+2489,TCP,TSILB,Infrastructure,Medium,TSILB
+2490,TCP,qipqdhcp,Infrastructure,Medium,qip_qdhcp
+2491,TCP,Conclave-CPP,Infrastructure,Medium,Conclave CPP
+2492,TCP,GROOVE,Infrastructure,Medium,GROOVE
+2493,TCP,Talarian-MQS,Infrastructure,Medium,Talarian MQS
+2494,TCP,BMC-AR,Infrastructure,Medium,BMC AR
+2495,TCP,Fast-Remote-Services,Infrastructure,Medium,Fast Remote Services
+2496,TCP,DIRGIS,Infrastructure,Medium,DIRGIS
+2497,TCP,Quad-DB,Infrastructure,Medium,Quad DB
+2498,TCP,ODN-CasTraq,Infrastructure,Medium,ODN-CasTraq
+2499,TCP,UniControl,Infrastructure,Medium,UniControl
+2500,TCP,Resource-Tracking-system-server,Infrastructure,Medium,Resource Tracking system server
+2501,TCP,Resource-Tracking-system-client,Infrastructure,Medium,Resource Tracking system client
+2502,TCP,Kentrox-Protocol,Infrastructure,Medium,Kentrox Protocol
+2503,TCP,NMS-DPNSS,Infrastructure,Medium,NMS-DPNSS
+2504,TCP,WLBS,Infrastructure,Medium,WLBS
+2505,TCP,torque-traffic,C2,High,torque-traffic
+2506,TCP,jbroker,Infrastructure,Medium,jbroker
+2507,TCP,spock,Infrastructure,Medium,spock
+2508,TCP,JDataStore,C2,High,JDataStore
+2509,TCP,fjmpss,Infrastructure,Medium,fjmpss
+2510,TCP,fjappmgrbulk,Infrastructure,Medium,fjappmgrbulk
+2511,TCP,Metastorm,C2,High,Metastorm
+2512,TCP,Citrix-IMA,Infrastructure,Medium,Citrix IMA
+2513,TCP,Citrix-ADMIN,Infrastructure,Medium,Citrix ADMIN
+2514,TCP,Facsys-NTP,Infrastructure,Medium,Facsys NTP
+2515,TCP,Facsys-Router,Infrastructure,Medium,Facsys Router
+2516,TCP,Main-Control,Infrastructure,Medium,Main Control
+2517,TCP,H323-Annex-E-call-signaling-transport,Infrastructure,Medium,H.323 Annex E call signaling transport
+2518,TCP,Willy,Infrastructure,Medium,Willy
+2519,TCP,globmsgsvc,Infrastructure,Medium,globmsgsvc
+2520,TCP,pvsw,Infrastructure,Medium,pvsw
+2521,TCP,Adaptec-Manager,Infrastructure,Medium,Adaptec Manager
+2522,TCP,WinDb,Infrastructure,Medium,WinDb
+2523,TCP,Qke-LLC-V3,Infrastructure,Medium,Qke LLC V.3
+2524,TCP,Optiwave-License-Management,Infrastructure,Medium,Optiwave License Management
+2525,TCP,MS-V-Worlds,Infrastructure,Medium,MS V-Worlds
+2526,TCP,EMA-License-Manager,Infrastructure,Medium,EMA License Manager
+2527,TCP,IQ-Server,Infrastructure,Medium,IQ Server
+2528,TCP,NCR-CCL,Infrastructure,Medium,NCR CCL
+2529,TCP,UTS-FTP,FileTransfer,Medium,UTS FTP
+2530,TCP,VR-Commerce,Infrastructure,Medium,VR Commerce
+2531,TCP,ITO-E-GUI,Infrastructure,Medium,ITO-E GUI
+2532,TCP,OVTOPMD,Infrastructure,Medium,OVTOPMD
+2533,TCP,SnifferServer,Infrastructure,Medium,SnifferServer
+2534,TCP,Combox-Web-Access,Web,Medium,Combox Web Access
+2535,TCP,W32Beagle-trojan-MADCAP,Infrastructure,Medium,W32.Beagle trojan / MADCAP
+2536,TCP,btpp2audctr1,Infrastructure,Medium,btpp2audctr1
+2537,TCP,Upgrade-Protocol,Infrastructure,Medium,Upgrade Protocol
+2538,TCP,vnwk-prapi,Infrastructure,Medium,vnwk-prapi
+2539,TCP,VSI-Admin,Infrastructure,Medium,VSI Admin
+2540,TCP,LonWorks,Infrastructure,Medium,LonWorks
+2541,TCP,LonWorks2,Infrastructure,Medium,LonWorks2
+2542,TCP,daVinci,Infrastructure,Medium,daVinci
+2543,TCP,REFTEK,Infrastructure,Medium,REFTEK
+2544,TCP,Novell-ZEN,Infrastructure,Medium,Novell ZEN
+2545,TCP,sis-emt,Infrastructure,Medium,sis-emt
+2546,TCP,vytalvaultbrtp,Infrastructure,Medium,vytalvaultbrtp
+2547,TCP,vytalvaultvsmp,Infrastructure,Medium,vytalvaultvsmp
+2548,TCP,vytalvaultpipe,Infrastructure,Medium,vytalvaultpipe
+2549,TCP,IPASS,Infrastructure,Medium,IPASS
+2550,TCP,ADS,Infrastructure,Medium,ADS
+2551,TCP,ISG-UDA-Server,Infrastructure,Medium,ISG UDA Server
+2552,TCP,Call-Logging,Infrastructure,Medium,Call Logging
+2553,TCP,efidiningport,Infrastructure,Medium,efidiningport
+2554,TCP,VCnet-Link-v10,Infrastructure,Medium,VCnet-Link v10
+2555,TCP,Compaq-WCP,Infrastructure,Medium,Compaq WCP
+2556,TCP,W32BeagleN-trojan-MADCAP-nicetec-nmsvc,Infrastructure,Medium,W32.Beagle.N trojan / MADCAP / nicetec-nmsvc
+2557,TCP,nicetec-mgmt,Infrastructure,Medium,nicetec-mgmt
+2558,TCP,PCLE-Multi-Media,Infrastructure,Medium,PCLE Multi Media
+2559,TCP,LSTP,Infrastructure,Medium,LSTP
+2560,TCP,labrat,Infrastructure,Medium,labrat
+2561,TCP,MosaixCC,Infrastructure,Medium,MosaixCC
+2562,TCP,Delibo,Infrastructure,Medium,Delibo
+2563,TCP,CTI-Redwood,Infrastructure,Medium,CTI Redwood
+2564,TCP,HP-3000-NS-VT-block-mode-telnet,RemoteAccess,High,HP 3000 NS/VT block mode telnet
+2565,TCP,Coordinator-Server,C2,High,Coordinator Server
+2566,TCP,pcs-pcw,Infrastructure,Medium,pcs-pcw
+2567,TCP,Cisco-Line-Protocol,Infrastructure,Medium,Cisco Line Protocol
+2568,TCP,SPAM-TRAP,Infrastructure,Medium,SPAM TRAP
+2569,TCP,Sonus-Call-Signal,Infrastructure,Medium,Sonus Call Signal
+2570,TCP,HS-Port,Infrastructure,Medium,HS Port
+2571,TCP,CECSVC,Infrastructure,Medium,CECSVC
+2572,TCP,IBP,Infrastructure,Medium,IBP
+2573,TCP,Trust-Establish,Infrastructure,Medium,Trust Establish
+2574,TCP,Blockade-BPSP,Infrastructure,Medium,Blockade BPSP
+2575,TCP,HL7,Infrastructure,Medium,HL7
+2576,TCP,TCL-Pro-Debugger,Infrastructure,Medium,TCL Pro Debugger
+2577,TCP,Scriptics-Lsrvr,Infrastructure,Medium,Scriptics Lsrvr
+2578,TCP,RVS-ISDN-DCP,Infrastructure,Medium,RVS ISDN DCP
+2579,TCP,mpfoncl,Infrastructure,Medium,mpfoncl
+2580,TCP,Tributary,Infrastructure,Medium,Tributary
+2581,TCP,ARGIS-TE,Infrastructure,Medium,ARGIS TE
+2582,TCP,ARGIS-DS,Infrastructure,Medium,ARGIS DS
+2583,TCP,MON-Wincrash2,Infrastructure,Medium,MON / Wincrash2
+2584,TCP,cyaserv,Infrastructure,Medium,cyaserv
+2585,TCP,NETX-Server,Infrastructure,Medium,NETX Server
+2586,TCP,NETX-Agent,Infrastructure,Medium,NETX Agent
+2587,TCP,MASC,Infrastructure,Medium,MASC
+2588,TCP,Privilege,Infrastructure,Medium,Privilege
+2589,TCP,quartus-tcl,Infrastructure,Medium,quartus tcl
+2590,TCP,idotdist,Infrastructure,Medium,idotdist
+2591,TCP,Maytag-Shuffle,Infrastructure,Medium,Maytag Shuffle
+2592,TCP,netrek,Infrastructure,Medium,netrek
+2593,TCP,MNS-Mail-Notice-Service,Infrastructure,Medium,MNS Mail Notice Service
+2594,TCP,Data-Base-Server,Infrastructure,Medium,Data Base Server
+2595,TCP,World-Fusion-1,Infrastructure,Medium,World Fusion 1
+2596,TCP,World-Fusion-2,Infrastructure,Medium,World Fusion 2
+2597,TCP,Homestead-Glory,Infrastructure,Medium,Homestead Glory
+2598,TCP,Citrix-MA-Client,Infrastructure,Medium,Citrix MA Client
+2599,TCP,Meridian-Data,Infrastructure,Medium,Meridian Data
+2600,TCP,HPSTGMGR,Infrastructure,Medium,HPSTGMGR
+2601,TCP,discp-client,Infrastructure,Medium,discp client
+2602,TCP,discp-server,Infrastructure,Medium,discp server
+2603,TCP,Service-Meter,Infrastructure,Medium,Service Meter
+2604,TCP,NSC-CCS,Infrastructure,Medium,NSC CCS
+2605,TCP,NSC-POSA,Infrastructure,Medium,NSC POSA
+2606,TCP,Dell-Netmon,Infrastructure,Medium,Dell Netmon
+2607,TCP,Dell-Connection,Infrastructure,Medium,Dell Connection
+2608,TCP,Wag-Service,Infrastructure,Medium,Wag Service
+2609,TCP,System-Monitor,C2,High,System Monitor
+2610,TCP,VersaTek,Infrastructure,Medium,VersaTek
+2611,TCP,LIONHEAD,Infrastructure,Medium,LIONHEAD
+2612,TCP,Qpasa-Agent,Infrastructure,Medium,Qpasa Agent
+2613,TCP,SMNTUBootstrap,Infrastructure,Medium,SMNTUBootstrap
+2614,TCP,Never-Offline,Infrastructure,Medium,Never Offline
+2615,TCP,firepower,Infrastructure,Medium,firepower
+2616,TCP,appswitch-emp,Infrastructure,Medium,appswitch-emp
+2617,TCP,Clinical-Context-Managers,Infrastructure,Medium,Clinical Context Managers
+2618,TCP,Priority-E-Com,Infrastructure,Medium,Priority E-Com
+2619,TCP,bruce,Infrastructure,Medium,bruce
+2620,TCP,LPSRecommender,Infrastructure,Medium,LPSRecommender
+2621,TCP,Miles-Apart-Jukebox-Server,Infrastructure,Medium,Miles Apart Jukebox Server
+2622,TCP,MetricaDBC,Infrastructure,Medium,MetricaDBC
+2623,TCP,LMDP,Infrastructure,Medium,LMDP
+2624,TCP,Aria,Infrastructure,Medium,Aria
+2625,TCP,Blwnkl-Port,Infrastructure,Medium,Blwnkl Port
+2626,TCP,gbjd816,Infrastructure,Medium,gbjd816
+2627,TCP,Moshe-Beeri,Infrastructure,Medium,Moshe Beeri
+2628,TCP,DICT,Infrastructure,Medium,DICT
+2629,TCP,Sitara-Server,Infrastructure,Medium,Sitara Server
+2630,TCP,Sitara-Management,Infrastructure,Medium,Sitara Management
+2631,TCP,Sitara-Dir,Infrastructure,Medium,Sitara Dir
+2632,TCP,IRdg-Post,Infrastructure,Medium,IRdg Post
+2633,TCP,InterIntelli,Infrastructure,Medium,InterIntelli
+2634,TCP,PK-Electronics,Infrastructure,Medium,PK Electronics
+2635,TCP,Back-Burner,Infrastructure,Medium,Back Burner
+2636,TCP,Solve,Infrastructure,Medium,Solve
+2637,TCP,Import-Document-Service,Infrastructure,Medium,Import Document Service
+2638,TCP,Sybase-Anywhere,Infrastructure,Medium,Sybase Anywhere
+2639,TCP,AMInet,Infrastructure,Medium,AMInet
+2640,TCP,Sabbagh-Associates-Licence-Manager,Infrastructure,Medium,Sabbagh Associates Licence Manager
+2641,TCP,HDL-Server,Infrastructure,Medium,HDL Server
+2642,TCP,Tragic,Infrastructure,Medium,Tragic
+2643,TCP,GTE-SAMP,Infrastructure,Medium,GTE-SAMP
+2644,TCP,Travsoft-IPX-Tunnel,Infrastructure,Medium,Travsoft IPX Tunnel
+2645,TCP,Novell-IPX-CMD,Infrastructure,Medium,Novell IPX CMD
+2646,TCP,AND-Licence-Manager,Infrastructure,Medium,AND Licence Manager
+2647,TCP,SyncServer,Infrastructure,Medium,SyncServer
+2648,TCP,Upsnotifyprot,Infrastructure,Medium,Upsnotifyprot
+2649,TCP,VPSIPPORT,Infrastructure,Medium,VPSIPPORT
+2650,TCP,eristwoguns,Infrastructure,Medium,eristwoguns
+2651,TCP,EBInSite,Infrastructure,Medium,EBInSite
+2652,TCP,InterPathPanel,Infrastructure,Medium,InterPathPanel
+2653,TCP,Sonus,Infrastructure,Medium,Sonus
+2654,TCP,Corel-VNC-Admin,RemoteAccess,High,Corel VNC Admin
+2655,TCP,UNIX-Nt-Glue,Infrastructure,Medium,UNIX Nt Glue
+2656,TCP,Kana,Infrastructure,Medium,Kana
+2657,TCP,SNS-Dispatcher,Infrastructure,Medium,SNS Dispatcher
+2658,TCP,SNS-Admin,Infrastructure,Medium,SNS Admin
+2659,TCP,SNS-Query,Infrastructure,Medium,SNS Query
+2660,TCP,GC-Monitor,C2,High,GC Monitor
+2661,TCP,OLHOST,Infrastructure,Medium,OLHOST
+2662,TCP,BinTec-CAPI,Infrastructure,Medium,BinTec-CAPI
+2663,TCP,BinTec-TAPI,Infrastructure,Medium,BinTec-TAPI
+2664,TCP,Command-MQ-GM,Infrastructure,Medium,Command MQ GM
+2665,TCP,Command-MQ-PM,Infrastructure,Medium,Command MQ PM
+2666,TCP,extensis,Infrastructure,Medium,extensis
+2667,TCP,Alarm-Clock-Server,Infrastructure,Medium,Alarm Clock Server
+2668,TCP,Alarm-Clock-Client,Infrastructure,Medium,Alarm Clock Client
+2669,TCP,TOAD,Infrastructure,Medium,TOAD
+2670,TCP,TVE-Announce,Infrastructure,Medium,TVE Announce
+2671,TCP,newlixreg,Infrastructure,Medium,newlixreg
+2672,TCP,nhserver,Infrastructure,Medium,nhserver
+2673,TCP,First-Call-42,Infrastructure,Medium,First Call 42
+2674,TCP,ewnn,Infrastructure,Medium,ewnn
+2675,TCP,TTC-ETAP,Infrastructure,Medium,TTC ETAP
+2676,TCP,SIMSLink,Infrastructure,Medium,SIMSLink
+2677,TCP,Gadget-Gate-1-Way,Infrastructure,Medium,Gadget Gate 1 Way
+2678,TCP,Gadget-Gate-2-Way,Infrastructure,Medium,Gadget Gate 2 Way
+2679,TCP,Sync-Server-SSL,Infrastructure,Medium,Sync Server SSL
+2680,TCP,pxc-sapxom,Infrastructure,Medium,pxc-sapxom
+2681,TCP,mpnjsomb,Infrastructure,Medium,mpnjsomb
+2682,TCP,SRSP,Infrastructure,Medium,SRSP
+2683,TCP,NCDLoadBalance,Infrastructure,Medium,NCDLoadBalance
+2684,TCP,mpnjsosv,Infrastructure,Medium,mpnjsosv
+2685,TCP,mpnjsocl,Infrastructure,Medium,mpnjsocl
+2686,TCP,mpnjsomg,Infrastructure,Medium,mpnjsomg
+2687,TCP,pq-lic-mgmt,Infrastructure,Medium,pq-lic-mgmt
+2688,TCP,md-cf-HTTP,Web,Medium,md-cf-HTTP
+2689,TCP,FastLynx,Infrastructure,Medium,FastLynx
+2690,TCP,HP-NNM-Embedded-Database,Database,Medium,HP NNM Embedded Database
+2691,TCP,IT-Internet,Infrastructure,Medium,IT Internet
+2692,TCP,Admins-LMS,Infrastructure,Medium,Admins LMS
+2693,TCP,belarc-HTTP,Web,Medium,belarc-HTTP
+2694,TCP,pwrsevent,Infrastructure,Medium,pwrsevent
+2695,TCP,VSPREAD,Infrastructure,Medium,VSPREAD
+2696,TCP,Unify-Admin,Infrastructure,Medium,Unify Admin
+2697,TCP,Oce-SNMP-Trap-Port,Infrastructure,Medium,Oce SNMP Trap Port
+2698,TCP,MCK-IVPIP,Infrastructure,Medium,MCK-IVPIP
+2699,TCP,Csoft-Plus-Client,Infrastructure,Medium,Csoft Plus Client
+2700,TCP,tqdata,Infrastructure,Medium,tqdata
+2701,TCP,SMS-Remote-Control,Infrastructure,Medium,SMS Remote Control (control)
+2702,TCP,SMS-Remote-Control,Infrastructure,Medium,SMS Remote Control (data)
+2703,TCP,SMS-Remote-Control,Infrastructure,Medium,SMS Remote Control (chat)
+2704,TCP,SMS-Remote-File-Transfer,FileTransfer,Medium,SMS Remote File Transfer
+2705,TCP,SDS-Admin,Infrastructure,Medium,SDS Admin
+2706,TCP,NCD-Mirroring,Infrastructure,Medium,NCD Mirroring
+2707,TCP,EMCSYMAPIPORT,Infrastructure,Medium,EMCSYMAPIPORT
+2708,TCP,Banyan-Net,Infrastructure,Medium,Banyan-Net
+2709,TCP,Supermon,Infrastructure,Medium,Supermon
+2710,TCP,SSO-Service,Infrastructure,Medium,SSO Service
+2711,TCP,SSO-Control,Infrastructure,Medium,SSO Control
+2712,TCP,Axapta-Object-Communication-Protocol,Infrastructure,Medium,Axapta Object Communication Protocol
+2713,TCP,Raven1,Infrastructure,Medium,Raven1
+2714,TCP,Raven2,Infrastructure,Medium,Raven2
+2715,TCP,HPSTGMGR2,Infrastructure,Medium,HPSTGMGR2
+2716,TCP,Inova-IP-Disco,Infrastructure,Medium,Inova IP Disco
+2717,TCP,PN-REQUESTER,Infrastructure,Medium,PN REQUESTER
+2718,TCP,PN-REQUESTER-2,Infrastructure,Medium,PN REQUESTER 2
+2719,TCP,Scan-Change,Infrastructure,Medium,Scan & Change
+2720,TCP,wkars,Infrastructure,Medium,wkars
+2721,TCP,Smart-Diagnose,Infrastructure,Medium,Smart Diagnose
+2722,TCP,Proactive-Server,Infrastructure,Medium,Proactive Server
+2723,TCP,WatchDog-NT,Infrastructure,Medium,WatchDog NT
+2724,TCP,qotps,Infrastructure,Medium,qotps
+2725,TCP,SQL-Analysis-Services-MSOLAP-PTP2,Database,High,SQL Analysis Services / MSOLAP PTP2
+2726,TCP,TAMS,Infrastructure,Medium,TAMS
+2727,TCP,Media-Gateway-Control-Protocol-Call-Agent,Infrastructure,Medium,Media Gateway Control Protocol Call Agent
+2728,TCP,SQDR,Infrastructure,Medium,SQDR
+2729,TCP,TCIM-Control,Infrastructure,Medium,TCIM Control
+2730,TCP,NEC-RaidPlus,Infrastructure,Medium,NEC RaidPlus
+2731,TCP,NetDragon-Messanger,Infrastructure,Medium,NetDragon Messanger
+2732,TCP,G5M,Infrastructure,Medium,G5M
+2733,TCP,Signet-CTF,Infrastructure,Medium,Signet CTF
+2734,TCP,CCS-Software,Infrastructure,Medium,CCS Software
+2735,TCP,Monitor-Console,C2,High,Monitor Console
+2736,TCP,RADWIZ-NMS-SRV,Infrastructure,Medium,RADWIZ NMS SRV
+2737,TCP,SRP-Feedback,Infrastructure,Medium,SRP Feedback
+2738,TCP,NDL-TCP-OSI-Gateway,Infrastructure,Medium,NDL TCP-OSI Gateway
+2739,TCP,TN-Timing,Infrastructure,Medium,TN Timing
+2740,TCP,Alarm,Infrastructure,Medium,Alarm
+2741,TCP,TSB,Infrastructure,Medium,TSB
+2742,TCP,TSB2,Infrastructure,Medium,TSB2
+2743,TCP,murx,Infrastructure,Medium,murx
+2744,TCP,honyaku,Infrastructure,Medium,honyaku
+2745,TCP,W32BeagleC-trojan-URBISNET,Infrastructure,Medium,W32.Beagle.C trojan) / URBISNET
+2746,TCP,CPUDPENCAP,Infrastructure,Medium,CPUDPENCAP
+2747,TCP,ykfujitsucojp,Infrastructure,Medium,yk.fujitsu.co.jp
+2748,TCP,ykfujitsucojp,Infrastructure,Medium,yk.fujitsu.co.jp
+2749,TCP,ykfujitsucojp,Infrastructure,Medium,yk.fujitsu.co.jp
+2750,TCP,ykfujitsucojp,Infrastructure,Medium,yk.fujitsu.co.jp
+2751,TCP,ykfujitsucojp,Infrastructure,Medium,yk.fujitsu.co.jp
+2752,TCP,RSISYS-ACCESS,Infrastructure,Medium,RSISYS ACCESS
+2753,TCP,de-spot,Infrastructure,Medium,de-spot
+2754,TCP,APOLLO-CC,Infrastructure,Medium,APOLLO CC
+2755,TCP,Express-Pay,Infrastructure,Medium,Express Pay
+2756,TCP,simplement-tie,Infrastructure,Medium,simplement-tie
+2757,TCP,CNRP,Infrastructure,Medium,CNRP
+2758,TCP,APOLLO-Status,Infrastructure,Medium,APOLLO Status
+2759,TCP,APOLLO-GMS,Infrastructure,Medium,APOLLO GMS
+2760,TCP,Saba-MS,Infrastructure,Medium,Saba MS
+2761,TCP,DICOM-ISCL,Infrastructure,Medium,DICOM ISCL
+2762,TCP,DICOM-TLS,Infrastructure,Medium,DICOM TLS
+2763,TCP,Desktop-DNA,Infrastructure,Medium,Desktop DNA
+2764,TCP,Data-Insurance,Infrastructure,Medium,Data Insurance
+2765,TCP,qip-audup,Infrastructure,Medium,qip-audup
+2766,TCP,Compaq-SCP,Infrastructure,Medium,Compaq SCP
+2767,TCP,UADTC,Infrastructure,Medium,UADTC
+2768,TCP,UACS,Infrastructure,Medium,UACS
+2769,TCP,Single-Point-MVS,Infrastructure,Medium,Single Point MVS
+2770,TCP,Veronica,Infrastructure,Medium,Veronica
+2771,TCP,Vergence-CM,Infrastructure,Medium,Vergence CM
+2772,TCP,auris,Infrastructure,Medium,auris
+2773,TCP,PC-Backup,Infrastructure,Medium,PC Backup
+2774,TCP,PC-Backup,Infrastructure,Medium,PC Backup
+2775,TCP,SMMP,Infrastructure,Medium,SMMP
+2776,TCP,Ridgeway-Systems-Software,Infrastructure,Medium,Ridgeway Systems & Software
+2777,TCP,Ridgeway-Systems-Software,Infrastructure,Medium,Ridgeway Systems & Software
+2778,TCP,Gwen-Sonya,Infrastructure,Medium,Gwen-Sonya
+2779,TCP,LBC-Sync,Infrastructure,Medium,LBC Sync
+2780,TCP,LBC-Control,Infrastructure,Medium,LBC Control
+2781,TCP,whosells,Infrastructure,Medium,whosells
+2782,TCP,everydayrc,Infrastructure,Medium,everydayrc
+2783,TCP,AISES,Infrastructure,Medium,AISES
+2784,TCP,world-wide-web---development,Web,Medium,world wide web - development
+2785,TCP,aic-np,Infrastructure,Medium,aic-np
+2786,TCP,aic-oncrpc---Destiny-MCD-database,Windows,High,aic-oncrpc - Destiny MCD database
+2787,TCP,piccolo---Cornerstone-Software,Infrastructure,Medium,piccolo - Cornerstone Software
+2788,TCP,NetWare-Loadable-Module---Seagate-Software,Infrastructure,Medium,NetWare Loadable Module - Seagate Software
+2789,TCP,Media-Agent,Infrastructure,Medium,Media Agent
+2790,TCP,PLG-Proxy,Web,Medium,PLG Proxy
+2791,TCP,MT-Port-Registrator,C2,High,MT Port Registrator
+2792,TCP,f5-globalsite,Infrastructure,Medium,f5-globalsite
+2793,TCP,initlsmsad,Infrastructure,Medium,initlsmsad
+2794,TCP,aaftp,FileTransfer,Medium,aaftp
+2795,TCP,LiveStats,Infrastructure,Medium,LiveStats
+2796,TCP,ac-tech,Infrastructure,Medium,ac-tech
+2797,TCP,esp-encap,Infrastructure,Medium,esp-encap
+2798,TCP,TMESIS-UPShot,Infrastructure,Medium,TMESIS-UPShot
+2799,TCP,ICON-Discover,Infrastructure,Medium,ICON Discover
+2800,TCP,ACC-RAID,Infrastructure,Medium,ACC RAID
+2801,TCP,IGCP,Infrastructure,Medium,IGCP
+2802,TCP,Veritas-TCP1,Infrastructure,Medium,Veritas TCP1
+2803,TCP,btprjctrl,Infrastructure,Medium,btprjctrl
+2804,TCP,Telexis-VTU,Infrastructure,Medium,Telexis VTU
+2805,TCP,WTA-WSP-S,Infrastructure,Medium,WTA WSP-S
+2806,TCP,cspuni,Infrastructure,Medium,cspuni
+2807,TCP,cspmulti,Infrastructure,Medium,cspmulti
+2808,TCP,J-LAN-P,Infrastructure,Medium,J-LAN-P
+2809,TCP,CORBA-LOC,Infrastructure,Medium,CORBA LOC
+2810,TCP,Active-Net-Steward,Infrastructure,Medium,Active Net Steward
+2811,TCP,GSI-FTP,FileTransfer,Medium,GSI FTP
+2812,TCP,atmtcp,Infrastructure,Medium,atmtcp
+2813,TCP,llm-pass,Infrastructure,Medium,llm-pass
+2814,TCP,llm-csv,Infrastructure,Medium,llm-csv
+2815,TCP,LBC-Measurement,Infrastructure,Medium,LBC Measurement
+2816,TCP,LBC-Watchdog,Infrastructure,Medium,LBC Watchdog
+2817,TCP,NMSig-Port,Infrastructure,Medium,NMSig Port
+2818,TCP,rmlnk,Infrastructure,Medium,rmlnk
+2819,TCP,FC-Fault-Notification,Infrastructure,Medium,FC Fault Notification
+2820,TCP,UniVision,Infrastructure,Medium,UniVision
+2821,TCP,vmldms,Infrastructure,Medium,vml_dms
+2822,TCP,ka0wuc,Infrastructure,Medium,ka0wuc
+2823,TCP,CQG-Net-LAN,Infrastructure,Medium,CQG Net/LAN
+2826,TCP,slc-systemlog,Infrastructure,Medium,slc systemlog
+2827,TCP,slc-ctrlrloops,Infrastructure,Medium,slc ctrlrloops
+2828,TCP,ITM-License-Manager,Infrastructure,Medium,ITM License Manager
+2829,TCP,silkp1,Infrastructure,Medium,silkp1
+2830,TCP,silkp2,Infrastructure,Medium,silkp2
+2831,TCP,silkp3,Infrastructure,Medium,silkp3
+2832,TCP,silkp4,Infrastructure,Medium,silkp4
+2833,TCP,glishd,Infrastructure,Medium,glishd
+2834,TCP,EVTP,Infrastructure,Medium,EVTP
+2835,TCP,EVTP-DATA,Infrastructure,Medium,EVTP-DATA
+2836,TCP,catalyst,Infrastructure,Medium,catalyst
+2837,TCP,Repliweb,Web,Medium,Repliweb
+2838,TCP,Starbot,Infrastructure,Medium,Starbot
+2839,TCP,NMSigPort,Infrastructure,Medium,NMSigPort
+2840,TCP,l3-exprt,Infrastructure,Medium,l3-exprt
+2841,TCP,l3-ranger,Infrastructure,Medium,l3-ranger
+2842,TCP,l3-hawk,Infrastructure,Medium,l3-hawk
+2843,TCP,PDnet,Infrastructure,Medium,PDnet
+2844,TCP,BPCP-POLL,Infrastructure,Medium,BPCP POLL
+2845,TCP,BPCP-TRAP,Infrastructure,Medium,BPCP TRAP
+2846,TCP,AIMPP-Hello,Infrastructure,Medium,AIMPP Hello
+2847,TCP,AIMPP-Port-Req,Infrastructure,Medium,AIMPP Port Req
+2848,TCP,AMT-BLC-PORT,Infrastructure,Medium,AMT-BLC-PORT
+2849,TCP,FXP,Infrastructure,Medium,FXP
+2850,TCP,MetaConsole,Infrastructure,Medium,MetaConsole
+2851,TCP,webemshttp,Web,Medium,webemshttp
+2852,TCP,bears-01,Infrastructure,Medium,bears-01
+2853,TCP,ISPipes,Infrastructure,Medium,ISPipes
+2854,TCP,InfoMover,Infrastructure,Medium,InfoMover
+2856,TCP,cesdinv,Infrastructure,Medium,cesdinv
+2857,TCP,SimCtIP,Infrastructure,Medium,SimCtIP
+2858,TCP,ECNP,Infrastructure,Medium,ECNP
+2859,TCP,Active-Memory,Infrastructure,Medium,Active Memory
+2860,TCP,Dialpad-Voice-1,Infrastructure,Medium,Dialpad Voice 1
+2861,TCP,Dialpad-Voice-2,Infrastructure,Medium,Dialpad Voice 2
+2862,TCP,TTG-Protocol,Infrastructure,Medium,TTG Protocol
+2863,TCP,Sonar-Data,Infrastructure,Medium,Sonar Data
+2864,TCP,main-5001-cmd,Infrastructure,Medium,main 5001 cmd
+2865,TCP,pit-vpn,Infrastructure,Medium,pit-vpn
+2866,TCP,lwlistener,Infrastructure,Medium,lwlistener
+2867,TCP,esps-portal,Infrastructure,Medium,esps-portal
+2868,TCP,NPEP-Messaging,Infrastructure,Medium,NPEP Messaging
+2869,TCP,SSDP-event-notification-ICSLAP,Infrastructure,Medium,SSDP event notification / ICSLAP
+2870,TCP,daishi,Infrastructure,Medium,daishi
+2871,TCP,MSI-Select-Play,Infrastructure,Medium,MSI Select Play
+2872,TCP,CONTRACT,Infrastructure,Medium,CONTRACT
+2873,TCP,PASPAR2-ZoomIn,Infrastructure,Medium,PASPAR2 ZoomIn
+2874,TCP,dxmessagebase1,Infrastructure,Medium,dxmessagebase1
+2875,TCP,dxmessagebase2,Infrastructure,Medium,dxmessagebase2
+2876,TCP,SPS-Tunnel,Infrastructure,Medium,SPS Tunnel
+2877,TCP,BLUELANCE,Infrastructure,Medium,BLUELANCE
+2878,TCP,AAP,Infrastructure,Medium,AAP
+2879,TCP,ucentric-ds,Infrastructure,Medium,ucentric-ds
+2880,TCP,synapse,Infrastructure,Medium,synapse
+2881,TCP,NDSP,Infrastructure,Medium,NDSP
+2882,TCP,NDTP,Infrastructure,Medium,NDTP
+2883,TCP,NDNP,Infrastructure,Medium,NDNP
+2884,TCP,Flash-Msg,Infrastructure,Medium,Flash Msg
+2885,TCP,TopFlow,Infrastructure,Medium,TopFlow
+2886,TCP,RESPONSELOGIC,Infrastructure,Medium,RESPONSELOGIC
+2887,TCP,aironet,Infrastructure,Medium,aironet
+2888,TCP,SPCSDLOBBY,Infrastructure,Medium,SPCSDLOBBY
+2889,TCP,RSOM,Infrastructure,Medium,RSOM
+2890,TCP,CSPCLMULTI,Infrastructure,Medium,CSPCLMULTI
+2891,TCP,CINEGRFX-ELMD-License-Manager,Infrastructure,Medium,CINEGRFX-ELMD License Manager
+2892,TCP,SNIFFERDATA,Infrastructure,Medium,SNIFFERDATA
+2893,TCP,VSECONNECTOR,C2,High,VSECONNECTOR
+2894,TCP,ABACUS-REMOTE,Infrastructure,Medium,ABACUS-REMOTE
+2895,TCP,NATUS-LINK,Infrastructure,Medium,NATUS LINK
+2896,TCP,ECOVISIONG6-1,Infrastructure,Medium,ECOVISIONG6-1
+2897,TCP,Citrix-RTMP,Infrastructure,Medium,Citrix RTMP
+2898,TCP,APPLIANCE-CFG,Infrastructure,Medium,APPLIANCE-CFG
+2899,TCP,casenmfujitsucojp,Infrastructure,Medium,case.nm.fujitsu.co.jp
+2900,TCP,magisoftcom,Infrastructure,Medium,magisoft.com
+2901,TCP,ALLSTORCNS,C2,High,ALLSTORCNS
+2902,TCP,NET-ASPI,Infrastructure,Medium,NET ASPI
+2903,TCP,SUITCASE,Infrastructure,Medium,SUITCASE
+2904,TCP,M2UA,Infrastructure,Medium,M2UA
+2905,TCP,M3UA,Infrastructure,Medium,M3UA
+2906,TCP,CALLER9,Infrastructure,Medium,CALLER9
+2907,TCP,WEBMETHODS-B2B,Web,Medium,WEBMETHODS B2B
+2908,TCP,mao,Infrastructure,Medium,mao
+2909,TCP,Funk-Dialout,Infrastructure,Medium,Funk Dialout
+2910,TCP,TDAccess,Infrastructure,Medium,TDAccess
+2911,TCP,Blockade,Infrastructure,Medium,Blockade
+2912,TCP,Epicon,Infrastructure,Medium,Epicon
+2913,TCP,Booster-Ware,Infrastructure,Medium,Booster Ware
+2914,TCP,Game-Lobby,Infrastructure,Medium,Game Lobby
+2915,TCP,TK-Socket,Infrastructure,Medium,TK Socket
+2916,TCP,Elvin-Server,Infrastructure,Medium,Elvin Server
+2917,TCP,Elvin-Client,Infrastructure,Medium,Elvin Client
+2918,TCP,Kasten-Chase-Pad,Infrastructure,Medium,Kasten Chase Pad
+2919,TCP,ROBOER,Infrastructure,Medium,ROBOER
+2920,TCP,ROBOEDA,Infrastructure,Medium,ROBOEDA
+2921,TCP,CESD-Contents-Delivery-Management,Infrastructure,Medium,CESD Contents Delivery Management
+2922,TCP,CESD-Contents-Delivery-Data-Transfer,Infrastructure,Medium,CESD Contents Delivery Data Transfer
+2923,TCP,WTA-WSP-WTP-S,Infrastructure,Medium,WTA-WSP-WTP-S
+2924,TCP,PRECISE-VIP,Infrastructure,Medium,PRECISE-VIP
+2925,TCP,Firewall-Redundancy-Protocol,Infrastructure,Medium,Firewall Redundancy Protocol
+2926,TCP,MOBILE-FILE-DL,Infrastructure,Medium,MOBILE-FILE-DL
+2927,TCP,UNIMOBILECTRL,Infrastructure,Medium,UNIMOBILECTRL
+2928,TCP,REDSTONE-CPSS,Infrastructure,Medium,REDSTONE-CPSS
+2929,TCP,PANJA-WEBADMIN,Web,Medium,PANJA-WEBADMIN
+2930,TCP,PANJA-WEBLINX,Web,Medium,PANJA-WEBLINX
+2931,TCP,Circle-X,C2,High,Circle-X
+2932,TCP,INCP,Infrastructure,Medium,INCP
+2933,TCP,4-TIER-OPM-GW,Infrastructure,Medium,4-TIER OPM GW
+2934,TCP,4-TIER-OPM-CLI,Infrastructure,Medium,4-TIER OPM CLI
+2935,TCP,QTP,Infrastructure,Medium,QTP
+2936,TCP,OTPatch,Infrastructure,Medium,OTPatch
+2937,TCP,PNACONSULT-LM,Infrastructure,Medium,PNACONSULT-LM
+2938,TCP,SM-PAS-1,Infrastructure,Medium,SM-PAS-1
+2939,TCP,SM-PAS-2,Infrastructure,Medium,SM-PAS-2
+2940,TCP,SM-PAS-3,Infrastructure,Medium,SM-PAS-3
+2941,TCP,SM-PAS-4,Infrastructure,Medium,SM-PAS-4
+2942,TCP,SM-PAS-5,Infrastructure,Medium,SM-PAS-5
+2943,TCP,TTNRepository,C2,High,TTNRepository
+2944,TCP,Megaco-H-248,Infrastructure,Medium,Megaco H-248
+2945,TCP,H248-Binary,Infrastructure,Medium,H248 Binary
+2946,TCP,FJSVmpor,Infrastructure,Medium,FJSVmpor
+2947,TCP,GPSD,Infrastructure,Medium,GPSD
+2948,TCP,WAP-PUSH,Infrastructure,Medium,WAP PUSH
+2949,TCP,WAP-PUSH-SECURE,Infrastructure,Medium,WAP PUSH SECURE
+2950,TCP,ESIP,Infrastructure,Medium,ESIP
+2951,TCP,OTTP,Infrastructure,Medium,OTTP
+2952,TCP,MPFWSAS,Infrastructure,Medium,MPFWSAS
+2953,TCP,OVALARMSRV,Infrastructure,Medium,OVALARMSRV
+2954,TCP,OVALARMSRV-CMD,Infrastructure,Medium,OVALARMSRV-CMD
+2955,TCP,CSNOTIFY,Infrastructure,Medium,CSNOTIFY
+2956,TCP,OVRIMOSDBMAN,Infrastructure,Medium,OVRIMOSDBMAN
+2957,TCP,JAMCT5,Infrastructure,Medium,JAMCT5
+2958,TCP,JAMCT6,Infrastructure,Medium,JAMCT6
+2959,TCP,RMOPAGT,Infrastructure,Medium,RMOPAGT
+2960,TCP,DFOXSERVER,Infrastructure,Medium,DFOXSERVER
+2961,TCP,BOLDSOFT-LM,Infrastructure,Medium,BOLDSOFT-LM
+2962,TCP,IPH-POLICY-CLI,Infrastructure,Medium,IPH-POLICY-CLI
+2963,TCP,IPH-POLICY-ADM,Infrastructure,Medium,IPH-POLICY-ADM
+2964,TCP,BULLANT-SRAP,Infrastructure,Medium,BULLANT SRAP
+2965,TCP,BULLANT-RAP,Infrastructure,Medium,BULLANT RAP
+2966,TCP,IDP-INFOTRIEVE,Infrastructure,Medium,IDP-INFOTRIEVE
+2967,TCP,SSC-AGENT,Infrastructure,Medium,SSC-AGENT
+2968,TCP,ENPP,Infrastructure,Medium,ENPP
+2969,TCP,UPnP-ESSP,Infrastructure,Medium,UPnP / ESSP
+2970,TCP,INDEX-NET,Infrastructure,Medium,INDEX-NET
+2971,TCP,Net-Clip,Infrastructure,Medium,Net Clip
+2972,TCP,PMSM-Webrctl,Web,Medium,PMSM Webrctl
+2973,TCP,SV-Networks,Infrastructure,Medium,SV Networks
+2974,TCP,Signal,Infrastructure,Medium,Signal
+2975,TCP,Fujitsu-Configuration-Management-Service,Infrastructure,Medium,Fujitsu Configuration Management Service
+2976,TCP,CNS-Server-Port,Infrastructure,Medium,CNS Server Port
+2977,TCP,TTCs-Enterprise-Test-Access-Protocol---NS,Infrastructure,Medium,TTCs Enterprise Test Access Protocol - NS
+2978,TCP,TTCs-Enterprise-Test-Access-Protocol---DS,Infrastructure,Medium,TTCs Enterprise Test Access Protocol - DS
+2979,TCP,H263-Video-Streaming,Infrastructure,Medium,H.263 Video Streaming
+2980,TCP,Instant-Messaging-Service,Infrastructure,Medium,Instant Messaging Service
+2981,TCP,MYLXAMPORT,Infrastructure,Medium,MYLXAMPORT
+2982,TCP,IWB-WHITEBOARD,Infrastructure,Medium,IWB-WHITEBOARD
+2983,TCP,NETPLAN,Infrastructure,Medium,NETPLAN
+2984,TCP,HPIDSADMIN,Infrastructure,Medium,HPIDSADMIN
+2985,TCP,HPIDSAGENT,Infrastructure,Medium,HPIDSAGENT
+2986,TCP,STONEFALLS,Infrastructure,Medium,STONEFALLS
+2987,TCP,IDENTIFY,Infrastructure,Medium,IDENTIFY
+2988,TCP,CLASSIFY,Infrastructure,Medium,CLASSIFY
+2989,TCP,ZARKOV,Infrastructure,Medium,ZARKOV
+2990,TCP,BOSCAP,Infrastructure,Medium,BOSCAP
+2991,TCP,WKSTN-MON,Infrastructure,Medium,WKSTN-MON
+2992,TCP,ITB301,Infrastructure,Medium,ITB301
+2993,TCP,VERITAS-VIS1,Infrastructure,Medium,VERITAS VIS1
+2994,TCP,VERITAS-VIS2,Infrastructure,Medium,VERITAS VIS2
+2995,TCP,IDRS,Infrastructure,Medium,IDRS
+2996,TCP,vsixml,Infrastructure,Medium,vsixml
+2997,TCP,REBOL,Infrastructure,Medium,REBOL
+2998,TCP,Real-Secure,Infrastructure,Medium,Real Secure
+2999,TCP,RemoteWare-Unassigned,Infrastructure,Medium,RemoteWare Unassigned
+3000,TCP,Dev-Web,Development,Medium,Development web server
+3001,TCP,Phatbot-Worm-Redwood-Broker,Infrastructure,Medium,Phatbot Worm / Redwood Broker
+3002,TCP,RemoteWare-Server,Infrastructure,Medium,RemoteWare Server
+3003,TCP,CGMS,Infrastructure,Medium,CGMS
+3004,TCP,Csoft-Agent,Infrastructure,Medium,Csoft Agent
+3005,TCP,Genius-License-Manager,Infrastructure,Medium,Genius License Manager
+3006,TCP,Instant-Internet-Admin,Infrastructure,Medium,Instant Internet Admin
+3007,TCP,Lotus-Mail-Tracking-Agent-Protocol,Infrastructure,Medium,Lotus Mail Tracking Agent Protocol
+3008,TCP,Midnight-Technologies,Infrastructure,Medium,Midnight Technologies
+3009,TCP,PXC-NTFY,Infrastructure,Medium,PXC-NTFY
+3010,TCP,Telerate-Workstation,Infrastructure,Medium,Telerate Workstation
+3011,TCP,Trusted-Web,Web,Medium,Trusted Web
+3012,TCP,Trusted-Web-Client,Web,Medium,Trusted Web Client
+3013,TCP,Gilat-Sky-Surfer,Infrastructure,Medium,Gilat Sky Surfer
+3014,TCP,Broker-Service,Infrastructure,Medium,Broker Service
+3015,TCP,NATI-DSTP,Infrastructure,Medium,NATI DSTP
+3016,TCP,Notify-Server,Infrastructure,Medium,Notify Server
+3017,TCP,Event-Listener,Infrastructure,Medium,Event Listener
+3018,TCP,Service-Registry,Infrastructure,Medium,Service Registry
+3019,TCP,Resource-Manager,Infrastructure,Medium,Resource Manager
+3020,TCP,CIFS,Infrastructure,Medium,CIFS
+3021,TCP,AGRI-Server,Infrastructure,Medium,AGRI Server
+3022,TCP,CSREGAGENT,Infrastructure,Medium,CSREGAGENT
+3023,TCP,magicnotes,Infrastructure,Medium,magicnotes
+3024,TCP,NDSSSO,Infrastructure,Medium,NDS_SSO
+3025,TCP,Arepa-Raft,Infrastructure,Medium,Arepa Raft
+3026,TCP,AGRI-Gateway,Infrastructure,Medium,AGRI Gateway
+3027,TCP,LiebDevMgmtC,Infrastructure,Medium,LiebDevMgmt_C
+3028,TCP,LiebDevMgmtDM,Infrastructure,Medium,LiebDevMgmt_DM
+3029,TCP,LiebDevMgmtA,Infrastructure,Medium,LiebDevMgmt_A
+3030,TCP,Arepa-Cas,Infrastructure,Medium,Arepa Cas
+3031,TCP,AgentVU,Infrastructure,Medium,AgentVU
+3032,TCP,Redwood-Chat,Infrastructure,Medium,Redwood Chat
+3033,TCP,PDB,Infrastructure,Medium,PDB
+3034,TCP,Osmosis-AEEA,Infrastructure,Medium,Osmosis AEEA
+3035,TCP,FJSV-gssagt,Infrastructure,Medium,FJSV gssagt
+3036,TCP,Hagel-DUMP,Infrastructure,Medium,Hagel DUMP
+3037,TCP,HP-SAN-Mgmt,Infrastructure,Medium,HP SAN Mgmt
+3038,TCP,Santak-UPS,Infrastructure,Medium,Santak UPS
+3039,TCP,Cogitate-Inc,Development,Medium,Cogitate Inc.
+3040,TCP,Tomato-Springs,Infrastructure,Medium,Tomato Springs
+3041,TCP,di-traceware,Infrastructure,Medium,di-traceware
+3042,TCP,journee,Infrastructure,Medium,journee
+3043,TCP,BRP,Infrastructure,Medium,BRP
+3045,TCP,ResponseNet,Infrastructure,Medium,ResponseNet
+3046,TCP,di-ase,Infrastructure,Medium,di-ase
+3047,TCP,Fast-Security-HL-Server,Infrastructure,Medium,Fast Security HL Server
+3048,TCP,Sierra-Net-PC-Trader,Infrastructure,Medium,Sierra Net PC Trader
+3049,TCP,NSWS,Infrastructure,Medium,NSWS
+3050,TCP,gdsdb,Infrastructure,Medium,gds_db
+3051,TCP,Galaxy-Server,Infrastructure,Medium,Galaxy Server
+3052,TCP,APCPCNS,Infrastructure,Medium,APCPCNS
+3053,TCP,dsom-server,Infrastructure,Medium,dsom-server
+3054,TCP,AMT-CNF-PROT,Infrastructure,Medium,AMT CNF PROT
+3055,TCP,Policy-Server,Infrastructure,Medium,Policy Server
+3056,TCP,CDL-Server,Infrastructure,Medium,CDL Server
+3057,TCP,GoAhead-FldUp,Infrastructure,Medium,GoAhead FldUp
+3058,TCP,videobeans,Infrastructure,Medium,videobeans
+3059,TCP,qsoft,Infrastructure,Medium,qsoft
+3060,TCP,interserver,Infrastructure,Medium,interserver
+3061,TCP,cautcpd,Infrastructure,Medium,cautcpd
+3062,TCP,ncacn-ip-tcp,Infrastructure,Medium,ncacn-ip-tcp
+3063,TCP,ncadg-ip-udp,Infrastructure,Medium,ncadg-ip-udp
+3065,TCP,slinterbase,Infrastructure,Medium,slinterbase
+3066,TCP,NETATTACHSDMP,Infrastructure,Medium,NETATTACHSDMP
+3067,TCP,W32Korgo-Worm-FJHPJP,Infrastructure,Medium,W32.Korgo Worm / FJHPJP
+3068,TCP,ls3-Broadcast,Infrastructure,Medium,ls3 Broadcast
+3069,TCP,ls3,Infrastructure,Medium,ls3
+3070,TCP,MGXSWITCH,Infrastructure,Medium,MGXSWITCH
+3075,TCP,Orbix-2000-Locator,C2,High,Orbix 2000 Locator
+3076,TCP,Orbix-2000-Config,Infrastructure,Medium,Orbix 2000 Config
+3077,TCP,Orbix-2000-Locator-SSL,C2,High,Orbix 2000 Locator SSL
+3078,TCP,Orbix-2000-Locator-SSL,C2,High,Orbix 2000 Locator SSL
+3079,TCP,LV-Front-Panel,Infrastructure,Medium,LV Front Panel
+3080,TCP,stmpproc,Infrastructure,Medium,stm_pproc
+3081,TCP,TL1-LV,Infrastructure,Medium,TL1-LV
+3082,TCP,TL1-RAW,Infrastructure,Medium,TL1-RAW
+3083,TCP,TL1-TELNET,RemoteAccess,High,TL1-TELNET
+3084,TCP,ITM-MCCS,Infrastructure,Medium,ITM-MCCS
+3085,TCP,PCIHReq,Infrastructure,Medium,PCIHReq
+3086,TCP,JDL-DBKitchen,Infrastructure,Medium,JDL-DBKitchen
+3105,TCP,Cardbox,Infrastructure,Medium,Cardbox
+3106,TCP,Cardbox-HTTP,Web,Medium,Cardbox HTTP
+3127,TCP,W32MydoomA-virus,Infrastructure,Medium,W32.Mydoom.A virus
+3128,TCP,Proxy,Web,Medium,Web proxy
+3129,TCP,Masters-Paradise,Infrastructure,Medium,Master's Paradise (Windows Trojan)
+3130,TCP,ICPv2,Infrastructure,Medium,ICPv2
+3131,TCP,Net-Book-Mark,Infrastructure,Medium,Net Book Mark
+3141,TCP,VMODEM,Infrastructure,Medium,VMODEM
+3142,TCP,RDC-WH-EOS,Infrastructure,Medium,RDC WH EOS
+3143,TCP,Sea-View,Infrastructure,Medium,Sea View
+3144,TCP,Tarantella,Infrastructure,Medium,Tarantella
+3145,TCP,CSI-LFAP,Infrastructure,Medium,CSI-LFAP
+3147,TCP,RFIO,Infrastructure,Medium,RFIO
+3148,TCP,NetMike-Game-Administrator,C2,High,NetMike Game Administrator
+3149,TCP,NetMike-Game-Server,Infrastructure,Medium,NetMike Game Server
+3150,TCP,NetMike-Assessor-Administrator,C2,High,NetMike Assessor Administrator
+3151,TCP,NetMike-Assessor,Infrastructure,Medium,NetMike Assessor
+3180,TCP,Millicent-Broker-Server,Infrastructure,Medium,Millicent Broker Server
+3181,TCP,BMC-Patrol-Agent,Infrastructure,Medium,BMC Patrol Agent
+3182,TCP,BMC-Patrol-Rendezvous,Infrastructure,Medium,BMC Patrol Rendezvous
+3262,TCP,NECP,Infrastructure,Medium,NECP
+3264,TCP,ccmail-lotus,Infrastructure,Medium,cc:mail/lotus
+3265,TCP,Altav-Tunnel,Infrastructure,Medium,Altav Tunnel
+3266,TCP,NS-CFG-Server,Infrastructure,Medium,NS CFG Server
+3267,TCP,IBM-Dial-Out,Infrastructure,Medium,IBM Dial Out
+3268,TCP,LDAP-GC,Auth,Medium,Global catalog
+3269,TCP,LDAP-GC-SSL,Auth,Low,Secure global catalog
+3270,TCP,Verismart,Infrastructure,Medium,Verismart
+3271,TCP,CSoft-Prev-Port,Infrastructure,Medium,CSoft Prev Port
+3272,TCP,Fujitsu-User-Manager,Infrastructure,Medium,Fujitsu User Manager
+3273,TCP,Simple-Extensible-Multiplexed-Protocol,Infrastructure,Medium,Simple Extensible Multiplexed Protocol
+3274,TCP,Ordinox-Server,Infrastructure,Medium,Ordinox Server
+3275,TCP,SAMD,Infrastructure,Medium,SAMD
+3276,TCP,Maxim-ASICs,Infrastructure,Medium,Maxim ASICs
+3277,TCP,AWG-Proxy,Web,Medium,AWG Proxy
+3278,TCP,LKCM-Server,Infrastructure,Medium,LKCM Server
+3279,TCP,admind,Infrastructure,Medium,admind
+3280,TCP,VS-Server,Infrastructure,Medium,VS Server
+3281,TCP,SYSOPT,Infrastructure,Medium,SYSOPT
+3282,TCP,Datusorb,Infrastructure,Medium,Datusorb
+3283,TCP,Net-Assistant,Infrastructure,Medium,Net Assistant
+3284,TCP,4Talk,Infrastructure,Medium,4Talk
+3285,TCP,Plato,Infrastructure,Medium,Plato
+3286,TCP,E-Net,Infrastructure,Medium,E-Net
+3287,TCP,DIRECTVDATA,Infrastructure,Medium,DIRECTVDATA
+3288,TCP,COPS,Infrastructure,Medium,COPS
+3289,TCP,ENPC,Infrastructure,Medium,ENPC
+3290,TCP,CAPS-LOGISTICS-TOOLKIT---LM,Infrastructure,Medium,CAPS LOGISTICS TOOLKIT - LM
+3291,TCP,S-A-Holditch-Associates---LM,Infrastructure,Medium,S A Holditch & Associates - LM
+3292,TCP,Cart-O-Rama,Infrastructure,Medium,Cart O Rama
+3293,TCP,fg-fps,Infrastructure,Medium,fg-fps
+3294,TCP,fg-gip,Infrastructure,Medium,fg-gip
+3295,TCP,Dynamic-IP-Lookup,Infrastructure,Medium,Dynamic IP Lookup
+3296,TCP,Rib-License-Manager,Infrastructure,Medium,Rib License Manager
+3297,TCP,Cytel-License-Manager,Infrastructure,Medium,Cytel License Manager
+3298,TCP,Transview,Infrastructure,Medium,Transview
+3299,TCP,pdrncs,Infrastructure,Medium,pdrncs
+3300,TCP,bmc-patrol-agent,Infrastructure,Medium,bmc-patrol-agent
+3301,TCP,Unathorised-use-by-SAP-R-3,Infrastructure,Medium,Unathorised use by SAP R/3
+3302,TCP,MCS-Fastmail,Infrastructure,Medium,MCS Fastmail
+3303,TCP,OP-Session-Client,Infrastructure,Medium,OP Session Client
+3304,TCP,OP-Session-Server,Infrastructure,Medium,OP Session Server
+3305,TCP,ODETTE-FTP,FileTransfer,Medium,ODETTE-FTP
+3306,TCP,MySQL,Database,High,MySQL database
+3307,TCP,OP-Session-Proxy,Web,Medium,OP Session Proxy
+3308,TCP,TNS-Server,Infrastructure,Medium,TNS Server
+3309,TCP,TNS-ADV,Infrastructure,Medium,TNS ADV
+3310,TCP,Dyna-Access,Infrastructure,Medium,Dyna Access
+3311,TCP,MCNS-Tel-Ret,Infrastructure,Medium,MCNS Tel Ret
+3312,TCP,Application-Management-Server,Infrastructure,Medium,Application Management Server
+3313,TCP,Unify-Object-Broker,Infrastructure,Medium,Unify Object Broker
+3314,TCP,Unify-Object-Host,Infrastructure,Medium,Unify Object Host
+3315,TCP,CDID,Infrastructure,Medium,CDID
+3316,TCP,AICC-CMI,Infrastructure,Medium,AICC/CMI
+3317,TCP,VSAI-PORT,Infrastructure,Medium,VSAI PORT
+3318,TCP,Swith-to-Swith-Routing-Information-Protocol,Infrastructure,Medium,Swith to Swith Routing Information Protocol
+3319,TCP,SDT-License-Manager,Infrastructure,Medium,SDT License Manager
+3320,TCP,Office-Link-2000,Infrastructure,Medium,Office Link 2000
+3321,TCP,VNSSTR,Infrastructure,Medium,VNSSTR
+3325,TCP,isiedu,Infrastructure,Medium,isi.edu
+3326,TCP,SFTU,Infrastructure,Medium,SFTU
+3327,TCP,BBARS,Infrastructure,Medium,BBARS
+3328,TCP,Eaglepoint-License-Manager,Infrastructure,Medium,Eaglepoint License Manager
+3329,TCP,HP-Device-Disc,Infrastructure,Medium,HP Device Disc
+3330,TCP,MCS-Calypso-ICF,Infrastructure,Medium,MCS Calypso ICF
+3331,TCP,MCS-Messaging,Infrastructure,Medium,MCS Messaging
+3332,TCP,MCS-Mail-Server,Infrastructure,Medium,MCS Mail Server
+3333,TCP,DEC-Notes,Infrastructure,Medium,DEC Notes
+3334,TCP,Direct-TV-Webcasting,Web,Medium,Direct TV Webcasting
+3335,TCP,Direct-TV-Software-Updates,Infrastructure,Medium,Direct TV Software Updates
+3336,TCP,Direct-TV-Tickers,Infrastructure,Medium,Direct TV Tickers
+3337,TCP,Direct-TV-Data-Catalog,Infrastructure,Medium,Direct TV Data Catalog
+3338,TCP,OMF-data-b,Infrastructure,Medium,OMF data b
+3339,TCP,OMF-data-l,Infrastructure,Medium,OMF data l
+3340,TCP,OMF-data-m,Infrastructure,Medium,OMF data m
+3341,TCP,OMF-data-h,Infrastructure,Medium,OMF data h
+3342,TCP,WebTIE,Web,Medium,WebTIE
+3343,TCP,MS-Cluster-Net,Infrastructure,Medium,MS Cluster Net
+3344,TCP,BNT-Manager,Infrastructure,Medium,BNT Manager
+3345,TCP,Influence,Infrastructure,Medium,Influence
+3346,TCP,Trnsprnt-Proxy,Web,Medium,Trnsprnt Proxy
+3347,TCP,Phoenix-RPC,Windows,High,Phoenix RPC
+3348,TCP,Pangolin-Laser,Infrastructure,Medium,Pangolin Laser
+3349,TCP,Chevin-Services,Infrastructure,Medium,Chevin Services
+3350,TCP,FINDVIATV,Infrastructure,Medium,FINDVIATV
+3351,TCP,BTRIEVE,Infrastructure,Medium,BTRIEVE
+3352,TCP,SSQL,Database,High,SSQL
+3353,TCP,FATPIPE,Infrastructure,Medium,FATPIPE
+3354,TCP,SUITJD,Infrastructure,Medium,SUITJD
+3355,TCP,Hogle-Ordinox-Dbase,Web,Medium,Hogle (proxy backdoor) / Ordinox Dbase
+3356,TCP,UPNOTIFYPS,Infrastructure,Medium,UPNOTIFYPS
+3357,TCP,Adtech-Test-IP,Infrastructure,Medium,Adtech Test IP
+3358,TCP,Mp-Sys-Rmsvr,Infrastructure,Medium,Mp Sys Rmsvr
+3359,TCP,WG-NetForce,Infrastructure,Medium,WG NetForce
+3360,TCP,KV-Server,Infrastructure,Medium,KV Server
+3361,TCP,KV-Agent,Infrastructure,Medium,KV Agent
+3362,TCP,DJ-ILM,Infrastructure,Medium,DJ ILM
+3363,TCP,NATI-Vi-Server,Infrastructure,Medium,NATI Vi Server
+3364,TCP,Creative-Server,Infrastructure,Medium,Creative Server
+3365,TCP,Content-Server,Infrastructure,Medium,Content Server
+3366,TCP,Creative-Partner,Infrastructure,Medium,Creative Partner
+3371,TCP,ccmjfintelcom,Infrastructure,Medium,ccm.jf.intel.com
+3372,TCP,Microsoft-Distributed-Transaction-Coordinator-TIP-2,Windows,High,Microsoft Distributed Transaction Coordinator (MSDTC) / TIP 2
+3373,TCP,Lavenir-License-Manager,Infrastructure,Medium,Lavenir License Manager
+3374,TCP,Cluster-Disc,Infrastructure,Medium,Cluster Disc
+3375,TCP,VSNM-Agent,Infrastructure,Medium,VSNM Agent
+3376,TCP,CD-Broker,Infrastructure,Medium,CD Broker
+3377,TCP,Cogsys-Network-License-Manager,Infrastructure,Medium,Cogsys Network License Manager
+3378,TCP,WSICOPY,Infrastructure,Medium,WSICOPY
+3379,TCP,SOCORFS,Infrastructure,Medium,SOCORFS
+3380,TCP,SNS-Channels,Infrastructure,Medium,SNS Channels
+3381,TCP,Geneous,Infrastructure,Medium,Geneous
+3382,TCP,Fujitsu-Network-Enhanced-Antitheft-function,Infrastructure,Medium,Fujitsu Network Enhanced Antitheft function
+3383,TCP,Enterprise-Software-Products-License-Manager,Infrastructure,Medium,Enterprise Software Products License Manager
+3384,TCP,Cluster-Management-Services,Infrastructure,Medium,Cluster Management Services
+3385,TCP,qnxnetman,Infrastructure,Medium,qnxnetman
+3386,TCP,GPRS-Data,Infrastructure,Medium,GPRS Data
+3387,TCP,Back-Room-Net,Infrastructure,Medium,Back Room Net
+3388,TCP,CB-Server,Infrastructure,Medium,CB Server
+3389,TCP,RDP,RemoteAccess,Critical,Remote desktop
+3390,TCP,Distributed-Service-Coordinator,C2,High,Distributed Service Coordinator
+3391,TCP,SAVANT,Infrastructure,Medium,SAVANT
+3392,TCP,EFI-License-Management,Infrastructure,Medium,EFI License Management
+3393,TCP,D2K-Tapestry-Client-to-Server,Infrastructure,Medium,D2K Tapestry Client to Server
+3394,TCP,D2K-Tapestry-Server-to-Server,Infrastructure,Medium,D2K Tapestry Server to Server
+3395,TCP,Dyna-License-Manager,Infrastructure,Medium,Dyna License Manager (Elam)
+3396,TCP,Printer-Agent,Legacy,Low,Printer Agent
+3397,TCP,Cloanto-License-Manager,Infrastructure,Medium,Cloanto License Manager
+3398,TCP,Mercantile,Infrastructure,Medium,Mercantile
+3399,TCP,CSMS,Infrastructure,Medium,CSMS
+3400,TCP,CSMS2,Infrastructure,Medium,CSMS2
+3401,TCP,filecast,Infrastructure,Medium,filecast
+3410,TCP,BackdoorOptixPro13,Infrastructure,Medium,Backdoor.OptixPro.13
+3421,TCP,Bull-Apprise-portmapper,Infrastructure,Medium,Bull Apprise portmapper
+3454,TCP,Apple-Remote-Access-Protocol,Infrastructure,Medium,Apple Remote Access Protocol
+3455,TCP,RSVP-Port,Infrastructure,Medium,RSVP Port
+3456,TCP,VAT-default-data,Infrastructure,Medium,VAT default data
+3457,TCP,VAT-default-control,Infrastructure,Medium,VAT default control
+3458,TCP,D3WinOsfi,Infrastructure,Medium,D3WinOsfi
+3459,TCP,TIP-Integral,Infrastructure,Medium,TIP Integral
+3460,TCP,EDM-Manger,Infrastructure,Medium,EDM Manger
+3461,TCP,EDM-Stager,Infrastructure,Medium,EDM Stager
+3462,TCP,EDM-STD-Notify,Infrastructure,Medium,EDM STD Notify
+3463,TCP,EDM-ADM-Notify,Infrastructure,Medium,EDM ADM Notify
+3464,TCP,EDM-MGR-Sync,Infrastructure,Medium,EDM MGR Sync
+3465,TCP,EDM-MGR-Cntrl,Infrastructure,Medium,EDM MGR Cntrl
+3466,TCP,WORKFLOW,Infrastructure,Medium,WORKFLOW
+3467,TCP,RCST,Infrastructure,Medium,RCST
+3468,TCP,TTCM-Remote-Controll,Infrastructure,Medium,TTCM Remote Controll
+3469,TCP,Pluribus,Infrastructure,Medium,Pluribus
+3470,TCP,jt400,Infrastructure,Medium,jt400
+3471,TCP,jt400-ssl,Infrastructure,Medium,jt400-ssl
+3535,TCP,MS-LA,Infrastructure,Medium,MS-LA
+3563,TCP,Watcom-Debug,Infrastructure,Medium,Watcom Debug
+3572,TCP,harlequincouk,Infrastructure,Medium,harlequin.co.uk
+3672,TCP,harlequinorb,Infrastructure,Medium,harlequinorb
+3689,TCP,Apple-Digital-Audio-Access-Protocol,Development,Medium,Apple Digital Audio Access Protocol
+3802,TCP,VHD,Infrastructure,Medium,VHD
+3845,TCP,V-ONE-Single-Port-Proxy,Web,Medium,V-ONE Single Port Proxy
+3862,TCP,GIGA-POCKET,Infrastructure,Medium,GIGA-POCKET
+3875,TCP,PNBSCADA,Infrastructure,Medium,PNBSCADA
+3900,TCP,Unidata-UDT-OS,Infrastructure,Medium,Unidata UDT OS
+3984,TCP,MAPPER-network-node-manager,Infrastructure,Medium,MAPPER network node manager
+3985,TCP,MAPPER-TCP-IP-server,Infrastructure,Medium,MAPPER TCP/IP server
+3986,TCP,MAPPER-workstation-server,Infrastructure,Medium,MAPPER workstation server
+3987,TCP,Centerline,Infrastructure,Medium,Centerline
+4000,TCP,Terabase,Infrastructure,Medium,Terabase
+4001,TCP,Cisco-mgmt-NewOak,Infrastructure,Medium,Cisco mgmt / NewOak
+4002,TCP,pxc-spvr-ft,Infrastructure,Medium,pxc-spvr-ft
+4003,TCP,pxc-splr-ft,Infrastructure,Medium,pxc-splr-ft
+4004,TCP,pxc-roid,Infrastructure,Medium,pxc-roid
+4005,TCP,pxc-pin,Infrastructure,Medium,pxc-pin
+4006,TCP,pxc-spvr,Infrastructure,Medium,pxc-spvr
+4007,TCP,pxc-splr,Infrastructure,Medium,pxc-splr
+4008,TCP,NetCheque-accounting,Infrastructure,Medium,NetCheque accounting
+4009,TCP,Chimera-HWM,Infrastructure,Medium,Chimera HWM
+4010,TCP,Samsung-Unidex,Infrastructure,Medium,Samsung Unidex
+4011,TCP,Alternate-Service-Boot,Infrastructure,Medium,Alternate Service Boot
+4012,TCP,PDA-Gate,Infrastructure,Medium,PDA Gate
+4013,TCP,ACL-Manager,Infrastructure,Medium,ACL Manager
+4014,TCP,TAICLOCK,Infrastructure,Medium,TAICLOCK
+4015,TCP,Talarian-Mcast,Infrastructure,Medium,Talarian Mcast
+4016,TCP,Talarian-Mcast,Infrastructure,Medium,Talarian Mcast
+4017,TCP,Talarian-Mcast,Infrastructure,Medium,Talarian Mcast
+4018,TCP,Talarian-Mcast,Infrastructure,Medium,Talarian Mcast
+4019,TCP,Talarian-Mcast,Infrastructure,Medium,Talarian Mcast
+4045,TCP,nfs-lockd,Infrastructure,Medium,nfs-lockd
+4096,TCP,BRE,Infrastructure,Medium,BRE (Bridge Relay Element)
+4097,TCP,Patrol-View,Infrastructure,Medium,Patrol View
+4098,TCP,drmsfsd,Infrastructure,Medium,drmsfsd
+4099,TCP,DPCP,Infrastructure,Medium,DPCP
+4132,TCP,NUTS-Daemon,Infrastructure,Medium,NUTS Daemon
+4133,TCP,NUTS-Bootp-Server,Infrastructure,Medium,NUTS Bootp Server
+4134,TCP,NIFTY-Serve-HMI-protocol,Infrastructure,Medium,NIFTY-Serve HMI protocol
+4141,TCP,Workflow-Server,Infrastructure,Medium,Workflow Server
+4142,TCP,Document-Server,Infrastructure,Medium,Document Server
+4143,TCP,Document-Replication,Infrastructure,Medium,Document Replication
+4144,TCP,Compuserve-pc-windows,Infrastructure,Medium,Compuserve pc windows
+4160,TCP,Jini-Discovery,Infrastructure,Medium,Jini Discovery
+4199,TCP,EIMS-ADMIN,Infrastructure,Medium,EIMS ADMIN
+4299,TCP,earthpathnet,Infrastructure,Medium,earth.path.net
+4300,TCP,Corel-CCam,Infrastructure,Medium,Corel CCam
+4321,TCP,Remote-Who-Is,Infrastructure,Medium,Remote Who Is
+4333,TCP,mini-sql-server,Database,High,mini-sql server
+4343,TCP,UNICALL,Infrastructure,Medium,UNICALL
+4344,TCP,VinaInstall,Infrastructure,Medium,VinaInstall
+4345,TCP,Macro-4-Network-AS,Infrastructure,Medium,Macro 4 Network AS
+4346,TCP,ELAN-LM,Infrastructure,Medium,ELAN LM
+4347,TCP,LAN-Surveyor,Infrastructure,Medium,LAN Surveyor
+4348,TCP,ITOSE,Infrastructure,Medium,ITOSE
+4349,TCP,File-System-Port-Map,Infrastructure,Medium,File System Port Map
+4350,TCP,Net-Device,Infrastructure,Medium,Net Device
+4351,TCP,PLCY-Net-Services,Infrastructure,Medium,PLCY Net Services
+4353,TCP,F5-iQuery,Infrastructure,Medium,F5 iQuery
+4397,TCP,Phatbot-Worm,Infrastructure,Medium,Phatbot Worm
+4442,TCP,Saris,Infrastructure,Medium,Saris
+4443,TCP,HTTPS-Alt-C2,C2,Critical,Common malware HTTPS C2 alternative
+4444,TCP,Metasploit,C2,Critical,Common reverse shell port
+4445,TCP,UPNOTIFYP,Infrastructure,Medium,UPNOTIFYP
+4446,TCP,N1-FWP,Infrastructure,Medium,N1-FWP
+4447,TCP,N1-RMGMT,Infrastructure,Medium,N1-RMGMT
+4448,TCP,ASC-Licence-Manager,Infrastructure,Medium,ASC Licence Manager
+4449,TCP,PrivateWire,Infrastructure,Medium,PrivateWire
+4450,TCP,Camp,Infrastructure,Medium,Camp
+4451,TCP,CTI-System-Msg,Infrastructure,Medium,CTI System Msg
+4452,TCP,CTI-Program-Load,Infrastructure,Medium,CTI Program Load
+4453,TCP,NSS-Alert-Manager,Infrastructure,Medium,NSS Alert Manager
+4454,TCP,NSS-Agent-Manager,Infrastructure,Medium,NSS Agent Manager
+4455,TCP,PR-Chat-User,Infrastructure,Medium,PR Chat User
+4456,TCP,PR-Chat-Server,Infrastructure,Medium,PR Chat Server
+4457,TCP,PR-Register,Infrastructure,Medium,PR Register
+4500,TCP,sae-urn,Infrastructure,Medium,sae-urn
+4501,TCP,urn-x-cdchoice,Infrastructure,Medium,urn-x-cdchoice
+4545,TCP,WorldScores,Infrastructure,Medium,WorldScores
+4546,TCP,SF-License-Manager,Infrastructure,Medium,SF License Manager (Sentinel)
+4547,TCP,Lanner-License-Manager,Infrastructure,Medium,Lanner License Manager
+4557,TCP,FAX-transmission-service,Infrastructure,Medium,FAX transmission service
+4559,TCP,HylaFAX-client-service-protocol,Infrastructure,Medium,HylaFAX client-service protocol
+4567,TCP,Ruby,Development,Medium,Development service
+4568,TCP,BMC-Reporting,Infrastructure,Medium,BMC Reporting
+4600,TCP,Piranha1,Infrastructure,Medium,Piranha1
+4601,TCP,Piranha2,Infrastructure,Medium,Piranha2
+4661,TCP,eDonkey2k,Infrastructure,Medium,eDonkey2k
+4662,TCP,eDonkey2k,Infrastructure,Medium,eDonkey2k
+4663,TCP,eDonkey,Infrastructure,Medium,eDonkey
+4665,TCP,eDonkey2k,Infrastructure,Medium,eDonkey2k
+4672,TCP,remote-file-access-server,Infrastructure,Medium,remote file access server
+4675,TCP,eMule,Infrastructure,Medium,eMule
+4711,TCP,eMule,Infrastructure,Medium,eMule
+4751,TCP,W32BeagleV-trojan,Infrastructure,Medium,W32.Beagle.V trojan
+4772,TCP,eMule,Infrastructure,Medium,eMule
+4800,TCP,Icona-Instant-Messenging-System,Infrastructure,Medium,Icona Instant Messenging System
+4801,TCP,Icona-Web-Embedded-Chat,Web,Medium,Icona Web Embedded Chat
+4802,TCP,Icona-License-System-Server,Infrastructure,Medium,Icona License System Server
+4820,TCP,BackdoorTuxter,Infrastructure,Medium,Backdoor.Tuxter
+4827,TCP,HTCP,Infrastructure,Medium,HTCP
+4837,TCP,Varadero-0,Infrastructure,Medium,Varadero-0
+4838,TCP,Varadero-1,Infrastructure,Medium,Varadero-1
+4868,TCP,Photon-Relay,Infrastructure,Medium,Photon Relay
+4869,TCP,Photon-Relay-Debug,Infrastructure,Medium,Photon Relay Debug
+4885,TCP,ABBS,Infrastructure,Medium,ABBS
+4899,TCP,RAdmin-Win32-remote-control,Infrastructure,Medium,RAdmin Win32 remote control
+4983,TCP,ATT-Intercom,Infrastructure,Medium,AT&T Intercom
+5000,TCP,Web-Alt,Web,Medium,Alternate web server
+5001,TCP,filmakercom-Socket-de-Troie,Infrastructure,Medium,filmaker.com / Socket de Troie (Windows Trojan)
+5002,TCP,radio-free-ethernet,Infrastructure,Medium,radio free ethernet
+5003,TCP,FileMaker-Inc---Proprietary-transport,Infrastructure,Medium,FileMaker Inc. - Proprietary transport
+5004,TCP,avt-profile-1,Infrastructure,Medium,avt-profile-1
+5005,TCP,avt-profile-2,Infrastructure,Medium,avt-profile-2
+5006,TCP,wsm-server,Infrastructure,Medium,wsm server
+5007,TCP,wsm-server-ssl,Infrastructure,Medium,wsm server ssl
+5010,TCP,TelepathStart,Infrastructure,Medium,TelepathStart
+5011,TCP,TelepathAttack,Infrastructure,Medium,TelepathAttack
+5020,TCP,zenginkyo-1,Infrastructure,Medium,zenginkyo-1
+5021,TCP,zenginkyo-2,Infrastructure,Medium,zenginkyo-2
+5042,TCP,asnaacceler8db,Infrastructure,Medium,asnaacceler8db
+5050,TCP,Yahoo-Messenger-multimedia-conference-control-tool,Infrastructure,Medium,Yahoo Messenger / multimedia conference control tool
+5051,TCP,ITA-Agent,Infrastructure,Medium,ITA Agent
+5052,TCP,ITA-Manager,Infrastructure,Medium,ITA Manager
+5055,TCP,UNOT,Infrastructure,Medium,UNOT
+5060,TCP,SIP,Infrastructure,Medium,SIP
+5069,TCP,I-Net-2000-NPR,Infrastructure,Medium,I/Net 2000-NPR
+5071,TCP,PowerSchool,Infrastructure,Medium,PowerSchool
+5093,TCP,Sentinel-LM,Infrastructure,Medium,Sentinel LM
+5099,TCP,SentLM-Srv2Srv,Infrastructure,Medium,SentLM Srv2Srv
+5101,TCP,Yahoo-Messenger,Infrastructure,Medium,Yahoo! Messenger
+5145,TCP,RMONITOR-SECURE,C2,High,RMONITOR SECURE
+5150,TCP,Ascend-Tunnel-Management-Protocol,Infrastructure,Medium,Ascend Tunnel Management Protocol
+5151,TCP,ESRI-SDE-Instance,Infrastructure,Medium,ESRI SDE Instance
+5152,TCP,ESRI-SDE-Instance-Discovery,Infrastructure,Medium,ESRI SDE Instance Discovery
+5165,TCP,ife1corp,Infrastructure,Medium,ife_1corp
+5190,TCP,America-Online,Infrastructure,Medium,America-Online
+5191,TCP,AmericaOnline1,Infrastructure,Medium,AmericaOnline1
+5192,TCP,AmericaOnline2,Infrastructure,Medium,AmericaOnline2
+5193,TCP,AmericaOnline3,Infrastructure,Medium,AmericaOnline3
+5200,TCP,Targus-AIB-1,Infrastructure,Medium,Targus AIB 1
+5201,TCP,Targus-AIB-2,Infrastructure,Medium,Targus AIB 2
+5202,TCP,Targus-TNTS-1,Infrastructure,Medium,Targus TNTS 1
+5203,TCP,Targus-TNTS-2,Infrastructure,Medium,Targus TNTS 2
+5222,TCP,Jabber-Server,Infrastructure,Medium,Jabber Server
+5232,TCP,SGI-Distribution-Graphics,Infrastructure,Medium,SGI Distribution Graphics
+5236,TCP,padl2sim,Infrastructure,Medium,padl2sim
+5272,TCP,PK,Infrastructure,Medium,PK
+5300,TCP,HA-cluster-heartbeat,Infrastructure,Medium,HA cluster heartbeat
+5301,TCP,HA-cluster-general-services,Infrastructure,Medium,HA cluster general services
+5302,TCP,HA-cluster-configuration,Infrastructure,Medium,HA cluster configuration
+5303,TCP,HA-cluster-probing,Infrastructure,Medium,HA cluster probing
+5304,TCP,HA-Cluster-Commands,Infrastructure,Medium,HA Cluster Commands
+5305,TCP,HA-Cluster-Test,Infrastructure,Medium,HA Cluster Test
+5306,TCP,Sun-MC-Group,Infrastructure,Medium,Sun MC Group
+5307,TCP,SCO-AIP,Infrastructure,Medium,SCO AIP
+5308,TCP,CFengine,Infrastructure,Medium,CFengine
+5309,TCP,J-Printer,Legacy,Low,J Printer
+5310,TCP,Outlaws,Infrastructure,Medium,Outlaws
+5311,TCP,TM-Login,Infrastructure,Medium,TM Login
+5373,TCP,W32GluberBmm,Infrastructure,Medium,W32.Gluber.B@mm
+5400,TCP,Excerpt-Search-Blade-Runner,Infrastructure,Medium,Excerpt Search / Blade Runner (Windows Trojan)
+5401,TCP,Excerpt-Search-Secure-Blade-Runner,Infrastructure,Medium,Excerpt Search Secure / Blade Runner (Windows Trojan)
+5402,TCP,MFTP-Blade-Runner,FileTransfer,Medium,MFTP / Blade Runner (Windows Trojan)
+5403,TCP,HPOMS-CI-LSTN,Infrastructure,Medium,HPOMS-CI-LSTN
+5404,TCP,HPOMS-DPS-LSTN,Infrastructure,Medium,HPOMS-DPS-LSTN
+5405,TCP,NetSupport,Infrastructure,Medium,NetSupport
+5406,TCP,Systemics-Sox,Infrastructure,Medium,Systemics Sox
+5407,TCP,Foresyte-Clear,Infrastructure,Medium,Foresyte-Clear
+5408,TCP,Foresyte-Sec,Infrastructure,Medium,Foresyte-Sec
+5409,TCP,Salient-Data-Server,Infrastructure,Medium,Salient Data Server
+5410,TCP,Salient-User-Manager,Infrastructure,Medium,Salient User Manager
+5411,TCP,ActNet,Infrastructure,Medium,ActNet
+5412,TCP,Continuus,Infrastructure,Medium,Continuus
+5413,TCP,WWIOTALK,Infrastructure,Medium,WWIOTALK
+5414,TCP,StatusD,Infrastructure,Medium,StatusD
+5415,TCP,NS-Server,Infrastructure,Medium,NS Server
+5416,TCP,SNS-Gateway,Infrastructure,Medium,SNS Gateway
+5417,TCP,SNS-Agent,Infrastructure,Medium,SNS Agent
+5418,TCP,MCNTP,Infrastructure,Medium,MCNTP
+5419,TCP,DJ-ICE,Infrastructure,Medium,DJ-ICE
+5420,TCP,Cylink-C,Infrastructure,Medium,Cylink-C
+5421,TCP,Net-Support-2,Infrastructure,Medium,Net Support 2
+5422,TCP,Salient-MUX,Infrastructure,Medium,Salient MUX
+5423,TCP,VIRTUALUSER,Infrastructure,Medium,VIRTUALUSER
+5426,TCP,DEVBASIC,Infrastructure,Medium,DEVBASIC
+5427,TCP,SCO-PEER-TTA,Infrastructure,Medium,SCO-PEER-TTA
+5428,TCP,TELACONSOLE,Infrastructure,Medium,TELACONSOLE
+5429,TCP,Billing-and-Accounting-System-Exchange,Infrastructure,Medium,Billing and Accounting System Exchange
+5430,TCP,RADEC-CORP,Infrastructure,Medium,RADEC CORP
+5431,TCP,PARK-AGENT,Infrastructure,Medium,PARK AGENT
+5432,TCP,PostgreSQL,Database,High,Postgres database
+5435,TCP,Data-Tunneling-Transceiver-Linking,Infrastructure,Medium,Data Tunneling Transceiver Linking (DTTL)
+5454,TCP,apc-tcp-udp-4,Infrastructure,Medium,apc-tcp-udp-4
+5455,TCP,apc-tcp-udp-5,Infrastructure,Medium,apc-tcp-udp-5
+5456,TCP,apc-tcp-udp-6,Infrastructure,Medium,apc-tcp-udp-6
+5461,TCP,SILKMETER,Infrastructure,Medium,SILKMETER
+5462,TCP,TTL-Publisher,Infrastructure,Medium,TTL Publisher
+5465,TCP,NETOPS-BROKER,Infrastructure,Medium,NETOPS-BROKER
+5490,TCP,Squid-HTTP-Proxy,Web,Medium,Squid HTTP Proxy
+5500,TCP,fcp-addr-srvr1,Infrastructure,Medium,fcp-addr-srvr1
+5501,TCP,fcp-addr-srvr2,Infrastructure,Medium,fcp-addr-srvr2
+5502,TCP,fcp-srvr-inst1,Infrastructure,Medium,fcp-srvr-inst1
+5503,TCP,fcp-srvr-inst2,Infrastructure,Medium,fcp-srvr-inst2
+5504,TCP,fcp-cics-gw1,Infrastructure,Medium,fcp-cics-gw1
+5510,TCP,ACE-Server-Services,Infrastructure,Medium,ACE/Server Services
+5520,TCP,ACE-Server-Services,Infrastructure,Medium,ACE/Server Services
+5530,TCP,ACE-Server-Services,Infrastructure,Medium,ACE/Server Services
+5540,TCP,ACE-Server-Services,Infrastructure,Medium,ACE/Server Services
+5550,TCP,ACE-Server-Services-Xtcp-20x,Infrastructure,Medium,ACE/Server Services / Xtcp 2.0x
+5554,TCP,Sasser-Worm-FTP-backdoor-SGI-ESP-HTTP,Web,Medium,Sasser Worm FTP backdoor / SGI ESP HTTP
+5555,TCP,Android-Debug-Bridge,Malware,High,ADB abuse and malware control
+5556,TCP,Mtbd,Infrastructure,Medium,Mtbd (mtb backup)
+5559,TCP,Enterprise-Security-Remote-Install-axentcom,Hypervisor,High,Enterprise Security Remote Install axent.com
+5599,TCP,Enterprise-Security-Remote-Install,Infrastructure,Medium,Enterprise Security Remote Install
+5600,TCP,Enterprise-Security-Manager,Infrastructure,Medium,Enterprise Security Manager
+5601,TCP,Kibana,Infrastructure,Medium,Elastic UI
+5602,TCP,A1-MSC,Infrastructure,Medium,A1-MSC
+5603,TCP,A1-BS,Infrastructure,Medium,A1-BS
+5604,TCP,A3-SDUNode,Infrastructure,Medium,A3-SDUNode
+5605,TCP,A4-SDUNode,Infrastructure,Medium,A4-SDUNode
+5631,TCP,pcANYWHEREdata,Infrastructure,Medium,pcANYWHEREdata
+5632,TCP,pcANYWHEREstat,Infrastructure,Medium,pcANYWHEREstat
+5678,TCP,LinkSys-EtherFast-Router-Remote-Administration-Remote-Replic,Infrastructure,Medium,LinkSys EtherFast Router Remote Administration / Remote Replication Agent Connection
+5679,TCP,Direct-Cable-Connect-Manager,Infrastructure,Medium,Direct Cable Connect Manager
+5680,TCP,Canna,Infrastructure,Medium,Canna (Japanese Input)
+5713,TCP,proshare-conf-audio,Infrastructure,Medium,proshare conf audio
+5714,TCP,proshare-conf-video,Infrastructure,Medium,proshare conf video
+5715,TCP,proshare-conf-data,Infrastructure,Medium,proshare conf data
+5716,TCP,proshare-conf-request,Infrastructure,Medium,proshare conf request
+5717,TCP,proshare-conf-notify,Infrastructure,Medium,proshare conf notify
+5729,TCP,Openmail-User-Agent-Layer,Infrastructure,Medium,Openmail User Agent Layer
+5741,TCP,IDA-Discover-Port-1,Infrastructure,Medium,IDA Discover Port 1
+5742,TCP,IDA-Discover-Port-2-Wincrash,Infrastructure,Medium,IDA Discover Port 2 / Wincrash (Windows Trojan)
+5745,TCP,fcopy-server,Infrastructure,Medium,fcopy-server
+5746,TCP,fcopys-server,Infrastructure,Medium,fcopys-server
+5755,TCP,OpenMail-Desk-Gateway-server,Infrastructure,Medium,OpenMail Desk Gateway server
+5757,TCP,OpenMail-X500-Directory-Server,C2,High,OpenMail X.500 Directory Server
+5766,TCP,OpenMail-NewMail-Server,Infrastructure,Medium,OpenMail NewMail Server
+5767,TCP,OpenMail-Suer-Agent-Layer,Infrastructure,Medium,OpenMail Suer Agent Layer (Secure)
+5768,TCP,OpenMail-CMTS-Server,Infrastructure,Medium,OpenMail CMTS Server
+5771,TCP,NetAgent,Infrastructure,Medium,NetAgent
+5800,TCP,VNC-Virtual-Network-Computing,RemoteAccess,High,VNC Virtual Network Computing
+5801,TCP,VNC-Virtual-Network-Computing,RemoteAccess,High,VNC Virtual Network Computing
+5813,TCP,ICMPD,Infrastructure,Medium,ICMPD
+5859,TCP,WHEREHOO,Infrastructure,Medium,WHEREHOO
+5882,TCP,Y3k,Infrastructure,Medium,Y3k
+5900,TCP,VNC,RemoteAccess,Critical,Remote desktop
+5901,TCP,VNC-Virtual-Network-Computing,RemoteAccess,High,VNC Virtual Network Computing
+5968,TCP,mppolicy-v5,Infrastructure,Medium,mppolicy-v5
+5969,TCP,mppolicy-mgr,Infrastructure,Medium,mppolicy-mgr
+5977,TCP,NCD-preferences-TCP-port,Infrastructure,Medium,NCD preferences TCP port
+5978,TCP,NCD-diagnostic-TCP-port,Infrastructure,Medium,NCD diagnostic TCP port
+5979,TCP,NCD-configuration-TCP-port,Infrastructure,Medium,NCD configuration TCP port
+5980,TCP,VNC-Virtual-Network-Computing,RemoteAccess,High,VNC Virtual Network Computing
+5981,TCP,VNC-Virtual-Network-Computing,RemoteAccess,High,VNC Virtual Network Computing
+5987,TCP,Solaris-Web-Enterprise-Management-RMI,Web,Medium,Solaris Web Enterprise Management RMI
+5997,TCP,NCD-preferences-telnet-port,RemoteAccess,High,NCD preferences telnet port
+5998,TCP,NCD-diagnostic-telnet-port,RemoteAccess,High,NCD diagnostic telnet port
+5999,TCP,CVSup,Infrastructure,Medium,CVSup
+6000,TCP,X-Windows-W32LoveGateak-virus,Infrastructure,Medium,X-Windows / W32.LoveGate.ak virus
+6001,TCP,Cisco-mgmt,Infrastructure,Medium,Cisco mgmt
+6003,TCP,Half-Life-WON-server,Infrastructure,Medium,Half-Life WON server
+6063,TCP,X-Windows-System-mitedu,Infrastructure,Medium,X Windows System mit.edu
+6064,TCP,NDL-AHP-SVC,Infrastructure,Medium,NDL-AHP-SVC
+6065,TCP,WinPharaoh,Infrastructure,Medium,WinPharaoh
+6066,TCP,EWCTSP,Infrastructure,Medium,EWCTSP
+6067,TCP,SRB,Infrastructure,Medium,SRB
+6068,TCP,GSMP,Infrastructure,Medium,GSMP
+6069,TCP,TRIP,Infrastructure,Medium,TRIP
+6070,TCP,Messageasap,Infrastructure,Medium,Messageasap
+6071,TCP,SSDTP,Infrastructure,Medium,SSDTP
+6072,TCP,DIAGNOSE-PROC,Infrastructure,Medium,DIAGNOSE-PROC
+6073,TCP,DirectPlay8,Infrastructure,Medium,DirectPlay8
+6100,TCP,SynchroNet-db,Infrastructure,Medium,SynchroNet-db
+6101,TCP,SynchroNet-rtc,Infrastructure,Medium,SynchroNet-rtc
+6102,TCP,SynchroNet-upd,Infrastructure,Medium,SynchroNet-upd
+6103,TCP,RETS,Infrastructure,Medium,RETS
+6104,TCP,DBDB,Infrastructure,Medium,DBDB
+6105,TCP,Prima-Server,Infrastructure,Medium,Prima Server
+6106,TCP,MPS-Server,Infrastructure,Medium,MPS Server
+6107,TCP,ETC-Control,Infrastructure,Medium,ETC Control
+6108,TCP,Sercomm-SCAdmin,Infrastructure,Medium,Sercomm-SCAdmin
+6109,TCP,GLOBECAST-ID,Infrastructure,Medium,GLOBECAST-ID
+6110,TCP,HP-SoftBench-CM,Infrastructure,Medium,HP SoftBench CM
+6111,TCP,HP-SoftBench-Sub-Process-Control,Infrastructure,Medium,HP SoftBench Sub-Process Control
+6112,TCP,dtspcd-Blizzard-Battlenet,Infrastructure,Medium,dtspcd / Blizzard Battlenet
+6123,TCP,Backup-Express,Infrastructure,Medium,Backup Express
+6129,TCP,DameWare,Infrastructure,Medium,DameWare
+6141,TCP,Meta-Corporation-License-Manager,Infrastructure,Medium,Meta Corporation License Manager
+6142,TCP,Aspen-Technology-License-Manager,Infrastructure,Medium,Aspen Technology License Manager
+6143,TCP,Watershed-License-Manager,Infrastructure,Medium,Watershed License Manager
+6144,TCP,StatSci-License-Manager---1,Infrastructure,Medium,StatSci License Manager - 1
+6145,TCP,StatSci-License-Manager---2,Infrastructure,Medium,StatSci License Manager - 2
+6146,TCP,Lone-Wolf-Systems-License-Manager,Infrastructure,Medium,Lone Wolf Systems License Manager
+6147,TCP,Montage-License-Manager,Infrastructure,Medium,Montage License Manager
+6148,TCP,Ricardo-North-America-License-Manager,Infrastructure,Medium,Ricardo North America License Manager
+6149,TCP,tal-pod,Infrastructure,Medium,tal-pod
+6253,TCP,CRIP,Infrastructure,Medium,CRIP
+6321,TCP,Empress-Software-Connectivity-Server-1,Infrastructure,Medium,Empress Software Connectivity Server 1
+6322,TCP,Empress-Software-Connectivity-Server-2,Infrastructure,Medium,Empress Software Connectivity Server 2
+6346,TCP,Gnutella-Bearshare-file-sharing-Application,Infrastructure,Medium,Gnutella/Bearshare file sharing Application
+6348,TCP,Limewire-P2P,Infrastructure,Medium,Limewire P2P
+6389,TCP,clariion-evr01,Infrastructure,Medium,clariion-evr01
+6400,TCP,saegatesoftwarecom,Infrastructure,Medium,saegatesoftware.com
+6401,TCP,saegatesoftwarecom,Infrastructure,Medium,saegatesoftware.com
+6402,TCP,saegatesoftwarecom,Infrastructure,Medium,saegatesoftware.com
+6403,TCP,saegatesoftwarecom,Infrastructure,Medium,saegatesoftware.com
+6404,TCP,saegatesoftwarecom,Infrastructure,Medium,saegatesoftware.com
+6405,TCP,saegatesoftwarecom,Infrastructure,Medium,saegatesoftware.com
+6406,TCP,saegatesoftwarecom,Infrastructure,Medium,saegatesoftware.com
+6407,TCP,saegatesoftwarecom,Infrastructure,Medium,saegatesoftware.com
+6408,TCP,saegatesoftwarecom,Infrastructure,Medium,saegatesoftware.com
+6409,TCP,saegatesoftwarecom,Infrastructure,Medium,saegatesoftware.com
+6410,TCP,saegatesoftwarecom,Infrastructure,Medium,saegatesoftware.com
+6455,TCP,SKIP-Certificate-Receive,Infrastructure,Medium,SKIP Certificate Receive
+6456,TCP,SKIP-Certificate-Send,Infrastructure,Medium,SKIP Certificate Send
+6471,TCP,LVision-License-Manager,Infrastructure,Medium,LVision License Manager
+6500,TCP,BoKS-Master,Infrastructure,Medium,BoKS Master
+6501,TCP,BoKS-Servc,Infrastructure,Medium,BoKS Servc
+6502,TCP,BoKS-Servm,Infrastructure,Medium,BoKS Servm
+6503,TCP,BoKS-Clntd,Infrastructure,Medium,BoKS Clntd
+6505,TCP,BoKS-Admin-Private-Port,Infrastructure,Medium,BoKS Admin Private Port
+6506,TCP,BoKS-Admin-Public-Port,Infrastructure,Medium,BoKS Admin Public Port
+6507,TCP,BoKS-Dir-Server-Private-Port,Infrastructure,Medium,BoKS Dir Server Private Port
+6508,TCP,BoKS-Dir-Server-Public-Port,Infrastructure,Medium,BoKS Dir Server Public Port
+6547,TCP,apc-tcp-udp-1,Infrastructure,Medium,apc-tcp-udp-1
+6548,TCP,apc-tcp-udp-2,Infrastructure,Medium,apc-tcp-udp-2
+6549,TCP,apc-tcp-udp-3,Infrastructure,Medium,apc-tcp-udp-3
+6550,TCP,fg-sysupdate,Infrastructure,Medium,fg-sysupdate
+6558,TCP,xdsxdm,Infrastructure,Medium,xdsxdm
+6588,TCP,AnalogX-Web-Proxy,Web,Medium,AnalogX Web Proxy
+6665,TCP,Internet-Relay-Chat,Infrastructure,Medium,Internet Relay Chat
+6666,TCP,IRC-Alt,C2,High,Alternate IRC used by botnets
+6667,TCP,IRC,Chat,Medium,IRC communication
+6668,TCP,IRC-Alt,C2,High,IRC variant used by malware
+6669,TCP,IRC-Alt,C2,High,IRC variant used by botnets
+6670,TCP,Vocaltec-Global-Online-Directory-Deep-Throat-2,C2,High,Vocaltec Global Online Directory / Deep Throat 2 (Windows Trojan)
+6672,TCP,visionserver,Infrastructure,Medium,vision_server
+6673,TCP,visionelmd,Infrastructure,Medium,vision_elmd
+6699,TCP,Napster,Infrastructure,Medium,Napster
+6700,TCP,Napster-Carracho,Infrastructure,Medium,Napster / Carracho (server)
+6701,TCP,KTI-ICAD-Nameserver,Infrastructure,Medium,KTI/ICAD Nameserver
+6711,TCP,SubSeven,Infrastructure,Medium,SubSeven (Windows Trojan)
+6723,TCP,DDOS-communication-TCP,Infrastructure,Medium,DDOS communication TCP
+6767,TCP,BMC-PERFORM-AGENT,Infrastructure,Medium,BMC PERFORM AGENT
+6768,TCP,BMC-PERFORM-MGRD,Infrastructure,Medium,BMC PERFORM MGRD
+6776,TCP,SubSeven-BackDoor-G,Infrastructure,Medium,SubSeven/BackDoor-G (Windows Trojan)
+6777,TCP,W32BeagleA-trojan,Infrastructure,Medium,W32.Beagle.A trojan
+6789,TCP,IBM-DB2,Database,Medium,IBM DB2
+6790,TCP,HNMP-IBM-DB2,Database,Medium,HNMP / IBM DB2
+6831,TCP,ambit-lm,Infrastructure,Medium,ambit-lm
+6841,TCP,Netmo-Default,Infrastructure,Medium,Netmo Default
+6842,TCP,Netmo-HTTP,Web,Medium,Netmo HTTP
+6850,TCP,ICCRUSHMORE,Infrastructure,Medium,ICCRUSHMORE
+6881,TCP,BitTorrent-Network,C2,High,BitTorrent Network
+6888,TCP,MUSE,Infrastructure,Medium,MUSE
+6891,TCP,MS-Messenger-file-transfer,FileTransfer,Medium,MS Messenger file transfer
+6901,TCP,MS-Messenger-voice-calls,Infrastructure,Medium,MS Messenger voice calls
+6961,TCP,JMACT3,Infrastructure,Medium,JMACT3
+6962,TCP,jmevt2,Infrastructure,Medium,jmevt2
+6963,TCP,swismgr1,Infrastructure,Medium,swismgr1
+6964,TCP,swismgr2,Infrastructure,Medium,swismgr2
+6965,TCP,swistrap,Infrastructure,Medium,swistrap
+6966,TCP,swispol,Infrastructure,Medium,swispol
+6969,TCP,acmsoda,Infrastructure,Medium,acmsoda
+6998,TCP,IATP-highPri,Infrastructure,Medium,IATP-highPri
+6999,TCP,IATP-normalPri,Infrastructure,Medium,IATP-normalPri
+7000,TCP,IRC-Alt,C2,High,IRC-based command channel
+7001,TCP,WebLogic,AppServer,High,Oracle WebLogic
+7002,TCP,WebLogic-SSL,AppServer,Medium,Secure WebLogic
+7003,TCP,volume-location-database,Database,Medium,volume location database
+7004,TCP,AFS-Kerberos-authentication-service,Infrastructure,Medium,AFS/Kerberos authentication service
+7005,TCP,volume-managment-server,Infrastructure,Medium,volume managment server
+7006,TCP,error-interpretation-service,Infrastructure,Medium,error interpretation service
+7007,TCP,Windows-Media-Services-basic-overseer-process,Infrastructure,Medium,Windows Media Services / basic overseer process
+7008,TCP,server-to-server-updater,Infrastructure,Medium,server-to-server updater
+7009,TCP,remote-cache-manager-service,Infrastructure,Medium,remote cache manager service
+7010,TCP,onlinet-uninterruptable-power-supplies,Infrastructure,Medium,onlinet uninterruptable power supplies
+7011,TCP,Talon-Discovery-Port,Infrastructure,Medium,Talon Discovery Port
+7012,TCP,Talon-Engine,Infrastructure,Medium,Talon Engine
+7013,TCP,Microtalon-Discovery,Infrastructure,Medium,Microtalon Discovery
+7014,TCP,Microtalon-Communications,Infrastructure,Medium,Microtalon Communications
+7015,TCP,Talon-Webserver,Web,Medium,Talon Webserver
+7020,TCP,DP-Serve,Infrastructure,Medium,DP Serve
+7021,TCP,DP-Serve-Admin,Infrastructure,Medium,DP Serve Admin
+7070,TCP,ARCP,Infrastructure,Medium,ARCP
+7099,TCP,lazy-ptop,Infrastructure,Medium,lazy-ptop
+7100,TCP,X-Font-Service,Infrastructure,Medium,X Font Service
+7121,TCP,Virtual-Prototypes-License-Manager,Infrastructure,Medium,Virtual Prototypes License Manager
+7141,TCP,vnetibmcom,Infrastructure,Medium,vnet.ibm.com
+7161,TCP,Catalyst,Infrastructure,Medium,Catalyst
+7174,TCP,Clutild,Infrastructure,Medium,Clutild
+7200,TCP,FODMS-FLIP,Infrastructure,Medium,FODMS FLIP
+7201,TCP,DLIP,Infrastructure,Medium,DLIP
+7323,TCP,311-Remote-Administration,Infrastructure,Medium,3.11 Remote Administration
+7326,TCP,Internet-Citizens-Band,Infrastructure,Medium,Internet Citizen's Band
+7390,TCP,The-Swiss-Exchange-swxch,Infrastructure,Medium,The Swiss Exchange swx.ch
+7395,TCP,winqedit,Infrastructure,Medium,winqedit
+7426,TCP,OpenView-DM-Postmaster-Manager,Infrastructure,Medium,OpenView DM Postmaster Manager
+7427,TCP,OpenView-DM-Event-Agent-Manager,Infrastructure,Medium,OpenView DM Event Agent Manager
+7428,TCP,OpenView-DM-Log-Agent-Manager,Infrastructure,Medium,OpenView DM Log Agent Manager
+7429,TCP,OpenView-DM-rqt-communication,Infrastructure,Medium,OpenView DM rqt communication
+7430,TCP,OpenView-DM-xmpv7-api-pipe,Infrastructure,Medium,OpenView DM xmpv7 api pipe
+7431,TCP,OpenView-DM-ovc-xmpv3-api-pipe,Infrastructure,Medium,OpenView DM ovc/xmpv3 api pipe
+7437,TCP,Faximum,Infrastructure,Medium,Faximum
+7491,TCP,telops-lmd,Infrastructure,Medium,telops-lmd
+7511,TCP,pafec-lm,Infrastructure,Medium,pafec-lm
+7544,TCP,FlowAnalyzer-DisplayServer,Infrastructure,Medium,FlowAnalyzer DisplayServer
+7545,TCP,FlowAnalyzer-UtilityServer,Infrastructure,Medium,FlowAnalyzer UtilityServer
+7566,TCP,VSI-Omega,Infrastructure,Medium,VSI Omega
+7570,TCP,Aries-Kfinder,Infrastructure,Medium,Aries Kfinder
+7588,TCP,Sun-License-Manager,Infrastructure,Medium,Sun License Manager
+7597,TCP,TROJAN-WORM,Infrastructure,Medium,TROJAN WORM
+7633,TCP,PMDF-Management,Infrastructure,Medium,PMDF Management
+7640,TCP,CUSeeMe,Infrastructure,Medium,CUSeeMe
+7777,TCP,Malware-Alt,C2,High,Common backdoor port
+7778,TCP,Windows-Media-Services-Interwise,Infrastructure,Medium,Windows Media Services / Interwise
+7781,TCP,accu-lmgr,Infrastructure,Medium,accu-lmgr
+7786,TCP,MINIVEND,Infrastructure,Medium,MINIVEND
+7932,TCP,Tier-2-Data-Resource-Manager,Infrastructure,Medium,Tier 2 Data Resource Manager
+7933,TCP,Tier-2-Business-Rules-Manager,Infrastructure,Medium,Tier 2 Business Rules Manager
+7967,TCP,Supercell,Infrastructure,Medium,Supercell
+7979,TCP,Micromuse-ncps,Infrastructure,Medium,Micromuse-ncps
+7980,TCP,Quest-Vista,Infrastructure,Medium,Quest Vista
+7999,TCP,iRDMI2,Infrastructure,Medium,iRDMI2
+8000,TCP,HTTP-Alt,Web,Medium,Alternate HTTP
+8001,TCP,HTTP-VCOM-Tunnel,Web,Medium,HTTP/VCOM Tunnel
+8002,TCP,HTTP-Teradata-ORDBMS,Web,Medium,HTTP/Teradata ORDBMS
+8007,TCP,Apache-JServ-Protocol,AppServer,High,Apache JServ Protocol
+8008,TCP,HTTP-Alt,Web,Medium,Alternate HTTP
+8009,TCP,AJP,AppServer,High,Apache JServ Protocol
+8010,TCP,Wingate-HTTP-Proxy,Web,Medium,Wingate HTTP Proxy
+8032,TCP,ProEd,Infrastructure,Medium,ProEd
+8033,TCP,MindPrint,Infrastructure,Medium,MindPrint
+8080,TCP,HTTP-Proxy,Web,Medium,Proxy / alternate HTTP
+8081,TCP,HTTP-Alt,Web,Medium,Alternate HTTP
+8082,TCP,HTTP-C2,C2,High,Alternate HTTP C2 channel
+8129,TCP,Snapstream-PVS-Server,Infrastructure,Medium,Snapstream PVS Server
+8130,TCP,INDIGO-VRMI,Infrastructure,Medium,INDIGO-VRMI
+8131,TCP,INDIGO-VBCP,Infrastructure,Medium,INDIGO-VBCP
+8160,TCP,Patrol,Infrastructure,Medium,Patrol
+8161,TCP,Patrol-SNMP,Infrastructure,Medium,Patrol SNMP
+8181,TCP,IPSwitch-IMail-Monitor,C2,High,IPSwitch IMail / Monitor
+8200,TCP,TRIVNET,Infrastructure,Medium,TRIVNET
+8201,TCP,TRIVNET,Infrastructure,Medium,TRIVNET
+8204,TCP,LM-Perfworks,Infrastructure,Medium,LM Perfworks
+8205,TCP,LM-Instmgr,Infrastructure,Medium,LM Instmgr
+8206,TCP,LM-Dta,Infrastructure,Medium,LM Dta
+8207,TCP,LM-SServer,Infrastructure,Medium,LM SServer
+8208,TCP,LM-Webwatcher,Web,Medium,LM Webwatcher
+8351,TCP,Server-Find,Infrastructure,Medium,Server Find
+8376,TCP,Cruise-ENUM,Infrastructure,Medium,Cruise ENUM
+8377,TCP,Cruise-SWROUTE,Infrastructure,Medium,Cruise SWROUTE
+8378,TCP,Cruise-CONFIG,Infrastructure,Medium,Cruise CONFIG
+8379,TCP,Cruise-DIAGS,Infrastructure,Medium,Cruise DIAGS
+8380,TCP,Cruise-UPDATE,Infrastructure,Medium,Cruise UPDATE
+8383,TCP,Web-Email,Web,Medium,Web Email
+8400,TCP,cvd,Infrastructure,Medium,cvd
+8401,TCP,sabarsd,Infrastructure,Medium,sabarsd
+8402,TCP,abarsd,Infrastructure,Medium,abarsd
+8403,TCP,admind,Infrastructure,Medium,admind
+8431,TCP,Micro-PC-Cilin,Infrastructure,Medium,Micro PC-Cilin
+8450,TCP,npmp,Infrastructure,Medium,npmp
+8473,TCP,Virtual-Point-to-Point,Infrastructure,Medium,Virtual Point to Point
+8484,TCP,Ipswitch-IMail,Infrastructure,Medium,Ipswitch IMail
+8554,TCP,RTSP-Alternate,Infrastructure,Medium,RTSP Alternate (see port 554)
+8733,TCP,iBus,Infrastructure,Medium,iBus
+8763,TCP,MC-APPSERVER,Infrastructure,Medium,MC-APPSERVER
+8764,TCP,OPENQUEUE,Infrastructure,Medium,OPENQUEUE
+8765,TCP,Ultraseek-HTTP,Web,Medium,Ultraseek HTTP
+8804,TCP,truecm,Infrastructure,Medium,truecm
+8866,TCP,W32BeagleB-trojan,Infrastructure,Medium,W32.Beagle.B trojan
+8880,TCP,CDDBP,Infrastructure,Medium,CDDBP
+8888,TCP,Jupyter,Development,High,Notebook server
+8889,TCP,Desktop-Data-TCP-1,Infrastructure,Medium,Desktop Data TCP 1
+8890,TCP,Desktop-Data-TCP-2,Infrastructure,Medium,Desktop Data TCP 2
+8891,TCP,Desktop-Data-TCP-3-NESS-application,Infrastructure,Medium,Desktop Data TCP 3: NESS application
+8892,TCP,Desktop-Data-TCP-4-FARM-product,Infrastructure,Medium,Desktop Data TCP 4: FARM product
+8893,TCP,Desktop-Data-TCP-5-NewsEDGE-Web-application,Web,Medium,Desktop Data TCP 5: NewsEDGE/Web application
+8894,TCP,Desktop-Data-TCP-6-COAL-application,Infrastructure,Medium,Desktop Data TCP 6: COAL application
+8900,TCP,JMB-CDS-1,Infrastructure,Medium,JMB-CDS 1
+8901,TCP,JMB-CDS-2,Infrastructure,Medium,JMB-CDS 2
+8967,TCP,Win32-Dabber,Infrastructure,Medium,Win32/Dabber (Windows worm)
+8999,TCP,Firewall,Infrastructure,Medium,Firewall
+9000,TCP,SonarQube,Development,Medium,Code analysis platform
+9001,TCP,Tor,C2,High,Tor entry/relay node usage
+9090,TCP,WebSM,Web,Medium,WebSM
+9100,TCP,HP-JetDirect,Infrastructure,Medium,HP JetDirect
+9160,TCP,NetLOCK1,Infrastructure,Medium,NetLOCK1
+9161,TCP,NetLOCK2,Infrastructure,Medium,NetLOCK2
+9162,TCP,NetLOCK3,Infrastructure,Medium,NetLOCK3
+9163,TCP,NetLOCK4,Infrastructure,Medium,NetLOCK4
+9164,TCP,NetLOCK5,Infrastructure,Medium,NetLOCK5
+9200,TCP,Elasticsearch,Search,High,REST API exposure
+9201,TCP,WAP-session-service,Infrastructure,Medium,WAP session service
+9202,TCP,WAP-secure-connectionless-session-service,Infrastructure,Medium,WAP secure connectionless session service
+9203,TCP,WAP-secure-session-service,Infrastructure,Medium,WAP secure session service
+9204,TCP,WAP-vCard,Infrastructure,Medium,WAP vCard
+9205,TCP,WAP-vCal,Infrastructure,Medium,WAP vCal
+9206,TCP,WAP-vCard-Secure,Infrastructure,Medium,WAP vCard Secure
+9207,TCP,WAP-vCal-Secure,Infrastructure,Medium,WAP vCal Secure
+9273,TCP,BackGate,Infrastructure,Medium,BackGate (Windows rootkit)
+9274,TCP,BackGate,Infrastructure,Medium,BackGate (Windows rootkit)
+9275,TCP,BackGate,Infrastructure,Medium,BackGate (Windows rootkit)
+9276,TCP,BackGate,Infrastructure,Medium,BackGate (Windows rootkit)
+9277,TCP,BackGate,Infrastructure,Medium,BackGate (Windows rootkit)
+9278,TCP,BackGate,Infrastructure,Medium,BackGate (Windows rootkit)
+9280,TCP,HP-JetDirect-Embedded-Web-Server,Web,Medium,HP JetDirect Embedded Web Server
+9290,TCP,HP-JetDirect,Infrastructure,Medium,HP JetDirect
+9291,TCP,HP-JetDirect,Infrastructure,Medium,HP JetDirect
+9292,TCP,HP-JetDirect,Infrastructure,Medium,HP JetDirect
+9321,TCP,guibase,Infrastructure,Medium,guibase
+9343,TCP,MpIdcMgr,Infrastructure,Medium,MpIdcMgr
+9344,TCP,Mphlpdmc,Infrastructure,Medium,Mphlpdmc
+9374,TCP,fjdmimgr,Infrastructure,Medium,fjdmimgr
+9396,TCP,fjinvmgr,Infrastructure,Medium,fjinvmgr
+9397,TCP,MpIdcAgt,Infrastructure,Medium,MpIdcAgt
+9400,TCP,InCommand,Infrastructure,Medium,InCommand
+9500,TCP,ismserver,Infrastructure,Medium,ismserver
+9535,TCP,Remote-man-server,Infrastructure,Medium,Remote man server
+9537,TCP,Remote-man-server-testing,Infrastructure,Medium,"Remote man server, testing"
+9594,TCP,Message-System,Infrastructure,Medium,Message System
+9595,TCP,Ping-Discovery-Service,Infrastructure,Medium,Ping Discovery Service
+9600,TCP,MICROMUSE-NCPW,Infrastructure,Medium,MICROMUSE-NCPW
+9753,TCP,rasadv,Infrastructure,Medium,rasadv
+9876,TCP,Session-Director,C2,High,Session Director
+9888,TCP,CYBORG-Systems,Infrastructure,Medium,CYBORG Systems
+9898,TCP,MonkeyCom-Win32-Dabber,Infrastructure,Medium,MonkeyCom / Win32/Dabber (Windows worm)
+9899,TCP,SCTP-TUNNELING,Infrastructure,Medium,SCTP TUNNELING
+9900,TCP,IUA,Infrastructure,Medium,IUA
+9909,TCP,domaintime,Infrastructure,Medium,domaintime
+9950,TCP,APCPCPLUSWIN1,Infrastructure,Medium,APCPCPLUSWIN1
+9951,TCP,APCPCPLUSWIN2,Infrastructure,Medium,APCPCPLUSWIN2
+9952,TCP,APCPCPLUSWIN3,Infrastructure,Medium,APCPCPLUSWIN3
+9992,TCP,Palace,Infrastructure,Medium,Palace
+9993,TCP,Palace,Infrastructure,Medium,Palace
+9994,TCP,Palace,Infrastructure,Medium,Palace
+9995,TCP,Palace,Infrastructure,Medium,Palace
+9996,TCP,Sasser-Worm-shell-Palace,Infrastructure,Medium,Sasser Worm shell / Palace
+9997,TCP,Palace,Infrastructure,Medium,Palace
+9998,TCP,Distinct32,Infrastructure,Medium,Distinct32
+9999,TCP,distinct-Win32-Dabber,Infrastructure,Medium,distinct / Win32/Dabber (Windows worm)
+10000,TCP,Webmin,Admin,High,System administration panel
+10001,TCP,queue,Infrastructure,Medium,queue
+10002,TCP,poker,Infrastructure,Medium,poker
+10003,TCP,gateway,Infrastructure,Medium,gateway
+10004,TCP,remp,Infrastructure,Medium,remp
+10005,TCP,Secure-telnet,RemoteAccess,High,Secure telnet
+10007,TCP,MVS-Capacity,Infrastructure,Medium,MVS Capacity
+10012,TCP,qmaster,Infrastructure,Medium,qmaster
+10080,TCP,Amanda-MyDoomB,Infrastructure,Medium,Amanda / MyDoom.B (Windows trojan)
+10082,TCP,Amanda-Indexing,Infrastructure,Medium,Amanda Indexing
+10083,TCP,Amanda-Tape-Indexing,Infrastructure,Medium,Amanda Tape Indexing
+10113,TCP,NetIQ-Endpoint,Infrastructure,Medium,NetIQ Endpoint
+10114,TCP,NetIQ-Qcheck,Infrastructure,Medium,NetIQ Qcheck
+10115,TCP,Ganymede-Endpoint,Infrastructure,Medium,Ganymede Endpoint
+10128,TCP,BMC-PERFORM-SERVICE-DAEMON,Infrastructure,Medium,BMC-PERFORM-SERVICE DAEMON
+10202,TCP,Computer-Associate-License-Manager,Infrastructure,Medium,Computer Associate License Manager
+10203,TCP,Computer-Associate-License-Manager,Infrastructure,Medium,Computer Associate License Manager
+10204,TCP,Computer-Associate-License-Manager,Infrastructure,Medium,Computer Associate License Manager
+10288,TCP,Blocks,Infrastructure,Medium,Blocks
+10520,TCP,Acid-Shivers,Infrastructure,Medium,Acid Shivers (Windows Trojan)
+11000,TCP,IRISA,Infrastructure,Medium,IRISA
+11001,TCP,Metasys,Infrastructure,Medium,Metasys
+11111,TCP,Viral-Computing-Environment,Infrastructure,Medium,Viral Computing Environment (VCE)
+11117,TCP,W32BeagleL-trojan-URBISNET,Infrastructure,Medium,W32.Beagle.L trojan / URBISNET
+11367,TCP,ATM-UHAS,Infrastructure,Medium,ATM UHAS
+11523,TCP,AOL-AdSubtract-AOL-Proxy,Web,Medium,AOL / AdSubtract AOL Proxy
+11720,TCP,h323-Call-Signal-Alternate,Infrastructure,Medium,h323 Call Signal Alternate
+11722,TCP,RK-Test,Infrastructure,Medium,RK Test
+12000,TCP,IBM-Enterprise-Extender-SNA-XID-Exchange,Infrastructure,Medium,IBM Enterprise Extender SNA XID Exchange
+12001,TCP,IBM-Enterprise-Extender-SNA-COS-Network-Priority,Infrastructure,Medium,IBM Enterprise Extender SNA COS Network Priority
+12002,TCP,IBM-Enterprise-Extender-SNA-COS-High-Priority,Infrastructure,Medium,IBM Enterprise Extender SNA COS High Priority
+12003,TCP,IBM-Enterprise-Extender-SNA-COS-Medium-Priority,Infrastructure,Medium,IBM Enterprise Extender SNA COS Medium Priority
+12004,TCP,IBM-Enterprise-Extender-SNA-COS-Low-Priority,Infrastructure,Medium,IBM Enterprise Extender SNA COS Low Priority
+12172,TCP,HiveP,Infrastructure,Medium,HiveP
+12345,TCP,NetBus,Malware,Critical,Legacy trojan port
+12346,TCP,NetBus,Infrastructure,Medium,NetBus (Windows Trojan)
+12348,TCP,BioNet,Infrastructure,Medium,BioNet (Windows Trojan)
+12349,TCP,BioNet,Infrastructure,Medium,BioNet (Windows Trojan)
+12361,TCP,Whack-a-mole,Infrastructure,Medium,Whack-a-mole (Windows Trojan)
+12362,TCP,Whack-a-mole,Infrastructure,Medium,Whack-a-mole (Windows Trojan)
+12753,TCP,tsaf-port,Infrastructure,Medium,tsaf port
+12754,TCP,DDOS-communication-TCP,Infrastructure,Medium,DDOS communication TCP
+13160,TCP,I-ZIPQD,Infrastructure,Medium,I-ZIPQD
+13223,TCP,PowWow-Client,Infrastructure,Medium,PowWow Client
+13224,TCP,PowWow-Server,Infrastructure,Medium,PowWow Server
+13326,TCP,game,Infrastructure,Medium,game
+13720,TCP,BPRD-Protocol,Infrastructure,Medium,BPRD Protocol (VERITAS NetBackup)
+13721,TCP,BPBRM-Protocol,Infrastructure,Medium,BPBRM Protocol (VERITAS NetBackup)
+13722,TCP,BP-Java-MSVC-Protocol,Infrastructure,Medium,BP Java MSVC Protocol
+13782,TCP,VERITAS-NetBackup,Infrastructure,Medium,VERITAS NetBackup
+13783,TCP,VOPIED-Protnocol,Infrastructure,Medium,VOPIED Protnocol
+13818,TCP,DSMCC-Config,Infrastructure,Medium,DSMCC Config
+13819,TCP,DSMCC-Session-Messages,Infrastructure,Medium,DSMCC Session Messages
+13820,TCP,DSMCC-Pass-Thru-Messages,Infrastructure,Medium,DSMCC Pass-Thru Messages
+13821,TCP,DSMCC-Download-Protocol,Infrastructure,Medium,DSMCC Download Protocol
+13822,TCP,DSMCC-Channel-Change-Protocol,Infrastructure,Medium,DSMCC Channel Change Protocol
+14001,TCP,ITU-SCCP,Infrastructure,Medium,ITU SCCP (SS7)
+14237,TCP,Palm-Network-Hotsync,Infrastructure,Medium,Palm Network Hotsync
+14247,TCP,MitgliederH-trojan,Infrastructure,Medium,Mitglieder.H trojan
+15104,TCP,DDOS-communication-TCP,Infrastructure,Medium,DDOS communication TCP
+16360,TCP,netserialext1,Infrastructure,Medium,netserialext1
+16361,TCP,netserialext2,Infrastructure,Medium,netserialext2
+16367,TCP,netserialext3,Infrastructure,Medium,netserialext3
+16368,TCP,netserialext4,Infrastructure,Medium,netserialext4
+16660,TCP,Stacheldraht-distributed-attack-tool-client,Infrastructure,Medium,Stacheldraht distributed attack tool client
+16959,TCP,Subseven-DEFCON8-21-backdoor-remote-access-tool,Infrastructure,Medium,Subseven DEFCON8 2.1 backdoor remote access tool
+16991,TCP,INTEL-RCI-MP,Infrastructure,Medium,INTEL-RCI-MP
+17007,TCP,isode-dua,Infrastructure,Medium,isode-dua
+17219,TCP,Chipper,Infrastructure,Medium,Chipper
+17300,TCP,Kuang2,Infrastructure,Medium,Kuang2 (Windows trojan)
+17569,TCP,Infector,C2,High,Infector
+17990,TCP,Worldspan-gateway,Infrastructure,Medium,Worldspan gateway
+18000,TCP,Beckman-Instruments-Inc,Infrastructure,Medium,Beckman Instruments Inc.
+18181,TCP,OPSEC-CVP,Infrastructure,Medium,OPSEC CVP
+18182,TCP,OPSEC-UFP,Infrastructure,Medium,OPSEC UFP
+18183,TCP,OPSEC-SAM,Infrastructure,Medium,OPSEC SAM
+18184,TCP,OPSEC-LEA,Infrastructure,Medium,OPSEC LEA
+18185,TCP,OPSEC-OMI,Infrastructure,Medium,OPSEC OMI
+18187,TCP,OPSEC-ELA,Infrastructure,Medium,OPSEC ELA
+18463,TCP,AC-Cluster,Infrastructure,Medium,AC Cluster
+18753,TCP,Shaft-distributed-attack-tool-handler-agent,Infrastructure,Medium,Shaft distributed attack tool handler agent
+18888,TCP,APCNECMP,Infrastructure,Medium,APCNECMP
+19216,TCP,BackGate,Infrastructure,Medium,BackGate (Windows rootkit)
+19283,TCP,Key-Server-for-SASSAFRAS,Infrastructure,Medium,Key Server for SASSAFRAS
+19315,TCP,Key-Shadow-for-SASSAFRAS,Infrastructure,Medium,Key Shadow for SASSAFRAS
+19410,TCP,hp-sco,Infrastructure,Medium,hp-sco
+19411,TCP,hp-sca,Infrastructure,Medium,hp-sca
+19412,TCP,HP-SESSMON,Infrastructure,Medium,HP-SESSMON
+19541,TCP,JCP-Client,Infrastructure,Medium,JCP Client
+20000,TCP,DNP,Infrastructure,Medium,DNP
+20005,TCP,xcept4,Infrastructure,Medium,xcept4 (German Telekom's CEPT videotext service)
+20031,TCP,BakBone-NetVault,Infrastructure,Medium,BakBone NetVault
+20034,TCP,NetBus-2-Pro,Infrastructure,Medium,NetBus 2 Pro (Windows Trojan)
+20432,TCP,Shaft-distributed-attack-client,Infrastructure,Medium,Shaft distributed attack client
+20670,TCP,Track,Infrastructure,Medium,Track
+20742,TCP,MitgliederE-trojan,Infrastructure,Medium,Mitglieder.E trojan
+20999,TCP,At-Hand-MMP,Infrastructure,Medium,At Hand MMP
+21554,TCP,Girlfriend,Infrastructure,Medium,Girlfriend (Windows Trojan)
+21590,TCP,VoFR-Gateway,Infrastructure,Medium,VoFR Gateway
+21845,TCP,webphone,Web,Medium,webphone
+21846,TCP,NetSpeak-Corp-Directory-Services,C2,High,NetSpeak Corp. Directory Services
+21847,TCP,NetSpeak-Corp-Connection-Services,Infrastructure,Medium,NetSpeak Corp. Connection Services
+21848,TCP,NetSpeak-Corp-Automatic-Call-Distribution,Infrastructure,Medium,NetSpeak Corp. Automatic Call Distribution
+21849,TCP,NetSpeak-Corp-Credit-Processing-System,Infrastructure,Medium,NetSpeak Corp. Credit Processing System
+22000,TCP,SNAPenetIO,Infrastructure,Medium,SNAPenetIO
+22001,TCP,OptoControl,Infrastructure,Medium,OptoControl
+22156,TCP,Phatbot-Worm,Infrastructure,Medium,Phatbot Worm
+22273,TCP,wnn6,Infrastructure,Medium,wnn6
+22289,TCP,Wnn6,Infrastructure,Medium,Wnn6 (Chinese Input)
+22305,TCP,Wnn6,Infrastructure,Medium,Wnn6 (Korean Input)
+22321,TCP,Wnn6,Infrastructure,Medium,Wnn6 (Taiwanese Input)
+22555,TCP,Vocaltec-Web-Conference,Web,Medium,Vocaltec Web Conference
+22800,TCP,Telerate-Information-Platform-LAN,Infrastructure,Medium,Telerate Information Platform LAN
+22951,TCP,Telerate-Information-Platform-WAN,Infrastructure,Medium,Telerate Information Platform WAN
+23005,TCP,W32HLLWNettrash,Infrastructure,Medium,W32.HLLW.Nettrash
+23006,TCP,W32HLLWNettrash,Infrastructure,Medium,W32.HLLW.Nettrash
+23432,TCP,Asylum,Infrastructure,Medium,Asylum
+23476,TCP,Donald-Dick,Infrastructure,Medium,Donald Dick
+23477,TCP,Donald-Dick,Infrastructure,Medium,Donald Dick
+23485,TCP,Shareasa-file-sharing,Infrastructure,Medium,Shareasa file sharing
+24000,TCP,med-ltp,Infrastructure,Medium,med-ltp
+24001,TCP,med-fsp-rx,Infrastructure,Medium,med-fsp-rx
+24002,TCP,med-fsp-tx,Infrastructure,Medium,med-fsp-tx
+24003,TCP,med-supp,Infrastructure,Medium,med-supp
+24004,TCP,med-ovw,Infrastructure,Medium,med-ovw
+24005,TCP,med-ci,Infrastructure,Medium,med-ci
+24006,TCP,med-net-svc,Infrastructure,Medium,med-net-svc
+24386,TCP,Intel-RCI,Infrastructure,Medium,Intel RCI
+24554,TCP,BINKP,Infrastructure,Medium,BINKP
+25000,TCP,icl-twobase1,Infrastructure,Medium,icl-twobase1
+25001,TCP,icl-twobase2,Infrastructure,Medium,icl-twobase2
+25002,TCP,icl-twobase3,Infrastructure,Medium,icl-twobase3
+25003,TCP,icl-twobase4,Infrastructure,Medium,icl-twobase4
+25004,TCP,icl-twobase5,Infrastructure,Medium,icl-twobase5
+25005,TCP,icl-twobase6,Infrastructure,Medium,icl-twobase6
+25006,TCP,icl-twobase7,Infrastructure,Medium,icl-twobase7
+25007,TCP,icl-twobase8,Infrastructure,Medium,icl-twobase8
+25008,TCP,icl-twobase9,Infrastructure,Medium,icl-twobase9
+25009,TCP,icl-twobase10,Infrastructure,Medium,icl-twobase10
+25555,TCP,MitgliederD-trojan,Infrastructure,Medium,Mitglieder.D trojan
+25793,TCP,Vocaltec-Address-Server,Infrastructure,Medium,Vocaltec Address Server
+25867,TCP,WebCam32-Admin,Web,Medium,WebCam32 Admin
+26000,TCP,quake,Infrastructure,Medium,quake
+26208,TCP,wnn6-ds,Infrastructure,Medium,wnn6-ds
+26274,TCP,Delta-Source,Infrastructure,Medium,Delta Source (Windows Trojan)
+27347,TCP,SubSeven-LinuxRamenWorm,Infrastructure,Medium,SubSeven / Linux.Ramen.Worm (RedHat Linux)
+27374,TCP,SubSeven,Malware,Critical,Classic RAT
+27665,TCP,Trinoo-distributed-attack-tool-Master-server-control-port,Infrastructure,Medium,Trinoo distributed attack tool Master server control port
+27999,TCP,TW-Authentication-Key-Distribution-and,Infrastructure,Medium,TW Authentication/Key Distribution and
+30100,TCP,Netsphere,Infrastructure,Medium,Netsphere (Windows Trojan)
+30101,TCP,Netsphere,Infrastructure,Medium,Netsphere (Windows Trojan)
+30102,TCP,Netsphere,Infrastructure,Medium,Netsphere (Windows Trojan)
+30999,TCP,Kuang,Infrastructure,Medium,Kuang
+31337,TCP,BackOrifice,Malware,Critical,Classic backdoor port
+31785,TCP,Hack-A-Tack,Infrastructure,Medium,Hack-A-Tack (Windows Trojan)
+31787,TCP,Hack-A-Tack,Infrastructure,Medium,Hack-A-Tack (Windows Trojan)
+31788,TCP,Hack-A-Tack,Infrastructure,Medium,Hack-A-Tack (Windows Trojan)
+31789,TCP,Hack-A-Tack,Infrastructure,Medium,Hack-A-Tack (Windows Trojan)
+31791,TCP,Hack-A-Tack,Infrastructure,Medium,Hack-A-Tack (Windows Trojan)
+32000,TCP,XtraMail-v111,Infrastructure,Medium,XtraMail v1.11
+32768,TCP,Filenet-TMS,Infrastructure,Medium,Filenet TMS
+32769,TCP,Filenet-RPC,Windows,High,Filenet RPC
+32770,TCP,Filenet-NCH,Infrastructure,Medium,Filenet NCH
+32771,TCP,Solaris-RPC,Windows,High,Solaris RPC
+32772,TCP,Solaris-RPC,Windows,High,Solaris RPC
+32773,TCP,Solaris-RPC,Windows,High,Solaris RPC
+32774,TCP,Solaris-RPC,Windows,High,Solaris RPC
+32775,TCP,Solaris-RPC,Windows,High,Solaris RPC
+32776,TCP,Solaris-RPC,Windows,High,Solaris RPC
+32777,TCP,Solaris-RPC,Windows,High,Solaris RPC
+32780,TCP,RPC,Windows,High,RPC
+33434,TCP,traceroute-use,Infrastructure,Medium,traceroute use
+34324,TCP,Big-Gluck,Infrastructure,Medium,Big Gluck (Windows Trojan)
+36865,TCP,KastenX-Pipe,Infrastructure,Medium,KastenX Pipe
+40421,TCP,Masters-Paradise,Infrastructure,Medium,Master's Paradise (Windows Trojan)
+40422,TCP,Masters-Paradise,Infrastructure,Medium,Master's Paradise (Windows Trojan)
+40423,TCP,Masters-Paradise,Infrastructure,Medium,Master's Paradise (Windows Trojan)
+40426,TCP,Masters-Paradise,Infrastructure,Medium,Master's Paradise (Windows Trojan)
+40841,TCP,CSCP,Infrastructure,Medium,CSCP
+42424,TCP,ASPNET-Session-State,Infrastructure,Medium,ASP.NET Session State
+43118,TCP,Reachout,Infrastructure,Medium,Reachout
+43188,TCP,Reachout,Infrastructure,Medium,Reachout
+44333,TCP,Kerio-WinRoute-Firewall-Administration,Infrastructure,Medium,Kerio WinRoute Firewall Administration
+44334,TCP,Kerio-Personal-Firewall-Administration,Infrastructure,Medium,Kerio Personal Firewall Administration
+44337,TCP,Kerio-MailServer-Administration,Infrastructure,Medium,Kerio MailServer Administration
+44444,TCP,Prosiak,Infrastructure,Medium,Prosiak
+44818,TCP,Rockwell-Encapsulation,Infrastructure,Medium,Rockwell Encapsulation
+45092,TCP,BackGate,Infrastructure,Medium,BackGate (Windows rootkit)
+45678,TCP,EBA-PRISE,Infrastructure,Medium,EBA PRISE
+45966,TCP,SSRServerMgr,Infrastructure,Medium,SSRServerMgr
+47262,TCP,Delta-Source,Infrastructure,Medium,Delta Source (Windows Trojan)
+47557,TCP,Databeam-Corporation,Infrastructure,Medium,Databeam Corporation
+47624,TCP,Direct-Play-Server,Infrastructure,Medium,Direct Play Server
+47806,TCP,ALC-Protocol,Infrastructure,Medium,ALC Protocol
+47808,TCP,Building-Automation-and-Control-Networks,Infrastructure,Medium,Building Automation and Control Networks
+48000,TCP,Nimbus-Controller,Infrastructure,Medium,Nimbus Controller
+48001,TCP,Nimbus-Spooler,Infrastructure,Medium,Nimbus Spooler
+48002,TCP,Nimbus-Hub,Infrastructure,Medium,Nimbus Hub
+48003,TCP,Nimbus-Gateway,Infrastructure,Medium,Nimbus Gateway
+49400,TCP,Compaq-Insight-Manager,Infrastructure,Medium,Compaq Insight Manager
+49401,TCP,Compaq-Insight-Manager,Infrastructure,Medium,Compaq Insight Manager
+50300,TCP,OO-Defrag,Infrastructure,Medium,O&O Defrag
+51515,TCP,Microsoft-Operations-Manager-MOM-Clear,Windows,High,Microsoft Operations Manager MOM-Clear
+52673,TCP,Stickies,Infrastructure,Medium,Stickies
+54283,TCP,SubSeven,Infrastructure,Medium,SubSeven
+54320,TCP,Orifice-2000,Infrastructure,Medium,Orifice 2000 (TCP)
+54321,TCP,Orifice-2000,Infrastructure,Medium,Orifice 2000 (TCP)
+60000,TCP,DeepThroat,Infrastructure,Medium,DeepThroat
+65000,TCP,distributed-attack-tool-Devil,Infrastructure,Medium,distributed attack tool / Devil (Windows Trojan)
+65301,TCP,pcAnywhere-def,Infrastructure,Medium,pcAnywhere-def
+65506,TCP,PhatBot-Agobot-Gaobot,Infrastructure,Medium,"PhatBot, Agobot, Gaobot (Windows trojans)"
