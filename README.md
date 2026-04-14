@@ -75,8 +75,6 @@ The repository includes:
   - Fast joins in KQL
 - Lightweight, portable enrichment sources
 
-
-
 ## Use Cases exampes
 
 ### Port info Enrichment
@@ -140,8 +138,8 @@ Keep things:
 - Don’t rely on this for high-volume production pipelines
 
 ## Credit
-Fabian Bader for Entra ID table ([Blog post](https://cloudbrothers.info/en/entra-id-azure-ad-signin-errors/))
+Fabian Bader for Entra ID table, EntraResultCodes.csv ([Blog post](https://cloudbrothers.info/en/entra-id-azure-ad-signin-errors/))
 
 ## Author
 Created by Mattias Borg  
-Focused on threat hunting, DFIR, and making data actually useful.
+Threat hunting, DFIR, and making data actually useful.
